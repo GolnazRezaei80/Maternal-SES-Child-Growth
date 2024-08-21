@@ -1,0 +1,1812 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Golnaz\Desktop\FFFFFFFinal\imput(PMM)\logs\Imputation\mdesc2.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}20 Aug 2024, 01:33:50
+
+{com}. do "C:\Users\Golnaz\Desktop\FFFFFFFinal\imput(PMM)\logs\Imputation\mdesc2.do"
+{txt}
+{com}. ***calculating the proportion of missing values
+. mdesc BWZ zlen2 zwei2 zwfl2 zbmi2 zlen4 zwei4 zwfl4 zbmi4 zlen6 zwei6 zwfl6 zbmi6 zlen12 zwei12 zwfl12 zbmi12 zlen24 zwei24 zwfl24 zbmi24 SEX GA center Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID SES
+
+{txt}    Variable{col 17}{c |}     Missing          Total     Percent Missing
+{hline 16}{c +}{hline 47}
+            BWZ{col 17}{c |} {res}         35          7,169           0.49
+          {txt}zlen2{col 17}{c |} {res}      1,270          7,169          17.72
+          {txt}zwei2{col 17}{c |} {res}      1,133          7,169          15.80
+          {txt}zwfl2{col 17}{c |} {res}      1,330          7,169          18.55
+          {txt}zbmi2{col 17}{c |} {res}      1,320          7,169          18.41
+          {txt}zlen4{col 17}{c |} {res}      1,381          7,169          19.26
+          {txt}zwei4{col 17}{c |} {res}      1,220          7,169          17.02
+          {txt}zwfl4{col 17}{c |} {res}      1,401          7,169          19.54
+          {txt}zbmi4{col 17}{c |} {res}      1,397          7,169          19.49
+          {txt}zlen6{col 17}{c |} {res}      1,625          7,169          22.67
+          {txt}zwei6{col 17}{c |} {res}      1,431          7,169          19.96
+          {txt}zwfl6{col 17}{c |} {res}      1,650          7,169          23.02
+          {txt}zbmi6{col 17}{c |} {res}      1,650          7,169          23.02
+         {txt}zlen12{col 17}{c |} {res}      2,540          7,169          35.43
+         {txt}zwei12{col 17}{c |} {res}      2,389          7,169          33.32
+         {txt}zwfl12{col 17}{c |} {res}      2,561          7,169          35.72
+         {txt}zbmi12{col 17}{c |} {res}      2,566          7,169          35.79
+         {txt}zlen24{col 17}{c |} {res}      4,923          7,169          68.67
+         {txt}zwei24{col 17}{c |} {res}      3,831          7,169          53.44
+         {txt}zwfl24{col 17}{c |} {res}      4,948          7,169          69.02
+         {txt}zbmi24{col 17}{c |} {res}      4,951          7,169          69.06
+            {txt}SEX{col 17}{c |} {res}          0          7,169           0.00
+             {txt}GA{col 17}{c |} {res}         39          7,169           0.54
+         {txt}center{col 17}{c |} {res}          0          7,169           0.00
+            {txt}Age{col 17}{c |} {res}          1          7,169           0.01
+        {txt}ANXIETY{col 17}{c |} {res}        155          7,169           2.16
+   {txt}CHRONIC_DI~E{col 17}{c |} {res}         19          7,169           0.27
+   {txt}DailySmoking{col 17}{c |} {res}        244          7,169           3.40
+         {txt}GRAVID{col 17}{c |} {res}         17          7,169           0.24
+            {txt}SES{col 17}{c |} {res}          3          7,169           0.04
+{txt}{hline 16}{c +}{hline 47}
+
+{com}. misstable summarize BWZ zlen2 zwei2 zwfl2 zbmi2 zlen4 zwei4 zwfl4 zbmi4 zlen6 zwei6 zwfl6 zbmi6 zlen12 zwei12 zwfl12 zbmi12 zlen24 zwei24 zwfl24 zbmi24 SEX GA center Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID SES
+{txt}{col 64}Obs<.
+{col 49}{c TLC}{hline 30}
+{col 16}{c |}{col 49}{c |} Unique
+{col 7}Variable {c |}{col 22}Obs=.{col 32}Obs>.{col 42}Obs<.{col 49}{c |} values{col 65}Min{col 77}Max
+  {hline 13}{c +}{hline 32}{c +}{hline 30}
+           BWZ {c |}{res}        35{txt}{space 10}{res}     7,134{txt}  {c |}   >500      -5.94         3.6
+         zlen2 {c |}{res}     1,270{txt}{space 10}{res}     5,899{txt}  {c |}    149      -5.93        4.53
+         zwei2 {c |}{res}     1,133{txt}{space 10}{res}     6,036{txt}  {c |}    338      -5.93        2.81
+         zwfl2 {c |}{res}     1,330{txt}{space 10}{res}     5,839{txt}  {c |}   >500         -5        4.59
+         zbmi2 {c |}{res}     1,320{txt}{space 10}{res}     5,849{txt}  {c |}   >500      -4.95         4.7
+         zlen4 {c |}{res}     1,381{txt}{space 10}{res}     5,788{txt}  {c |}    150      -5.72        5.49
+         zwei4 {c |}{res}     1,220{txt}{space 10}{res}     5,949{txt}  {c |}    327      -4.84        3.94
+         zwfl4 {c |}{res}     1,401{txt}{space 10}{res}     5,768{txt}  {c |}   >500      -4.98        4.97
+         zbmi4 {c |}{res}     1,397{txt}{space 10}{res}     5,772{txt}  {c |}   >500      -4.89        4.83
+         zlen6 {c |}{res}     1,625{txt}{space 10}{res}     5,544{txt}  {c |}    159      -5.91        5.91
+         zwei6 {c |}{res}     1,431{txt}{space 10}{res}     5,738{txt}  {c |}    323      -4.69        4.67
+         zwfl6 {c |}{res}     1,650{txt}{space 10}{res}     5,519{txt}  {c |}   >500      -4.73         4.6
+         zbmi6 {c |}{res}     1,650{txt}{space 10}{res}     5,519{txt}  {c |}   >500      -4.68        4.73
+        zlen12 {c |}{res}     2,540{txt}{space 10}{res}     4,629{txt}  {c |}    156      -5.36           6
+        zwei12 {c |}{res}     2,389{txt}{space 10}{res}     4,780{txt}  {c |}    317      -4.27        4.48
+        zwfl12 {c |}{res}     2,561{txt}{space 10}{res}     4,608{txt}  {c |}   >500      -4.79        4.27
+        zbmi12 {c |}{res}     2,566{txt}{space 10}{res}     4,603{txt}  {c |}   >500      -4.97        4.59
+        zlen24 {c |}{res}     4,923{txt}{space 10}{res}     2,246{txt}  {c |}    113      -4.87        5.85
+        zwei24 {c |}{res}     3,831{txt}{space 10}{res}     3,338{txt}  {c |}    195      -4.56        4.54
+        zwfl24 {c |}{res}     4,948{txt}{space 10}{res}     2,221{txt}  {c |}    474      -4.95         4.9
+        zbmi24 {c |}{res}     4,951{txt}{space 10}{res}     2,218{txt}  {c |}    496      -4.95        4.87
+            GA {c |}{res}        39{txt}{space 10}{res}     7,130{txt}  {c |}     94         26    42.71429
+           Age {c |}{res}         1{txt}{space 10}{res}     7,168{txt}  {c |}     33         15          47
+       ANXIETY {c |}{res}       155{txt}{space 10}{res}     7,014{txt}  {c |}      2          0           1
+  CHRONIC_DI~E {c |}{res}        19{txt}{space 10}{res}     7,150{txt}  {c |}      2          0           1
+  DailySmoking {c |}{res}       244{txt}{space 10}{res}     6,925{txt}  {c |}      2          0           1
+        GRAVID {c |}{res}        17{txt}{space 10}{res}     7,152{txt}  {c |}     10          1          10
+           SES {c |}{res}         3{txt}{space 10}{res}     7,166{txt}  {c |}      5          1           5
+  {hline 13}{c BT}{hline 32}{c BT}{hline 30}
+
+{com}. ***Evaluating the missing data patterns
+. misstable pattern BWZ zwei2 zwei4 zwei6 zwei12 zwei24
+{res}
+       {txt}Missing-value patterns
+         (1 means complete)
+
+{res}{txt}{space 2}            {c |}   Pattern
+{space 2}  Percent   {c |}  1  2  3  4    5  6
+{space 2}{hline 12}{c +}{hline 21}
+{space 2} {res:    33}%    {c |}  1  1  1  1    1  1
+{space 2}{space 12}{c |}
+{space 2} {res:    25}     {c |}  1  1  1  1    1  0
+{space 2} {res:     9}     {c |}  1  1  1  1    0  0
+{space 2} {res:     8}     {c |}  1  0  0  0    0  0
+{space 2} {res:     6}     {c |}  1  1  1  1    0  1
+{space 2} {res:     2}     {c |}  1  1  1  0    0  0
+{space 2} {res:     2}     {c |}  1  1  0  0    0  0
+{space 2} {res:     1}     {c |}  1  0  0  0    0  1
+{space 2} {res:     1}     {c |}  1  1  1  0    1  0
+{space 2} {res:     1}     {c |}  1  1  1  0    1  1
+{space 2} {res:     1}     {c |}  1  0  1  1    1  0
+{space 2} {res:     1}     {c |}  1  1  0  1    0  0
+{space 2}     <1     {c |}  1  0  1  1    0  0
+{space 2}     <1     {c |}  1  0  0  0    1  1
+{space 2}     <1     {c |}  1  1  1  0    0  1
+{space 2}     <1     {c |}  1  0  0  0    1  0
+{space 2}     <1     {c |}  1  0  1  1    1  1
+{space 2}     <1     {c |}  1  1  0  1    1  1
+{space 2}     <1     {c |}  1  1  0  1    1  0
+{space 2}     <1     {c |}  1  0  1  0    0  0
+{space 2}     <1     {c |}  1  0  0  1    0  0
+{space 2}     <1     {c |}  1  1  0  0    0  1
+{space 2}     <1     {c |}  1  1  0  0    1  1
+{space 2}     <1     {c |}  1  1  0  0    1  0
+{space 2}     <1     {c |}  1  0  1  1    0  1
+{space 2}     <1     {c |}  1  0  0  1    1  1
+{space 2}     <1     {c |}  1  1  0  1    0  1
+{space 2}     <1     {c |}  1  0  0  1    0  1
+{space 2}     <1     {c |}  0  1  1  0    0  0
+{space 2}     <1     {c |}  1  0  0  1    1  0
+{space 2}     <1     {c |}  1  0  1  0    1  0
+{space 2}     <1     {c |}  1  0  1  0    0  1
+{space 2}     <1     {c |}  1  0  1  0    1  1
+{space 2}     <1     {c |}  0  1  1  1    0  0
+{space 2}     <1     {c |}  0  0  0  0    1  0
+{space 2}     <1     {c |}  0  1  0  0    0  0
+{space 2}     <1     {c |}  0  0  0  1    0  0
+{space 2}     <1     {c |}  0  0  1  1    1  0
+{space 2}     <1     {c |}  0  0  1  0    0  0
+{space 2}{hline 12}{c +}{hline 21}
+{space 2}    {res:100}%    {c |}
+
+{p 2 16 2}
+Variables are
+{bind: (1) {res:BWZ}}
+{bind: (2) {res:zwei2}}
+{bind: (3) {res:zwei4}}
+{bind: (4) {res:zwei6}}
+{bind: (5) {res:zwei12}}
+{bind: (6) {res:zwei24}}
+{p_end}
+
+{com}. misstable pattern zlen2 zlen4 zlen6 zlen12 zlen24
+{res}
+      {txt}Missing-value patterns
+        (1 means complete)
+
+{res}{txt}{space 2}            {c |}   Pattern
+{space 2}  Percent   {c |}  1  2  3  4    5
+{space 2}{hline 12}{c +}{hline 18}
+{space 2} {res:    22}%    {c |}  1  1  1  1    1
+{space 2}{space 12}{c |}
+{space 2} {res:    32}     {c |}  1  1  1  1    0
+{space 2} {res:    11}     {c |}  1  1  1  0    0
+{space 2} {res:    10}     {c |}  0  0  0  0    0
+{space 2} {res:     4}     {c |}  1  1  1  0    1
+{space 2} {res:     3}     {c |}  1  1  0  0    0
+{space 2} {res:     2}     {c |}  1  1  0  1    0
+{space 2} {res:     2}     {c |}  1  0  0  0    0
+{space 2} {res:     2}     {c |}  0  1  1  1    0
+{space 2} {res:     1}     {c |}  1  0  1  0    0
+{space 2} {res:     1}     {c |}  1  0  1  1    0
+{space 2} {res:     1}     {c |}  1  1  0  1    1
+{space 2} {res:     1}     {c |}  0  0  0  1    0
+{space 2}     <1     {c |}  0  0  0  0    1
+{space 2}     <1     {c |}  0  1  1  0    0
+{space 2}     <1     {c |}  1  0  0  1    0
+{space 2}     <1     {c |}  0  1  0  0    0
+{space 2}     <1     {c |}  0  0  1  0    0
+{space 2}     <1     {c |}  0  1  1  1    1
+{space 2}     <1     {c |}  1  0  1  1    1
+{space 2}     <1     {c |}  0  1  1  0    1
+{space 2}     <1     {c |}  1  1  0  0    1
+{space 2}     <1     {c |}  0  0  0  1    1
+{space 2}     <1     {c |}  0  0  1  1    0
+{space 2}     <1     {c |}  1  0  1  0    1
+{space 2}     <1     {c |}  0  0  1  1    1
+{space 2}     <1     {c |}  1  0  0  0    1
+{space 2}     <1     {c |}  1  0  0  1    1
+{space 2}     <1     {c |}  0  1  0  1    0
+{space 2}     <1     {c |}  0  0  1  0    1
+{space 2}     <1     {c |}  0  1  0  1    1
+{space 2}     <1     {c |}  0  1  0  0    1
+{space 2}{hline 12}{c +}{hline 18}
+{space 2}    {res:100}%    {c |}
+
+{p 2 16 2}
+Variables are
+{bind: (1) {res:zlen2}}
+{bind: (2) {res:zlen4}}
+{bind: (3) {res:zlen6}}
+{bind: (4) {res:zlen12}}
+{bind: (5) {res:zlen24}}
+{p_end}
+
+{com}. misstable pattern zwfl2 zwfl4 zwfl6 zwfl12 zwfl24
+{res}
+      {txt}Missing-value patterns
+        (1 means complete)
+
+{res}{txt}{space 2}            {c |}   Pattern
+{space 2}  Percent   {c |}  1  2  3  4    5
+{space 2}{hline 12}{c +}{hline 18}
+{space 2} {res:    22}%    {c |}  1  1  1  1    1
+{space 2}{space 12}{c |}
+{space 2} {res:    32}     {c |}  1  1  1  1    0
+{space 2} {res:    11}     {c |}  1  1  1  0    0
+{space 2} {res:    10}     {c |}  0  0  0  0    0
+{space 2} {res:     4}     {c |}  1  1  1  0    1
+{space 2} {res:     3}     {c |}  1  1  0  0    0
+{space 2} {res:     2}     {c |}  1  1  0  1    0
+{space 2} {res:     2}     {c |}  1  0  0  0    0
+{space 2} {res:     2}     {c |}  0  1  1  1    0
+{space 2} {res:     1}     {c |}  1  0  1  0    0
+{space 2} {res:     1}     {c |}  1  0  1  1    0
+{space 2} {res:     1}     {c |}  0  0  0  1    0
+{space 2} {res:     1}     {c |}  1  1  0  1    1
+{space 2} {res:     1}     {c |}  0  1  1  0    0
+{space 2}     <1     {c |}  0  0  0  0    1
+{space 2}     <1     {c |}  0  1  0  0    0
+{space 2}     <1     {c |}  1  0  0  1    0
+{space 2}     <1     {c |}  0  1  1  1    1
+{space 2}     <1     {c |}  0  0  1  0    0
+{space 2}     <1     {c |}  1  0  1  1    1
+{space 2}     <1     {c |}  0  1  1  0    1
+{space 2}     <1     {c |}  0  0  1  1    0
+{space 2}     <1     {c |}  0  0  0  1    1
+{space 2}     <1     {c |}  1  1  0  0    1
+{space 2}     <1     {c |}  0  0  1  1    1
+{space 2}     <1     {c |}  1  0  1  0    1
+{space 2}     <1     {c |}  1  0  0  0    1
+{space 2}     <1     {c |}  0  0  1  0    1
+{space 2}     <1     {c |}  0  1  0  1    0
+{space 2}     <1     {c |}  1  0  0  1    1
+{space 2}     <1     {c |}  0  1  0  0    1
+{space 2}     <1     {c |}  0  1  0  1    1
+{space 2}{hline 12}{c +}{hline 18}
+{space 2}    {res:100}%    {c |}
+
+{p 2 16 2}
+Variables are
+{bind: (1) {res:zwfl2}}
+{bind: (2) {res:zwfl4}}
+{bind: (3) {res:zwfl6}}
+{bind: (4) {res:zwfl12}}
+{bind: (5) {res:zwfl24}}
+{p_end}
+
+{com}. misstable pattern zbmi2 zbmi4 zbmi6 zbmi12 zbmi24
+{res}
+      {txt}Missing-value patterns
+        (1 means complete)
+
+{res}{txt}{space 2}            {c |}   Pattern
+{space 2}  Percent   {c |}  1  2  3  4    5
+{space 2}{hline 12}{c +}{hline 18}
+{space 2} {res:    22}%    {c |}  1  1  1  1    1
+{space 2}{space 12}{c |}
+{space 2} {res:    32}     {c |}  1  1  1  1    0
+{space 2} {res:    11}     {c |}  1  1  1  0    0
+{space 2} {res:    10}     {c |}  0  0  0  0    0
+{space 2} {res:     4}     {c |}  1  1  1  0    1
+{space 2} {res:     3}     {c |}  1  1  0  0    0
+{space 2} {res:     2}     {c |}  1  1  0  1    0
+{space 2} {res:     2}     {c |}  1  0  0  0    0
+{space 2} {res:     2}     {c |}  0  1  1  1    0
+{space 2} {res:     1}     {c |}  1  0  1  0    0
+{space 2} {res:     1}     {c |}  1  0  1  1    0
+{space 2} {res:     1}     {c |}  0  0  0  1    0
+{space 2} {res:     1}     {c |}  1  1  0  1    1
+{space 2} {res:     1}     {c |}  0  1  1  0    0
+{space 2}     <1     {c |}  0  0  0  0    1
+{space 2}     <1     {c |}  0  1  0  0    0
+{space 2}     <1     {c |}  1  0  0  1    0
+{space 2}     <1     {c |}  0  1  1  1    1
+{space 2}     <1     {c |}  0  0  1  0    0
+{space 2}     <1     {c |}  1  0  1  1    1
+{space 2}     <1     {c |}  0  1  1  0    1
+{space 2}     <1     {c |}  0  0  0  1    1
+{space 2}     <1     {c |}  0  0  1  1    0
+{space 2}     <1     {c |}  1  1  0  0    1
+{space 2}     <1     {c |}  1  0  1  0    1
+{space 2}     <1     {c |}  0  0  1  1    1
+{space 2}     <1     {c |}  1  0  0  0    1
+{space 2}     <1     {c |}  0  0  1  0    1
+{space 2}     <1     {c |}  0  1  0  1    0
+{space 2}     <1     {c |}  1  0  0  1    1
+{space 2}     <1     {c |}  0  1  0  0    1
+{space 2}     <1     {c |}  0  1  0  1    1
+{space 2}{hline 12}{c +}{hline 18}
+{space 2}    {res:100}%    {c |}
+
+{p 2 16 2}
+Variables are
+{bind: (1) {res:zbmi2}}
+{bind: (2) {res:zbmi4}}
+{bind: (3) {res:zbmi6}}
+{bind: (4) {res:zbmi12}}
+{bind: (5) {res:zbmi24}}
+{p_end}
+
+{com}. ***Finding variables that were correlated with the outcome variables(auxiliary variables)
+. pwcorr BWZ zlen2 zwei2 zwfl2 zbmi2 zlen4 zwei4 zwfl4 zbmi4 zlen6 zwei6 zwfl6 zbmi6 zlen12 zwei12 zwfl12 zbmi12 zlen24 zwei24 zwfl24 zbmi24 SEX GA center Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID SES
+
+             {txt}{c |}      BWZ    zlen2    zwei2    zwfl2    zbmi2    zlen4    zwei4
+{hline 13}{c +}{hline 63}
+         BWZ {c |} {res}  1.0000 
+       {txt}zlen2 {c |} {res}  0.5121   1.0000 
+       {txt}zwei2 {c |} {res}  0.5783   0.6659   1.0000 
+       {txt}zwfl2 {c |} {res}  0.0666  -0.3841   0.4077   1.0000 
+       {txt}zbmi2 {c |} {res}  0.3256   0.0200   0.7565   0.8996   1.0000 
+       {txt}zlen4 {c |} {res}  0.4526   0.6728   0.5771  -0.1136   0.1931   1.0000 
+       {txt}zwei4 {c |} {res}  0.4580   0.4523   0.7629   0.3777   0.6279   0.5815   1.0000 
+       {txt}zwfl4 {c |} {res}  0.1397  -0.0512   0.3947   0.5626   0.5836  -0.1817   0.6808 
+       {txt}zbmi4 {c |} {res}  0.2133   0.0494   0.4895   0.5557   0.6260  -0.0454   0.7790 
+       {txt}zlen6 {c |} {res}  0.3647   0.5580   0.4770  -0.0904   0.1625   0.7470   0.5260 
+       {txt}zwei6 {c |} {res}  0.3799   0.3812   0.6337   0.3121   0.5145   0.4962   0.8444 
+       {txt}zwfl6 {c |} {res}  0.1779   0.0483   0.4043   0.4454   0.4974   0.0573   0.6272 
+       {txt}zbmi6 {c |} {res}  0.1836   0.0546   0.4121   0.4452   0.5020   0.0631   0.6341 
+      {txt}zlen12 {c |} {res}  0.2309   0.3341   0.3058  -0.0392   0.1117   0.4616   0.3562 
+      {txt}zwei12 {c |} {res}  0.2773   0.2481   0.4204   0.2215   0.3538   0.3823   0.6142 
+      {txt}zwfl12 {c |} {res}  0.1715   0.0645   0.2896   0.2935   0.3429   0.1341   0.4875 
+      {txt}zbmi12 {c |} {res}  0.1305   0.0048   0.2332   0.2985   0.3194   0.0517   0.4200 
+      {txt}zlen24 {c |} {res}  0.1909   0.3030   0.2484  -0.0533   0.0837   0.3838   0.3099 
+      {txt}zwei24 {c |} {res}  0.2344   0.2369   0.3094   0.0948   0.2143   0.2979   0.4504 
+      {txt}zwfl24 {c |} {res}  0.1474   0.0999   0.2100   0.1553   0.2014   0.1174   0.3212 
+      {txt}zbmi24 {c |} {res}  0.1273   0.0660   0.1835   0.1640   0.1948   0.0731   0.2866 
+         {txt}SEX {c |} {res} -0.0191   0.0433   0.0305  -0.0093   0.0101   0.0598   0.0273 
+          {txt}GA {c |} {res}  0.5664   0.3757   0.3849  -0.0131   0.1835   0.3149   0.2601 
+      {txt}center {c |} {res}  0.0195   0.0463   0.0493   0.0057   0.0235   0.0257   0.0100 
+         {txt}Age {c |} {res}  0.0044  -0.0586  -0.0413   0.0216  -0.0045  -0.0511  -0.0281 
+     {txt}ANXIETY {c |} {res} -0.0052  -0.0056  -0.0195  -0.0050  -0.0071  -0.0095  -0.0164 
+{txt}CHRONIC_DI~E {c |} {res} -0.0292  -0.0179  -0.0252  -0.0144  -0.0226  -0.0326  -0.0275 
+{txt}DailySmoking {c |} {res} -0.0008  -0.0024   0.0066   0.0097   0.0107   0.0083   0.0098 
+      {txt}GRAVID {c |} {res}  0.0123  -0.0023   0.0410   0.0499   0.0540  -0.0122   0.0058 
+         {txt}SES {c |} {res}  0.0417   0.0636   0.0350  -0.0328  -0.0119   0.0475   0.0299 
+
+             {txt}{c |}    zwfl4    zbmi4    zlen6    zwei6    zwfl6    zbmi6   zlen12
+{hline 13}{c +}{hline 63}
+       zwfl4 {c |} {res}  1.0000 
+       {txt}zbmi4 {c |} {res}  0.9846   1.0000 
+       {txt}zlen6 {c |} {res} -0.0153   0.0888   1.0000 
+       {txt}zwei6 {c |} {res}  0.5853   0.6621   0.5471   1.0000 
+       {txt}zwfl6 {c |} {res}  0.7213   0.7371  -0.0824   0.7841   1.0000 
+       {txt}zbmi6 {c |} {res}  0.7191   0.7392  -0.0791   0.7882   0.9982   1.0000 
+      {txt}zlen12 {c |} {res}  0.0257   0.0889   0.5751   0.4019   0.0716   0.0728   1.0000 
+      {txt}zwei12 {c |} {res}  0.4189   0.4760   0.4200   0.7084   0.5468   0.5480   0.5067 
+      {txt}zwfl12 {c |} {res}  0.4890   0.5113   0.1173   0.5728   0.6093   0.6098  -0.0765 
+      {txt}zbmi12 {c |} {res}  0.4798   0.4912   0.0159   0.4961   0.5897   0.5906  -0.2315 
+      {txt}zlen24 {c |} {res}  0.0495   0.1069   0.4401   0.3487   0.1140   0.1185   0.5096 
+      {txt}zwei24 {c |} {res}  0.2800   0.3265   0.3576   0.5316   0.3773   0.3834   0.3770 
+      {txt}zwfl24 {c |} {res}  0.2930   0.3173   0.1516   0.3923   0.3694   0.3732   0.2058 
+      {txt}zbmi24 {c |} {res}  0.2904   0.3079   0.1014   0.3529   0.3577   0.3609   0.1500 
+         {txt}SEX {c |} {res}  0.0025  -0.0082   0.0459   0.0357   0.0112   0.0030   0.0359 
+          {txt}GA {c |} {res}  0.0193   0.0769   0.2047   0.1792   0.0525   0.0581   0.1179 
+      {txt}center {c |} {res} -0.0099  -0.0093   0.0302   0.0229   0.0028   0.0003   0.0414 
+         {txt}Age {c |} {res}  0.0147   0.0077  -0.0425  -0.0337  -0.0110  -0.0114  -0.0321 
+     {txt}ANXIETY {c |} {res} -0.0064  -0.0104  -0.0032  -0.0201  -0.0238  -0.0242  -0.0130 
+{txt}CHRONIC_DI~E {c |} {res} -0.0087  -0.0112  -0.0110  -0.0194  -0.0203  -0.0206   0.0116 
+{txt}DailySmoking {c |} {res}  0.0058   0.0063   0.0177   0.0133   0.0102   0.0088   0.0041 
+      {txt}GRAVID {c |} {res}  0.0179   0.0153  -0.0088  -0.0179  -0.0148  -0.0136  -0.0009 
+         {txt}SES {c |} {res} -0.0083  -0.0007   0.0437   0.0382   0.0104   0.0102   0.0547 
+
+             {txt}{c |}   zwei12   zwfl12   zbmi12   zlen24   zwei24   zwfl24   zbmi24
+{hline 13}{c +}{hline 63}
+      zwei12 {c |} {res}  1.0000 
+      {txt}zwfl12 {c |} {res}  0.8072   1.0000 
+      {txt}zbmi12 {c |} {res}  0.7020   0.9856   1.0000 
+      {txt}zlen24 {c |} {res}  0.4350   0.2342   0.1452   1.0000 
+      {txt}zwei24 {c |} {res}  0.6328   0.5062   0.4347   0.5444   1.0000 
+      {txt}zwfl24 {c |} {res}  0.5119   0.5101   0.4772  -0.0632   0.7855   1.0000 
+      {txt}zbmi24 {c |} {res}  0.4640   0.4867   0.4636  -0.1753   0.7108   0.9926   1.0000 
+         {txt}SEX {c |} {res}  0.0488   0.0193   0.0141  -0.0124  -0.0294  -0.0739  -0.0610 
+          {txt}GA {c |} {res}  0.1000   0.0353   0.0178   0.0434   0.0527   0.0261   0.0227 
+      {txt}center {c |} {res} -0.0092  -0.0347  -0.0406   0.0536   0.0245   0.0123   0.0047 
+         {txt}Age {c |} {res} -0.0189   0.0029   0.0039  -0.0124  -0.0166   0.0073   0.0104 
+     {txt}ANXIETY {c |} {res} -0.0387  -0.0327  -0.0305  -0.0053  -0.0198  -0.0083  -0.0095 
+{txt}CHRONIC_DI~E {c |} {res} -0.0040  -0.0126  -0.0161   0.0057  -0.0117  -0.0175  -0.0135 
+{txt}DailySmoking {c |} {res}  0.0126   0.0123   0.0110  -0.0122  -0.0262  -0.0270  -0.0260 
+      {txt}GRAVID {c |} {res} -0.0396  -0.0447  -0.0457  -0.0347  -0.0723  -0.0368  -0.0252 
+         {txt}SES {c |} {res}  0.0537   0.0301   0.0206   0.0547   0.0991   0.0737   0.0659 
+
+             {txt}{c |}      SEX       GA   center      Age  ANXIETY CHRONI~E DailyS~g
+{hline 13}{c +}{hline 63}
+         SEX {c |} {res}  1.0000 
+          {txt}GA {c |} {res}  0.0430   1.0000 
+      {txt}center {c |} {res} -0.0026   0.0029   1.0000 
+         {txt}Age {c |} {res} -0.0272  -0.1289  -0.0488   1.0000 
+     {txt}ANXIETY {c |} {res} -0.0002  -0.0370  -0.0307   0.0527   1.0000 
+{txt}CHRONIC_DI~E {c |} {res} -0.0131  -0.0598  -0.0098   0.0962   0.0460   1.0000 
+{txt}DailySmoking {c |} {res}  0.0079  -0.0017   0.0001  -0.0028   0.0038  -0.0094   1.0000 
+      {txt}GRAVID {c |} {res} -0.0163  -0.1272   0.0134   0.4746   0.0132   0.0733  -0.0055 
+         {txt}SES {c |} {res} -0.0011   0.0082   0.2913   0.0122   0.0019   0.0255  -0.0026 
+
+             {txt}{c |}   GRAVID      SES
+{hline 13}{c +}{hline 18}
+      GRAVID {c |} {res}  1.0000 
+         {txt}SES {c |} {res} -0.1296   1.0000 
+{txt}
+{com}. *Birth weight z-score(BWZ), GA have the highest pearson's correlation coefficients
+. ***Finding variables related to the missingness mechanism, by Little's MCAR test(auxiliary variables)
+. mcartest zwei2 SES
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}0.3583      
+{txt}Degrees of freedom  = {res}2
+{txt}Prob > chi-square   = {res}0.8360
+{txt}
+{com}. mcartest zwei4 SES
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}1.0391      
+{txt}Degrees of freedom  = {res}2
+{txt}Prob > chi-square   = {res}0.5948
+{txt}
+{com}. mcartest zwei6 SES
+{res}{txt}{p 0 6}note: 3 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7166
+{txt}Chi-square distance = {res}0.0101      
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.9200
+{txt}
+{com}. mcartest zwei12 SES
+{res}{txt}{p 0 6}note: 3 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7166
+{txt}Chi-square distance = {res}14.6691     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0001
+{txt}
+{com}. mcartest zwei24 SES
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}138.1658    
+{txt}Degrees of freedom  = {res}2
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zlen2 SES
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}0.2215      
+{txt}Degrees of freedom  = {res}2
+{txt}Prob > chi-square   = {res}0.8952
+{txt}
+{com}. mcartest zlen4 SES
+{res}{txt}{p 0 6}note: 2 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7167
+{txt}Chi-square distance = {res}0.4000      
+{txt}Degrees of freedom  = {res}2
+{txt}Prob > chi-square   = {res}0.8187
+{txt}
+{com}. mcartest zlen6 SES
+{res}{txt}{p 0 6}note: 3 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7166
+{txt}Chi-square distance = {res}0.0159      
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.8996
+{txt}
+{com}. mcartest zlen12 SES
+{res}{txt}{p 0 6}note: 3 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7166
+{txt}Chi-square distance = {res}18.1586     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zlen24 SES
+{res}{txt}{p 0 6}note: 3 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7166
+{txt}Chi-square distance = {res}120.5374    
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zwfl2 SES
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}0.0718      
+{txt}Degrees of freedom  = {res}2
+{txt}Prob > chi-square   = {res}0.9647
+{txt}
+{com}. mcartest zwfl4 SES
+{res}{txt}{p 0 6}note: 2 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7167
+{txt}Chi-square distance = {res}3.8063      
+{txt}Degrees of freedom  = {res}2
+{txt}Prob > chi-square   = {res}0.1491
+{txt}
+{com}. mcartest zwfl6 SES
+{res}{txt}{p 0 6}note: 3 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7166
+{txt}Chi-square distance = {res}0.0145      
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.9042
+{txt}
+{com}. mcartest zwfl12 SES
+{res}{txt}{p 0 6}note: 3 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7166
+{txt}Chi-square distance = {res}15.2455     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0001
+{txt}
+{com}. mcartest zwfl24 SES
+{res}{txt}{p 0 6}note: 3 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7166
+{txt}Chi-square distance = {res}122.9973    
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zbmi2 SES
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}0.1180      
+{txt}Degrees of freedom  = {res}2
+{txt}Prob > chi-square   = {res}0.9427
+{txt}
+{com}. mcartest zbmi4 SES
+{res}{txt}{p 0 6}note: 2 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7167
+{txt}Chi-square distance = {res}4.0418      
+{txt}Degrees of freedom  = {res}2
+{txt}Prob > chi-square   = {res}0.1325
+{txt}
+{com}. mcartest zbmi6 SES
+{res}{txt}{p 0 6}note: 3 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7166
+{txt}Chi-square distance = {res}0.0145      
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.9042
+{txt}
+{com}. mcartest zbmi12 SES
+{res}{txt}{p 0 6}note: 3 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7166
+{txt}Chi-square distance = {res}15.3774     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0001
+{txt}
+{com}. mcartest zbmi24 SES
+{res}{txt}{p 0 6}note: 3 {txt}observations {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7166
+{txt}Chi-square distance = {res}122.6964    
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zwei2 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}11.6005     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0007
+{txt}
+{com}. mcartest zwei4 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}4.7448      
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0294
+{txt}
+{com}. mcartest zwei6 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}0.8562      
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.3548
+{txt}
+{com}. mcartest zwei12 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}109.7350    
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zwei24 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}1363.5630   
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zlen2 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}20.8502     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zlen4 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}22.9559     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zlen6 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}11.2154     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0008
+{txt}
+{com}. mcartest zlen12 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}104.5972    
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zlen24 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}946.1882    
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zwfl2 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}27.4752     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zwfl4 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}23.1438     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zwfl6 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}12.2031     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0005
+{txt}
+{com}. mcartest zwfl12 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}101.1513    
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zwfl24 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}924.7344    
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zbmi2 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}24.1028     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zbmi4 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}22.2818     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zbmi6 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}12.2031     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0005
+{txt}
+{com}. mcartest zbmi12 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}101.7339    
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zbmi24 center
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7169
+{txt}Chi-square distance = {res}922.7764    
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zwei2 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}6.9390      
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0084
+{txt}
+{com}. mcartest zwei4 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}11.9810     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0005
+{txt}
+{com}. mcartest zwei6 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}20.4065     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zwei12 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}14.8155     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0001
+{txt}
+{com}. mcartest zwei24 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}26.0751     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zlen2 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}6.4863      
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0109
+{txt}
+{com}. mcartest zlen4 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}11.9248     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0006
+{txt}
+{com}. mcartest zlen6 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}16.9172     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zlen12 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}18.3932     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zlen24 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}48.9896     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zwfl2  Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}6.6653      
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0098
+{txt}
+{com}. mcartest zwfl4  Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}12.0276     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0005
+{txt}
+{com}. mcartest zwfl6  Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}16.2579     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0001
+{txt}
+{com}. mcartest zwfl12  Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}16.9070     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zwfl24  Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}49.0087     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zbmi2 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}7.3235      
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0068
+{txt}
+{com}. mcartest zbmi4 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}12.0380     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0005
+{txt}
+{com}. mcartest zbmi6 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}16.2579     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0001
+{txt}
+{com}. mcartest zbmi12 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}17.6889     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. mcartest zbmi24 Age
+{res}{txt}{p 0 6}note: 1 {txt}observation {txt}omitted from EM estimation because of all {txt}imputation variables missing{p_end}
+{res}
+{txt}Little's MCAR test
+
+Number of obs       = {res}7168
+{txt}Chi-square distance = {res}48.1151     
+{txt}Degrees of freedom  = {res}1
+{txt}Prob > chi-square   = {res}0.0000
+{txt}
+{com}. ***t-tests and chi-square
+. gen miss2=1 if zwei2 ==.
+{txt}(6,036 missing values generated)
+
+{com}. replace miss2=0 if zwei2 !=.
+{txt}(6,036 real changes made)
+
+{com}. gen miss4=1 if zwei4 ==.
+{txt}(5,949 missing values generated)
+
+{com}. replace miss4=0 if zwei4 !=.
+{txt}(5,949 real changes made)
+
+{com}. gen miss6=1 if zwei6 ==.
+{txt}(5,738 missing values generated)
+
+{com}. replace miss6=0 if zwei6 !=.
+{txt}(5,738 real changes made)
+
+{com}. gen miss12=1 if zwei12 ==.
+{txt}(4,780 missing values generated)
+
+{com}. replace miss12=0 if zwei12 !=.
+{txt}(4,780 real changes made)
+
+{com}. gen miss24=1 if zwei24 ==.
+{txt}(3,338 missing values generated)
+
+{com}. replace miss24=0 if zwei24 !=.
+{txt}(3,338 real changes made)
+
+{com}. 
+{txt}end of do-file
+
+{com}. tab miss2 SES , chi2 row
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+           {c |}                          SES
+     miss2 {c |} Very poor       Poor  Intermedi       Rich  Very Rich {c |}     Total
+{hline 11}{c +}{hline 55}{c +}{hline 10}
+         0 {c |}{res}     1,183      1,187      1,281      1,253      1,130 {txt}{c |}{res}     6,034 
+           {txt}{c |}{res}     19.61      19.67      21.23      20.77      18.73 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+         1 {c |}{res}       231        250        205        214        232 {txt}{c |}{res}     1,132 
+           {txt}{c |}{res}     20.41      22.08      18.11      18.90      20.49 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+     Total {c |}{res}     1,414      1,437      1,486      1,467      1,362 {txt}{c |}{res}     7,166 
+           {txt}{c |}{res}     19.73      20.05      20.74      20.47      19.01 {txt}{c |}{res}    100.00 
+
+{txt}          Pearson chi2({res}4{txt}) = {res} 10.7316  {txt} Pr = {res}0.030
+
+{com}. tab miss4 SES , chi2 row
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+           {c |}                          SES
+     miss4 {c |} Very poor       Poor  Intermedi       Rich  Very Rich {c |}     Total
+{hline 11}{c +}{hline 55}{c +}{hline 10}
+         0 {c |}{res}     1,161      1,187      1,258      1,235      1,106 {txt}{c |}{res}     5,947 
+           {txt}{c |}{res}     19.52      19.96      21.15      20.77      18.60 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+         1 {c |}{res}       253        250        228        232        256 {txt}{c |}{res}     1,219 
+           {txt}{c |}{res}     20.75      20.51      18.70      19.03      21.00 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+     Total {c |}{res}     1,414      1,437      1,486      1,467      1,362 {txt}{c |}{res}     7,166 
+           {txt}{c |}{res}     19.73      20.05      20.74      20.47      19.01 {txt}{c |}{res}    100.00 
+
+{txt}          Pearson chi2({res}4{txt}) = {res}  8.4192  {txt} Pr = {res}0.077
+
+{com}. tab miss6 SES , chi2 row
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+           {c |}                          SES
+     miss6 {c |} Very poor       Poor  Intermedi       Rich  Very Rich {c |}     Total
+{hline 11}{c +}{hline 55}{c +}{hline 10}
+         0 {c |}{res}     1,125      1,149      1,203      1,187      1,074 {txt}{c |}{res}     5,738 
+           {txt}{c |}{res}     19.61      20.02      20.97      20.69      18.72 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+         1 {c |}{res}       289        288        283        280        288 {txt}{c |}{res}     1,428 
+           {txt}{c |}{res}     20.24      20.17      19.82      19.61      20.17 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+     Total {c |}{res}     1,414      1,437      1,486      1,467      1,362 {txt}{c |}{res}     7,166 
+           {txt}{c |}{res}     19.73      20.05      20.74      20.47      19.01 {txt}{c |}{res}    100.00 
+
+{txt}          Pearson chi2({res}4{txt}) = {res}  2.8856  {txt} Pr = {res}0.577
+
+{com}. tab miss12 SES , chi2 row
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+           {c |}                          SES
+    miss12 {c |} Very poor       Poor  Intermedi       Rich  Very Rich {c |}     Total
+{hline 11}{c +}{hline 55}{c +}{hline 10}
+         0 {c |}{res}       955        993      1,023        978        831 {txt}{c |}{res}     4,780 
+           {txt}{c |}{res}     19.98      20.77      21.40      20.46      17.38 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+         1 {c |}{res}       459        444        463        489        531 {txt}{c |}{res}     2,386 
+           {txt}{c |}{res}     19.24      18.61      19.40      20.49      22.25 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+     Total {c |}{res}     1,414      1,437      1,486      1,467      1,362 {txt}{c |}{res}     7,166 
+           {txt}{c |}{res}     19.73      20.05      20.74      20.47      19.01 {txt}{c |}{res}    100.00 
+
+{txt}          Pearson chi2({res}4{txt}) = {res} 27.0860  {txt} Pr = {res}0.000
+
+{com}. tab miss24 SES , chi2 row
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+           {c |}                          SES
+    miss24 {c |} Very poor       Poor  Intermedi       Rich  Very Rich {c |}     Total
+{hline 11}{c +}{hline 55}{c +}{hline 10}
+         0 {c |}{res}       755        768        717        642        454 {txt}{c |}{res}     3,336 
+           {txt}{c |}{res}     22.63      23.02      21.49      19.24      13.61 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+         1 {c |}{res}       659        669        769        825        908 {txt}{c |}{res}     3,830 
+           {txt}{c |}{res}     17.21      17.47      20.08      21.54      23.71 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+     Total {c |}{res}     1,414      1,437      1,486      1,467      1,362 {txt}{c |}{res}     7,166 
+           {txt}{c |}{res}     19.73      20.05      20.74      20.47      19.01 {txt}{c |}{res}    100.00 
+
+{txt}          Pearson chi2({res}4{txt}) = {res}156.0060  {txt} Pr = {res}0.000
+
+{com}. tab miss2 center , chi2 row
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+           {c |}                   center
+     miss2 {c |}   Isfahan       Yazd  Rafsanjan     Semnan {c |}     Total
+{hline 11}{c +}{hline 44}{c +}{hline 10}
+         0 {c |}{res}     2,838      1,751        643        804 {txt}{c |}{res}     6,036 
+           {txt}{c |}{res}     47.02      29.01      10.65      13.32 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+         1 {c |}{res}       384        458        179        112 {txt}{c |}{res}     1,133 
+           {txt}{c |}{res}     33.89      40.42      15.80       9.89 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+     Total {c |}{res}     3,222      2,209        822        916 {txt}{c |}{res}     7,169 
+           {txt}{c |}{res}     44.94      30.81      11.47      12.78 {txt}{c |}{res}    100.00 
+
+{txt}          Pearson chi2({res}3{txt}) = {res}107.7426  {txt} Pr = {res}0.000
+
+{com}. tab miss4 center , chi2 row
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+           {c |}                   center
+     miss4 {c |}   Isfahan       Yazd  Rafsanjan     Semnan {c |}     Total
+{hline 11}{c +}{hline 44}{c +}{hline 10}
+         0 {c |}{res}     2,810      1,718        575        846 {txt}{c |}{res}     5,949 
+           {txt}{c |}{res}     47.23      28.88       9.67      14.22 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+         1 {c |}{res}       412        491        247         70 {txt}{c |}{res}     1,220 
+           {txt}{c |}{res}     33.77      40.25      20.25       5.74 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+     Total {c |}{res}     3,222      2,209        822        916 {txt}{c |}{res}     7,169 
+           {txt}{c |}{res}     44.94      30.81      11.47      12.78 {txt}{c |}{res}    100.00 
+
+{txt}          Pearson chi2({res}3{txt}) = {res}239.1501  {txt} Pr = {res}0.000
+
+{com}. tab miss6 center , chi2 row
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+           {c |}                   center
+     miss6 {c |}   Isfahan       Yazd  Rafsanjan     Semnan {c |}     Total
+{hline 11}{c +}{hline 44}{c +}{hline 10}
+         0 {c |}{res}     2,740      1,624        495        879 {txt}{c |}{res}     5,738 
+           {txt}{c |}{res}     47.75      28.30       8.63      15.32 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+         1 {c |}{res}       482        585        327         37 {txt}{c |}{res}     1,431 
+           {txt}{c |}{res}     33.68      40.88      22.85       2.59 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+     Total {c |}{res}     3,222      2,209        822        916 {txt}{c |}{res}     7,169 
+           {txt}{c |}{res}     44.94      30.81      11.47      12.78 {txt}{c |}{res}    100.00 
+
+{txt}          Pearson chi2({res}3{txt}) = {res}456.7066  {txt} Pr = {res}0.000
+
+{com}. tab miss12 center , chi2 row
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+           {c |}                   center
+    miss12 {c |}   Isfahan       Yazd  Rafsanjan     Semnan {c |}     Total
+{hline 11}{c +}{hline 44}{c +}{hline 10}
+         0 {c |}{res}     2,387      1,448        314        631 {txt}{c |}{res}     4,780 
+           {txt}{c |}{res}     49.94      30.29       6.57      13.20 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+         1 {c |}{res}       835        761        508        285 {txt}{c |}{res}     2,389 
+           {txt}{c |}{res}     34.95      31.85      21.26      11.93 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+     Total {c |}{res}     3,222      2,209        822        916 {txt}{c |}{res}     7,169 
+           {txt}{c |}{res}     44.94      30.81      11.47      12.78 {txt}{c |}{res}    100.00 
+
+{txt}          Pearson chi2({res}3{txt}) = {res}382.8608  {txt} Pr = {res}0.000
+
+{com}. tab miss24 center , chi2 row
+{txt}
+{c TLC}{hline 16}{c TRC}
+{c |} Key{col 18}{c |}
+{c LT}{hline 16}{c RT}
+{c |}{space 3}{it:frequency}{col 18}{c |}
+{c |}{space 1}{it:row percentage}{col 18}{c |}
+{c BLC}{hline 16}{c BRC}
+
+           {c |}                   center
+    miss24 {c |}   Isfahan       Yazd  Rafsanjan     Semnan {c |}     Total
+{hline 11}{c +}{hline 44}{c +}{hline 10}
+         0 {c |}{res}     2,409        621         84        224 {txt}{c |}{res}     3,338 
+           {txt}{c |}{res}     72.17      18.60       2.52       6.71 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+         1 {c |}{res}       813      1,588        738        692 {txt}{c |}{res}     3,831 
+           {txt}{c |}{res}     21.22      41.45      19.26      18.06 {txt}{c |}{res}    100.00 
+{txt}{hline 11}{c +}{hline 44}{c +}{hline 10}
+     Total {c |}{res}     3,222      2,209        822        916 {txt}{c |}{res}     7,169 
+           {txt}{c |}{res}     44.94      30.81      11.47      12.78 {txt}{c |}{res}    100.00 
+
+{txt}          Pearson chi2({res}3{txt}) = {res} 1.9e+03  {txt} Pr = {res}0.000
+
+{com}. ttest Age , by(miss2)
+
+{txt}Two-sample t test with equal variances
+{hline 9}{c TT}{hline 68}
+   Group{col 10}{c |}{col 16}Obs{col 27}Mean{col 35}Std. Err.{col 47}Std. Dev.{col 59}[95% Conf. Interval]
+{hline 9}{c +}{hline 68}
+       0 {c |}{res}{col 12}  6,036{col 22} 29.42379{col 34} .0682354{col 46} 5.301325{col 58} 29.29002{col 70} 29.55756
+       {txt}1 {c |}{res}{col 12}  1,132{col 22}  28.9682{col 34}  .164281{col 46}  5.52727{col 58} 28.64587{col 70} 29.29053
+{txt}{hline 9}{c +}{hline 68}
+combined {c |}{res}{col 12}  7,168{col 22} 29.35184{col 34} .0630709{col 46} 5.339835{col 58}  29.2282{col 70} 29.47548
+{txt}{hline 9}{c +}{hline 68}
+    diff {c |}{res}{col 22} .4555927{col 34} .1728817{col 58} .1166936{col 70} .7944918
+{txt}{hline 9}{c BT}{hline 68}
+    diff = mean({res}0{txt}) - mean({res}1{txt})                                      t = {res}  2.6353
+{txt}Ho: diff = 0                                     degrees of freedom = {res}    7166
+
+    {txt}Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = {res}0.9958         {txt}Pr(|T| > |t|) = {res}0.0084          {txt}Pr(T > t) = {res}0.0042
+
+{com}.  ttest Age , by(miss4)
+
+{txt}Two-sample t test with equal variances
+{hline 9}{c TT}{hline 68}
+   Group{col 10}{c |}{col 16}Obs{col 27}Mean{col 35}Std. Err.{col 47}Std. Dev.{col 59}[95% Conf. Interval]
+{hline 9}{c +}{hline 68}
+       0 {c |}{res}{col 12}  5,949{col 22} 29.45066{col 34} .0687194{col 46} 5.300308{col 58} 29.31595{col 70} 29.58538
+       {txt}1 {c |}{res}{col 12}  1,219{col 22} 28.86957{col 34} .1576867{col 46} 5.505503{col 58}  28.5602{col 70} 29.17893
+{txt}{hline 9}{c +}{hline 68}
+combined {c |}{res}{col 12}  7,168{col 22} 29.35184{col 34} .0630709{col 46} 5.339835{col 58}  29.2282{col 70} 29.47548
+{txt}{hline 9}{c +}{hline 68}
+    diff {c |}{res}{col 22} .5810988{col 34} .1677529{col 58} .2522536{col 70} .9099439
+{txt}{hline 9}{c BT}{hline 68}
+    diff = mean({res}0{txt}) - mean({res}1{txt})                                      t = {res}  3.4640
+{txt}Ho: diff = 0                                     degrees of freedom = {res}    7166
+
+    {txt}Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = {res}0.9997         {txt}Pr(|T| > |t|) = {res}0.0005          {txt}Pr(T > t) = {res}0.0003
+
+{com}.  ttest Age , by(miss6)
+
+{txt}Two-sample t test with equal variances
+{hline 9}{c TT}{hline 68}
+   Group{col 10}{c |}{col 16}Obs{col 27}Mean{col 35}Std. Err.{col 47}Std. Dev.{col 59}[95% Conf. Interval]
+{hline 9}{c +}{hline 68}
+       0 {c |}{res}{col 12}  5,738{col 22} 29.49407{col 34}  .069712{col 46} 5.280659{col 58} 29.35741{col 70} 29.63074
+       {txt}1 {c |}{res}{col 12}  1,430{col 22} 28.78112{col 34} .1464015{col 46} 5.536221{col 58} 28.49393{col 70}  29.0683
+{txt}{hline 9}{c +}{hline 68}
+combined {c |}{res}{col 12}  7,168{col 22} 29.35184{col 34} .0630709{col 46} 5.339835{col 58}  29.2282{col 70} 29.47548
+{txt}{hline 9}{c +}{hline 68}
+    diff {c |}{res}{col 22} .7129557{col 34} .1576121{col 58} .4039894{col 70} 1.021922
+{txt}{hline 9}{c BT}{hline 68}
+    diff = mean({res}0{txt}) - mean({res}1{txt})                                      t = {res}  4.5235
+{txt}Ho: diff = 0                                     degrees of freedom = {res}    7166
+
+    {txt}Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = {res}1.0000         {txt}Pr(|T| > |t|) = {res}0.0000          {txt}Pr(T > t) = {res}0.0000
+
+{com}.  ttest Age , by(miss12)
+
+{txt}Two-sample t test with equal variances
+{hline 9}{c TT}{hline 68}
+   Group{col 10}{c |}{col 16}Obs{col 27}Mean{col 35}Std. Err.{col 47}Std. Dev.{col 59}[95% Conf. Interval]
+{hline 9}{c +}{hline 68}
+       0 {c |}{res}{col 12}  4,780{col 22} 29.52343{col 34} .0757553{col 46} 5.237534{col 58} 29.37492{col 70} 29.67195
+       {txt}1 {c |}{res}{col 12}  2,388{col 22} 29.00838{col 34} .1130423{col 46} 5.524058{col 58}  28.7867{col 70} 29.23005
+{txt}{hline 9}{c +}{hline 68}
+combined {c |}{res}{col 12}  7,168{col 22} 29.35184{col 34} .0630709{col 46} 5.339835{col 58}  29.2282{col 70} 29.47548
+{txt}{hline 9}{c +}{hline 68}
+    diff {c |}{res}{col 22} .5150558{col 34} .1336831{col 58} .2529973{col 70} .7771142
+{txt}{hline 9}{c BT}{hline 68}
+    diff = mean({res}0{txt}) - mean({res}1{txt})                                      t = {res}  3.8528
+{txt}Ho: diff = 0                                     degrees of freedom = {res}    7166
+
+    {txt}Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = {res}0.9999         {txt}Pr(|T| > |t|) = {res}0.0001          {txt}Pr(T > t) = {res}0.0001
+
+{com}.  ttest Age , by(miss24)
+
+{txt}Two-sample t test with equal variances
+{hline 9}{c TT}{hline 68}
+   Group{col 10}{c |}{col 16}Obs{col 27}Mean{col 35}Std. Err.{col 47}Std. Dev.{col 59}[95% Conf. Interval]
+{hline 9}{c +}{hline 68}
+       0 {c |}{res}{col 12}  3,338{col 22} 29.69682{col 34}  .091134{col 46} 5.265307{col 58} 29.51814{col 70} 29.87551
+       {txt}1 {c |}{res}{col 12}  3,830{col 22} 29.05117{col 34}   .08704{col 46} 5.386643{col 58} 28.88053{col 70} 29.22182
+{txt}{hline 9}{c +}{hline 68}
+combined {c |}{res}{col 12}  7,168{col 22} 29.35184{col 34} .0630709{col 46} 5.339835{col 58}  29.2282{col 70} 29.47548
+{txt}{hline 9}{c +}{hline 68}
+    diff {c |}{res}{col 22} .6456495{col 34} .1262185{col 58}  .398224{col 70} .8930751
+{txt}{hline 9}{c BT}{hline 68}
+    diff = mean({res}0{txt}) - mean({res}1{txt})                                      t = {res}  5.1153
+{txt}Ho: diff = 0                                     degrees of freedom = {res}    7166
+
+    {txt}Ha: diff < 0                 Ha: diff != 0                 Ha: diff > 0
+ Pr(T < t) = {res}1.0000         {txt}Pr(|T| > |t|) = {res}0.0000          {txt}Pr(T > t) = {res}0.0000
+
+{com}. ***Finding strong predictors of the outcome by linear regression(auxiliary variables)
+
+. regress zwei2 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,803
+{txt}{hline 13}{c +}{hline 34}   F(8, 5794)      = {res}   389.18
+{txt}       Model {c |} {res} 2434.05516         8  304.256894   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 4529.69929     5,794  .781791386   {txt}R-squared       ={res}    0.3495
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.3486
+{txt}       Total {c |} {res} 6963.75445     5,802  1.20023344   {txt}Root MSE        =   {res} .88419
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zwei2{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2}  .550016{col 29}{space 2} .0134221{col 40}{space 1}   40.98{col 49}{space 3}0.000{col 57}{space 4} .5237036{col 70}{space 3} .5763284
+{txt}{space 13}GA {c |}{col 17}{res}{space 2} .0627794{col 29}{space 2}   .00935{col 40}{space 1}    6.71{col 49}{space 3}0.000{col 57}{space 4} .0444499{col 70}{space 3} .0811089
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .0757613{col 29}{space 2} .0232926{col 40}{space 1}    3.25{col 49}{space 3}0.001{col 57}{space 4} .0300991{col 70}{space 3} .1214235
+{txt}{space 12}Age {c |}{col 17}{res}{space 2} -.014465{col 29}{space 2} .0025145{col 40}{space 1}   -5.75{col 49}{space 3}0.000{col 57}{space 4}-.0193944{col 70}{space 3}-.0095357
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0482537{col 29}{space 2} .0488861{col 40}{space 1}   -0.99{col 49}{space 3}0.324{col 57}{space 4}-.1440887{col 70}{space 3} .0475813
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2} -.016336{col 29}{space 2} .0247773{col 40}{space 1}   -0.66{col 49}{space 3}0.510{col 57}{space 4}-.0649087{col 70}{space 3} .0322368
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .0516014{col 29}{space 2} .1981355{col 40}{space 1}    0.26{col 49}{space 3}0.795{col 57}{space 4}-.3368181{col 70}{space 3}  .440021
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} .0831637{col 29}{space 2} .0126286{col 40}{space 1}    6.59{col 49}{space 3}0.000{col 57}{space 4} .0584069{col 70}{space 3} .1079206
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2}-2.324898{col 29}{space 2} .3795926{col 40}{space 1}   -6.12{col 49}{space 3}0.000{col 57}{space 4}-3.069041{col 70}{space 3}-1.580754
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zwei4 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,728
+{txt}{hline 13}{c +}{hline 34}   F(8, 5719)      = {res}   195.71
+{txt}       Model {c |} {res} 1369.47224         8   171.18403   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 5002.20658     5,719  .874664554   {txt}R-squared       ={res}    0.2149
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.2138
+{txt}       Total {c |} {res} 6371.67882     5,727  1.11256833   {txt}Root MSE        =   {res} .93524
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zwei4{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .4600379{col 29}{space 2} .0142554{col 40}{space 1}   32.27{col 49}{space 3}0.000{col 57}{space 4}  .432092{col 70}{space 3} .4879838
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0024948{col 29}{space 2} .0099155{col 40}{space 1}   -0.25{col 49}{space 3}0.801{col 57}{space 4}-.0219329{col 70}{space 3} .0169433
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .0720899{col 29}{space 2} .0247875{col 40}{space 1}    2.91{col 49}{space 3}0.004{col 57}{space 4}  .023497{col 70}{space 3} .1206828
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0071217{col 29}{space 2}  .002677{col 40}{space 1}   -2.66{col 49}{space 3}0.008{col 57}{space 4}-.0123696{col 70}{space 3}-.0018739
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0543283{col 29}{space 2} .0513858{col 40}{space 1}   -1.06{col 49}{space 3}0.290{col 57}{space 4} -.155064{col 70}{space 3} .0464074
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0269156{col 29}{space 2} .0263915{col 40}{space 1}   -1.02{col 49}{space 3}0.308{col 57}{space 4}-.0786529{col 70}{space 3} .0248217
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2}   .06356{col 29}{space 2} .2272214{col 40}{space 1}    0.28{col 49}{space 3}0.780{col 57}{space 4}-.3818801{col 70}{space 3} .5090001
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} .0219413{col 29}{space 2}  .013359{col 40}{space 1}    1.64{col 49}{space 3}0.101{col 57}{space 4}-.0042473{col 70}{space 3}   .04813
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} .1293085{col 29}{space 2} .4030109{col 40}{space 1}    0.32{col 49}{space 3}0.748{col 57}{space 4}-.6607455{col 70}{space 3} .9193625
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zwei6 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,556
+{txt}{hline 13}{c +}{hline 34}   F(8, 5547)      = {res}   125.55
+{txt}       Model {c |} {res} 933.086656         8  116.635832   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 5153.16968     5,547  .929001204   {txt}R-squared       ={res}    0.1533
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.1521
+{txt}       Total {c |} {res} 6086.25634     5,555   1.0956357   {txt}Root MSE        =   {res} .96385
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zwei6{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2}  .416752{col 29}{space 2} .0149193{col 40}{space 1}   27.93{col 49}{space 3}0.000{col 57}{space 4} .3875042{col 70}{space 3} .4459997
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0449007{col 29}{space 2} .0103557{col 40}{space 1}   -4.34{col 49}{space 3}0.000{col 57}{space 4}-.0652019{col 70}{space 3}-.0245994
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .0882751{col 29}{space 2} .0259458{col 40}{space 1}    3.40{col 49}{space 3}0.001{col 57}{space 4} .0374111{col 70}{space 3} .1391391
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0072646{col 29}{space 2} .0028108{col 40}{space 1}   -2.58{col 49}{space 3}0.010{col 57}{space 4} -.012775{col 70}{space 3}-.0017542
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0726518{col 29}{space 2} .0537839{col 40}{space 1}   -1.35{col 49}{space 3}0.177{col 57}{space 4}-.1780893{col 70}{space 3} .0327857
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2} -.008697{col 29}{space 2} .0275444{col 40}{space 1}   -0.32{col 49}{space 3}0.752{col 57}{space 4}-.0626948{col 70}{space 3} .0453008
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .1683921{col 29}{space 2} .2215665{col 40}{space 1}    0.76{col 49}{space 3}0.447{col 57}{space 4}-.2659651{col 70}{space 3} .6027492
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}-.0069425{col 29}{space 2} .0140105{col 40}{space 1}   -0.50{col 49}{space 3}0.620{col 57}{space 4}-.0344086{col 70}{space 3} .0205235
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2}  1.85861{col 29}{space 2} .4208136{col 40}{space 1}    4.42{col 49}{space 3}0.000{col 57}{space 4} 1.033651{col 70}{space 3}  2.68357
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zwei12 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     4,646
+{txt}{hline 13}{c +}{hline 34}   F(8, 4637)      = {res}    57.40
+{txt}       Model {c |} {res} 479.603228         8  59.9504035   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 4842.92104     4,637  1.04440825   {txt}R-squared       ={res}    0.0901
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0885
+{txt}       Total {c |} {res} 5322.52427     4,645  1.14586098   {txt}Root MSE        =   {res}  1.022
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         zwei12{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .3436399{col 29}{space 2} .0175743{col 40}{space 1}   19.55{col 49}{space 3}0.000{col 57}{space 4} .3091858{col 70}{space 3} .3780939
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0664239{col 29}{space 2} .0121849{col 40}{space 1}   -5.45{col 49}{space 3}0.000{col 57}{space 4} -.090312{col 70}{space 3}-.0425357
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .1228514{col 29}{space 2} .0300834{col 40}{space 1}    4.08{col 49}{space 3}0.000{col 57}{space 4} .0638736{col 70}{space 3} .1818292
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0008092{col 29}{space 2} .0032678{col 40}{space 1}   -0.25{col 49}{space 3}0.804{col 57}{space 4}-.0072157{col 70}{space 3} .0055972
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.1722355{col 29}{space 2}  .063305{col 40}{space 1}   -2.72{col 49}{space 3}0.007{col 57}{space 4}-.2963434{col 70}{space 3}-.0481277
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2} .0267108{col 29}{space 2} .0319107{col 40}{space 1}    0.84{col 49}{space 3}0.403{col 57}{space 4}-.0358493{col 70}{space 3} .0892709
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .1914444{col 29}{space 2} .2955568{col 40}{space 1}    0.65{col 49}{space 3}0.517{col 57}{space 4}-.3879875{col 70}{space 3} .7708764
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}-.0594337{col 29}{space 2} .0165432{col 40}{space 1}   -3.59{col 49}{space 3}0.000{col 57}{space 4}-.0918662{col 70}{space 3}-.0270011
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 2.556752{col 29}{space 2}  .495028{col 40}{space 1}    5.16{col 49}{space 3}0.000{col 57}{space 4} 1.586262{col 70}{space 3} 3.527243
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zwei24 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     3,278
+{txt}{hline 13}{c +}{hline 34}   F(8, 3269)      = {res}    32.41
+{txt}       Model {c |} {res}  282.01863         8  35.2523287   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 3555.37116     3,269  1.08760207   {txt}R-squared       ={res}    0.0735
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0712
+{txt}       Total {c |} {res} 3837.38979     3,277  1.17100695   {txt}Root MSE        =   {res} 1.0429
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         zwei24{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .3203219{col 29}{space 2} .0214229{col 40}{space 1}   14.95{col 49}{space 3}0.000{col 57}{space 4} .2783183{col 70}{space 3} .3623255
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0940466{col 29}{space 2} .0146889{col 40}{space 1}   -6.40{col 49}{space 3}0.000{col 57}{space 4}-.1228469{col 70}{space 3}-.0652462
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2}-.0372678{col 29}{space 2} .0366155{col 40}{space 1}   -1.02{col 49}{space 3}0.309{col 57}{space 4}-.1090595{col 70}{space 3} .0345239
+{txt}{space 12}Age {c |}{col 17}{res}{space 2} .0035182{col 29}{space 2}  .003944{col 40}{space 1}    0.89{col 49}{space 3}0.372{col 57}{space 4}-.0042147{col 70}{space 3} .0112511
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2} -.080616{col 29}{space 2} .0759396{col 40}{space 1}   -1.06{col 49}{space 3}0.289{col 57}{space 4}  -.22951{col 70}{space 3} .0682781
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0229047{col 29}{space 2} .0388228{col 40}{space 1}   -0.59{col 49}{space 3}0.555{col 57}{space 4}-.0990242{col 70}{space 3} .0532147
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2}-.5904134{col 29}{space 2} .3304335{col 40}{space 1}   -1.79{col 49}{space 3}0.074{col 57}{space 4}-1.238291{col 70}{space 3} .0574644
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}-.1023417{col 29}{space 2} .0200526{col 40}{space 1}   -5.10{col 49}{space 3}0.000{col 57}{space 4}-.1416586{col 70}{space 3}-.0630247
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 3.787408{col 29}{space 2} .5944677{col 40}{space 1}    6.37{col 49}{space 3}0.000{col 57}{space 4} 2.621842{col 70}{space 3} 4.952975
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zlen2 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,679
+{txt}{hline 13}{c +}{hline 34}   F(8, 5670)      = {res}   282.41
+{txt}       Model {c |} {res} 2685.56347         8  335.695434   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 6739.89329     5,670   1.1886937   {txt}R-squared       ={res}    0.2849
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.2839
+{txt}       Total {c |} {res} 9425.45676     5,678  1.65999591   {txt}Root MSE        =   {res} 1.0903
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zlen2{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .5540113{col 29}{space 2}  .016762{col 40}{space 1}   33.05{col 49}{space 3}0.000{col 57}{space 4} .5211515{col 70}{space 3} .5868712
+{txt}{space 13}GA {c |}{col 17}{res}{space 2} .1031584{col 29}{space 2} .0116957{col 40}{space 1}    8.82{col 49}{space 3}0.000{col 57}{space 4} .0802303{col 70}{space 3} .1260864
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .1206937{col 29}{space 2} .0290278{col 40}{space 1}    4.16{col 49}{space 3}0.000{col 57}{space 4} .0637882{col 70}{space 3} .1775993
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0175532{col 29}{space 2} .0031349{col 40}{space 1}   -5.60{col 49}{space 3}0.000{col 57}{space 4}-.0236988{col 70}{space 3}-.0114076
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}   .01852{col 29}{space 2} .0610585{col 40}{space 1}    0.30{col 49}{space 3}0.762{col 57}{space 4} -.101178{col 70}{space 3} .1382181
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2} .0026598{col 29}{space 2} .0309075{col 40}{space 1}    0.09{col 49}{space 3}0.931{col 57}{space 4}-.0579306{col 70}{space 3} .0632503
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2}-.0984044{col 29}{space 2} .2506432{col 40}{space 1}   -0.39{col 49}{space 3}0.695{col 57}{space 4}-.5897609{col 70}{space 3} .3929521
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} .0494875{col 29}{space 2} .0156987{col 40}{space 1}    3.15{col 49}{space 3}0.002{col 57}{space 4} .0187119{col 70}{space 3}  .080263
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2}-3.551057{col 29}{space 2} .4750387{col 40}{space 1}   -7.48{col 49}{space 3}0.000{col 57}{space 4}-4.482315{col 70}{space 3}-2.619799
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zlen4 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,582
+{txt}{hline 13}{c +}{hline 34}   F(8, 5573)      = {res}   192.80
+{txt}       Model {c |} {res} 1597.84824         8   199.73103   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 5773.27625     5,573  1.03593688   {txt}R-squared       ={res}    0.2168
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.2156
+{txt}       Total {c |} {res} 7371.12449     5,581  1.32075336   {txt}Root MSE        =   {res} 1.0178
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zlen4{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .4481676{col 29}{space 2}  .015728{col 40}{space 1}   28.49{col 49}{space 3}0.000{col 57}{space 4} .4173346{col 70}{space 3} .4790007
+{txt}{space 13}GA {c |}{col 17}{res}{space 2} .0547586{col 29}{space 2} .0109498{col 40}{space 1}    5.00{col 49}{space 3}0.000{col 57}{space 4} .0332927{col 70}{space 3} .0762245
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .1281142{col 29}{space 2} .0273237{col 40}{space 1}    4.69{col 49}{space 3}0.000{col 57}{space 4} .0745491{col 70}{space 3} .1816793
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0100093{col 29}{space 2}   .00295{col 40}{space 1}   -3.39{col 49}{space 3}0.001{col 57}{space 4}-.0157923{col 70}{space 3}-.0042262
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2} -.007162{col 29}{space 2} .0567239{col 40}{space 1}   -0.13{col 49}{space 3}0.900{col 57}{space 4} -.118363{col 70}{space 3}  .104039
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0313977{col 29}{space 2} .0290553{col 40}{space 1}   -1.08{col 49}{space 3}0.280{col 57}{space 4}-.0883574{col 70}{space 3}  .025562
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .1646956{col 29}{space 2} .2472946{col 40}{space 1}    0.67{col 49}{space 3}0.505{col 57}{space 4}-.3200982{col 70}{space 3} .6494895
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} .0177393{col 29}{space 2} .0146695{col 40}{space 1}    1.21{col 49}{space 3}0.227{col 57}{space 4}-.0110185{col 70}{space 3} .0464972
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2}-1.765141{col 29}{space 2} .4449201{col 40}{space 1}   -3.97{col 49}{space 3}0.000{col 57}{space 4}-2.637358{col 70}{space 3}-.8929246
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zlen6 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,365
+{txt}{hline 13}{c +}{hline 34}   F(8, 5356)      = {res}   110.17
+{txt}       Model {c |} {res} 961.044203         8  120.130525   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 5840.29955     5,356  1.09042187   {txt}R-squared       ={res}    0.1413
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.1400
+{txt}       Total {c |} {res} 6801.34375     5,364  1.26796118   {txt}Root MSE        =   {res} 1.0442
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zlen6{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .4033826{col 29}{space 2} .0164002{col 40}{space 1}   24.60{col 49}{space 3}0.000{col 57}{space 4} .3712316{col 70}{space 3} .4355336
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0129131{col 29}{space 2} .0114216{col 40}{space 1}   -1.13{col 49}{space 3}0.258{col 57}{space 4}-.0353041{col 70}{space 3} .0094779
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .1023758{col 29}{space 2} .0286099{col 40}{space 1}    3.58{col 49}{space 3}0.000{col 57}{space 4} .0462887{col 70}{space 3} .1584628
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0105467{col 29}{space 2} .0031101{col 40}{space 1}   -3.39{col 49}{space 3}0.001{col 57}{space 4}-.0166437{col 70}{space 3}-.0044498
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2} .0069745{col 29}{space 2} .0593151{col 40}{space 1}    0.12{col 49}{space 3}0.906{col 57}{space 4}-.1093072{col 70}{space 3} .1232562
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2} .0086984{col 29}{space 2} .0303641{col 40}{space 1}    0.29{col 49}{space 3}0.775{col 57}{space 4}-.0508276{col 70}{space 3} .0682243
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .2801841{col 29}{space 2} .2466136{col 40}{space 1}    1.14{col 49}{space 3}0.256{col 57}{space 4}-.2032789{col 70}{space 3}  .763647
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} .0080126{col 29}{space 2} .0154411{col 40}{space 1}    0.52{col 49}{space 3}0.604{col 57}{space 4}-.0222583{col 70}{space 3} .0382835
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2}  1.06956{col 29}{space 2} .4640705{col 40}{space 1}    2.30{col 49}{space 3}0.021{col 57}{space 4} .1597928{col 70}{space 3} 1.979327
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zlen12 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     4,502
+{txt}{hline 13}{c +}{hline 34}   F(8, 4493)      = {res}    35.32
+{txt}       Model {c |} {res}  500.70518         8  62.5881475   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 7962.21211     4,493  1.77213713   {txt}R-squared       ={res}    0.0592
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0575
+{txt}       Total {c |} {res} 8462.91729     4,501  1.88023046   {txt}Root MSE        =   {res} 1.3312
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         zlen12{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .3273391{col 29}{space 2} .0232768{col 40}{space 1}   14.06{col 49}{space 3}0.000{col 57}{space 4}  .281705{col 70}{space 3} .3729731
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0186303{col 29}{space 2} .0160699{col 40}{space 1}   -1.16{col 49}{space 3}0.246{col 57}{space 4}-.0501352{col 70}{space 3} .0128747
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .0982718{col 29}{space 2} .0398131{col 40}{space 1}    2.47{col 49}{space 3}0.014{col 57}{space 4} .0202186{col 70}{space 3} .1763251
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0114684{col 29}{space 2}  .004335{col 40}{space 1}   -2.65{col 49}{space 3}0.008{col 57}{space 4}-.0199672{col 70}{space 3}-.0029697
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0546718{col 29}{space 2} .0841089{col 40}{space 1}   -0.65{col 49}{space 3}0.516{col 57}{space 4}-.2195667{col 70}{space 3}  .110223
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2} .0731955{col 29}{space 2} .0422582{col 40}{space 1}    1.73{col 49}{space 3}0.083{col 57}{space 4}-.0096515{col 70}{space 3} .1560424
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .0327871{col 29}{space 2} .3850202{col 40}{space 1}    0.09{col 49}{space 3}0.932{col 57}{space 4}-.7220421{col 70}{space 3} .7876163
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}   .01366{col 29}{space 2} .0217971{col 40}{space 1}    0.63{col 49}{space 3}0.531{col 57}{space 4}-.0290729{col 70}{space 3}  .056393
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 1.395127{col 29}{space 2} .6533377{col 40}{space 1}    2.14{col 49}{space 3}0.033{col 57}{space 4} .1142635{col 70}{space 3} 2.675991
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zlen24 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     2,214
+{txt}{hline 13}{c +}{hline 34}   F(8, 2205)      = {res}    12.86
+{txt}       Model {c |} {res}  152.25349         8  19.0316862   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 3264.26461     2,205  1.48039211   {txt}R-squared       ={res}    0.0446
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0411
+{txt}       Total {c |} {res}  3416.5181     2,213  1.54384008   {txt}Root MSE        =   {res} 1.2167
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         zlen24{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .2992174{col 29}{space 2} .0307127{col 40}{space 1}    9.74{col 49}{space 3}0.000{col 57}{space 4} .2389886{col 70}{space 3} .3594462
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0770541{col 29}{space 2} .0210895{col 40}{space 1}   -3.65{col 49}{space 3}0.000{col 57}{space 4}-.1184114{col 70}{space 3}-.0356968
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2}-.0060093{col 29}{space 2} .0519785{col 40}{space 1}   -0.12{col 49}{space 3}0.908{col 57}{space 4}-.1079413{col 70}{space 3} .0959228
+{txt}{space 12}Age {c |}{col 17}{res}{space 2} .0008344{col 29}{space 2} .0056892{col 40}{space 1}    0.15{col 49}{space 3}0.883{col 57}{space 4}-.0103223{col 70}{space 3} .0119912
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0343277{col 29}{space 2} .1077519{col 40}{space 1}   -0.32{col 49}{space 3}0.750{col 57}{space 4}-.2456335{col 70}{space 3}  .176978
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2} .0260669{col 29}{space 2} .0552236{col 40}{space 1}    0.47{col 49}{space 3}0.637{col 57}{space 4}-.0822289{col 70}{space 3} .1343627
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2}-.3011344{col 29}{space 2}  .406714{col 40}{space 1}   -0.74{col 49}{space 3}0.459{col 57}{space 4}-1.098717{col 70}{space 3} .4964481
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}-.0617989{col 29}{space 2} .0284993{col 40}{space 1}   -2.17{col 49}{space 3}0.030{col 57}{space 4}-.1176872{col 70}{space 3}-.0059105
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 3.413852{col 29}{space 2} .8529787{col 40}{space 1}    4.00{col 49}{space 3}0.000{col 57}{space 4} 1.741127{col 70}{space 3} 5.086578
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zwfl2 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,620
+{txt}{hline 13}{c +}{hline 34}   F(8, 5611)      = {res}     6.85
+{txt}       Model {c |} {res} 84.7539775         8  10.5942472   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 8679.46268     5,611  1.54686556   {txt}R-squared       ={res}    0.0097
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0083
+{txt}       Total {c |} {res} 8764.21665     5,619  1.55974669   {txt}Root MSE        =   {res} 1.2437
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zwfl2{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .1171646{col 29}{space 2} .0192131{col 40}{space 1}    6.10{col 49}{space 3}0.000{col 57}{space 4} .0794995{col 70}{space 3} .1548297
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0496264{col 29}{space 2} .0133585{col 40}{space 1}   -3.71{col 49}{space 3}0.000{col 57}{space 4}-.0758142{col 70}{space 3}-.0234385
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2}-.0160172{col 29}{space 2} .0332929{col 40}{space 1}   -0.48{col 49}{space 3}0.630{col 57}{space 4}-.0812841{col 70}{space 3} .0492497
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0001817{col 29}{space 2} .0035946{col 40}{space 1}   -0.05{col 49}{space 3}0.960{col 57}{space 4}-.0072285{col 70}{space 3} .0068652
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0425081{col 29}{space 2} .0698744{col 40}{space 1}   -0.61{col 49}{space 3}0.543{col 57}{space 4}-.1794889{col 70}{space 3} .0944727
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0387548{col 29}{space 2} .0354539{col 40}{space 1}   -1.09{col 49}{space 3}0.274{col 57}{space 4}-.1082581{col 70}{space 3} .0307486
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .1644235{col 29}{space 2} .2859265{col 40}{space 1}    0.58{col 49}{space 3}0.565{col 57}{space 4} -.396103{col 70}{space 3}   .72495
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} .0500995{col 29}{space 2} .0180004{col 40}{space 1}    2.78{col 49}{space 3}0.005{col 57}{space 4} .0148118{col 70}{space 3} .0853872
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 1.667774{col 29}{space 2} .5427337{col 40}{space 1}    3.07{col 49}{space 3}0.002{col 57}{space 4}  .603806{col 70}{space 3} 2.731742
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zwfl4 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,563
+{txt}{hline 13}{c +}{hline 34}   F(8, 5554)      = {res}    18.57
+{txt}       Model {c |} {res} 202.772349         8  25.3465436   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 7580.19861     5,554   1.3648179   {txt}R-squared       ={res}    0.0261
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0247
+{txt}       Total {c |} {res} 7782.97096     5,562  1.39931157   {txt}Root MSE        =   {res} 1.1683
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zwfl4{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .2147131{col 29}{space 2} .0180938{col 40}{space 1}   11.87{col 49}{space 3}0.000{col 57}{space 4} .1792422{col 70}{space 3} .2501841
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0668409{col 29}{space 2} .0125975{col 40}{space 1}   -5.31{col 49}{space 3}0.000{col 57}{space 4} -.091537{col 70}{space 3}-.0421449
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .0315015{col 29}{space 2} .0314164{col 40}{space 1}    1.00{col 49}{space 3}0.316{col 57}{space 4}-.0300869{col 70}{space 3} .0930899
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0001768{col 29}{space 2}  .003389{col 40}{space 1}   -0.05{col 49}{space 3}0.958{col 57}{space 4}-.0068206{col 70}{space 3} .0064669
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}   -.0461{col 29}{space 2} .0652138{col 40}{space 1}   -0.71{col 49}{space 3}0.480{col 57}{space 4}-.1739445{col 70}{space 3} .0817446
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0188227{col 29}{space 2} .0334171{col 40}{space 1}   -0.56{col 49}{space 3}0.573{col 57}{space 4}-.0843333{col 70}{space 3} .0466879
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2}-.0366092{col 29}{space 2} .2838492{col 40}{space 1}   -0.13{col 49}{space 3}0.897{col 57}{space 4}-.5930646{col 70}{space 3} .5198462
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} .0106705{col 29}{space 2}  .016865{col 40}{space 1}    0.63{col 49}{space 3}0.527{col 57}{space 4}-.0223915{col 70}{space 3} .0437325
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 2.305727{col 29}{space 2} .5117738{col 40}{space 1}    4.51{col 49}{space 3}0.000{col 57}{space 4}  1.30245{col 70}{space 3} 3.309004
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zwfl6 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,342
+{txt}{hline 13}{c +}{hline 34}   F(8, 5333)      = {res}    26.15
+{txt}       Model {c |} {res}  273.78908         8  34.2236351   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res}  6979.3191     5,333  1.30870413   {txt}R-squared       ={res}    0.0377
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0363
+{txt}       Total {c |} {res} 7253.10818     5,341  1.35800565   {txt}Root MSE        =   {res}  1.144
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zwfl6{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2}  .246313{col 29}{space 2} .0180195{col 40}{space 1}   13.67{col 49}{space 3}0.000{col 57}{space 4} .2109875{col 70}{space 3} .2816385
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0582729{col 29}{space 2} .0125258{col 40}{space 1}   -4.65{col 49}{space 3}0.000{col 57}{space 4}-.0828285{col 70}{space 3}-.0337172
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2}  .048973{col 29}{space 2}  .031412{col 40}{space 1}    1.56{col 49}{space 3}0.119{col 57}{space 4}-.0126074{col 70}{space 3} .1105533
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0019328{col 29}{space 2} .0034114{col 40}{space 1}   -0.57{col 49}{space 3}0.571{col 57}{space 4}-.0086205{col 70}{space 3} .0047549
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.1179741{col 29}{space 2} .0650821{col 40}{space 1}   -1.81{col 49}{space 3}0.070{col 57}{space 4}-.2455616{col 70}{space 3} .0096133
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0311362{col 29}{space 2} .0333241{col 40}{space 1}   -0.93{col 49}{space 3}0.350{col 57}{space 4} -.096465{col 70}{space 3} .0341926
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .1740601{col 29}{space 2} .2701745{col 40}{space 1}    0.64{col 49}{space 3}0.519{col 57}{space 4}-.3555924{col 70}{space 3} .7037127
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}-.0166288{col 29}{space 2} .0169383{col 40}{space 1}   -0.98{col 49}{space 3}0.326{col 57}{space 4}-.0498347{col 70}{space 3} .0165771
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 2.095657{col 29}{space 2} .5088788{col 40}{space 1}    4.12{col 49}{space 3}0.000{col 57}{space 4} 1.098047{col 70}{space 3} 3.093268
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zwfl12 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     4,481
+{txt}{hline 13}{c +}{hline 34}   F(8, 4472)      = {res}    24.03
+{txt}       Model {c |} {res}  282.09819         8  35.2622738   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 6562.21623     4,472  1.46740077   {txt}R-squared       ={res}    0.0412
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0395
+{txt}       Total {c |} {res} 6844.31442     4,480  1.52774875   {txt}Root MSE        =   {res} 1.2114
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         zwfl12{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .2745079{col 29}{space 2} .0212787{col 40}{space 1}   12.90{col 49}{space 3}0.000{col 57}{space 4}  .232791{col 70}{space 3} .3162248
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0830125{col 29}{space 2} .0146978{col 40}{space 1}   -5.65{col 49}{space 3}0.000{col 57}{space 4}-.1118275{col 70}{space 3}-.0541976
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .0748736{col 29}{space 2} .0363094{col 40}{space 1}    2.06{col 49}{space 3}0.039{col 57}{space 4} .0036894{col 70}{space 3} .1460579
+{txt}{space 12}Age {c |}{col 17}{res}{space 2} .0057752{col 29}{space 2} .0039533{col 40}{space 1}    1.46{col 49}{space 3}0.144{col 57}{space 4}-.0019752{col 70}{space 3} .0135256
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.1668187{col 29}{space 2} .0766828{col 40}{space 1}   -2.18{col 49}{space 3}0.030{col 57}{space 4}-.3171549{col 70}{space 3}-.0164825
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0141762{col 29}{space 2} .0385387{col 40}{space 1}   -0.37{col 49}{space 3}0.713{col 57}{space 4} -.089731{col 70}{space 3} .0613787
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .2375845{col 29}{space 2} .3503594{col 40}{space 1}    0.68{col 49}{space 3}0.498{col 57}{space 4}-.4492932{col 70}{space 3} .9244622
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} -.087997{col 29}{space 2} .0199399{col 40}{space 1}   -4.41{col 49}{space 3}0.000{col 57}{space 4} -.127089{col 70}{space 3}-.0489049
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 2.846305{col 29}{space 2} .5972656{col 40}{space 1}    4.77{col 49}{space 3}0.000{col 57}{space 4} 1.675369{col 70}{space 3} 4.017241
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zwfl24 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     2,189
+{txt}{hline 13}{c +}{hline 34}   F(8, 2180)      = {res}     9.42
+{txt}       Model {c |} {res}  111.64157         8  13.9551963   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res}  3228.7838     2,180  1.48109349   {txt}R-squared       ={res}    0.0334
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0299
+{txt}       Total {c |} {res} 3340.42537     2,188  1.52670264   {txt}Root MSE        =   {res}  1.217
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         zwfl24{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .2254124{col 29}{space 2} .0309287{col 40}{space 1}    7.29{col 49}{space 3}0.000{col 57}{space 4} .1647596{col 70}{space 3} .2860652
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0626175{col 29}{space 2} .0212069{col 40}{space 1}   -2.95{col 49}{space 3}0.003{col 57}{space 4}-.1042053{col 70}{space 3}-.0210296
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2}-.1620856{col 29}{space 2}  .052303{col 40}{space 1}   -3.10{col 49}{space 3}0.002{col 57}{space 4}-.2646545{col 70}{space 3}-.0595166
+{txt}{space 12}Age {c |}{col 17}{res}{space 2} .0071992{col 29}{space 2} .0057232{col 40}{space 1}    1.26{col 49}{space 3}0.209{col 57}{space 4}-.0040243{col 70}{space 3} .0184227
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0375036{col 29}{space 2} .1085568{col 40}{space 1}   -0.35{col 49}{space 3}0.730{col 57}{space 4}-.2503892{col 70}{space 3} .1753821
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0435034{col 29}{space 2}  .055626{col 40}{space 1}   -0.78{col 49}{space 3}0.434{col 57}{space 4}-.1525889{col 70}{space 3} .0655821
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2}-.5833391{col 29}{space 2} .4068204{col 40}{space 1}   -1.43{col 49}{space 3}0.152{col 57}{space 4}-1.381135{col 70}{space 3} .2144572
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}-.0744078{col 29}{space 2} .0289518{col 40}{space 1}   -2.57{col 49}{space 3}0.010{col 57}{space 4}-.1311838{col 70}{space 3}-.0176319
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 2.319202{col 29}{space 2} .8571696{col 40}{space 1}    2.71{col 49}{space 3}0.007{col 57}{space 4} .6382468{col 70}{space 3} 4.000156
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zbmi2 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,628
+{txt}{hline 13}{c +}{hline 34}   F(8, 5619)      = {res}    87.71
+{txt}       Model {c |} {res}  805.24037         8  100.655046   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res}  6448.3176     5,619  1.14759167   {txt}R-squared       ={res}    0.1110
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.1097
+{txt}       Total {c |} {res} 7253.55797     5,627  1.28906308   {txt}Root MSE        =   {res} 1.0713
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zbmi2{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2}  .346539{col 29}{space 2} .0165306{col 40}{space 1}   20.96{col 49}{space 3}0.000{col 57}{space 4} .3141327{col 70}{space 3} .3789453
+{txt}{space 13}GA {c |}{col 17}{res}{space 2} .0049929{col 29}{space 2} .0115015{col 40}{space 1}    0.43{col 49}{space 3}0.664{col 57}{space 4}-.0175544{col 70}{space 3} .0275402
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .0355614{col 29}{space 2} .0286546{col 40}{space 1}    1.24{col 49}{space 3}0.215{col 57}{space 4}-.0206127{col 70}{space 3} .0917355
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0072613{col 29}{space 2} .0030933{col 40}{space 1}   -2.35{col 49}{space 3}0.019{col 57}{space 4}-.0133253{col 70}{space 3}-.0011973
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0299495{col 29}{space 2}   .06026{col 40}{space 1}   -0.50{col 49}{space 3}0.619{col 57}{space 4}-.1480824{col 70}{space 3} .0881834
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}  -.03206{col 29}{space 2}  .030506{col 40}{space 1}   -1.05{col 49}{space 3}0.293{col 57}{space 4}-.0918635{col 70}{space 3} .0277435
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .1433863{col 29}{space 2} .2462757{col 40}{space 1}    0.58{col 49}{space 3}0.560{col 57}{space 4}-.3394093{col 70}{space 3} .6261819
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} .0748491{col 29}{space 2} .0154661{col 40}{space 1}    4.84{col 49}{space 3}0.000{col 57}{space 4} .0445295{col 70}{space 3} .1051686
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} -.381184{col 29}{space 2} .4673461{col 40}{space 1}   -0.82{col 49}{space 3}0.415{col 57}{space 4}-1.297363{col 70}{space 3} .5349949
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zbmi4 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,567
+{txt}{hline 13}{c +}{hline 34}   F(8, 5558)      = {res}    36.67
+{txt}       Model {c |} {res} 368.268984         8   46.033623   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 6976.59997     5,558  1.25523569   {txt}R-squared       ={res}    0.0501
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0488
+{txt}       Total {c |} {res} 7344.86895     5,566  1.31959557   {txt}Root MSE        =   {res} 1.1204
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zbmi4{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .2738119{col 29}{space 2} .0173302{col 40}{space 1}   15.80{col 49}{space 3}0.000{col 57}{space 4} .2398379{col 70}{space 3} .3077858
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0479366{col 29}{space 2} .0120626{col 40}{space 1}   -3.97{col 49}{space 3}0.000{col 57}{space 4} -.071584{col 70}{space 3}-.0242892
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .0037187{col 29}{space 2} .0301188{col 40}{space 1}    0.12{col 49}{space 3}0.902{col 57}{space 4} -.055326{col 70}{space 3} .0627634
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0011915{col 29}{space 2} .0032504{col 40}{space 1}   -0.37{col 49}{space 3}0.714{col 57}{space 4}-.0075637{col 70}{space 3} .0051806
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0577375{col 29}{space 2} .0625384{col 40}{space 1}   -0.92{col 49}{space 3}0.356{col 57}{space 4}-.1803372{col 70}{space 3} .0648622
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0167759{col 29}{space 2} .0320327{col 40}{space 1}   -0.52{col 49}{space 3}0.601{col 57}{space 4}-.0795724{col 70}{space 3} .0460207
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2}-.0319658{col 29}{space 2} .2722154{col 40}{space 1}   -0.12{col 49}{space 3}0.907{col 57}{space 4}-.5656144{col 70}{space 3} .5016828
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} .0116895{col 29}{space 2} .0161703{col 40}{space 1}    0.72{col 49}{space 3}0.470{col 57}{space 4}-.0200106{col 70}{space 3} .0433896
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 1.620124{col 29}{space 2} .4900542{col 40}{space 1}    3.31{col 49}{space 3}0.001{col 57}{space 4}  .659426{col 70}{space 3} 2.580822
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zbmi6 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     5,342
+{txt}{hline 13}{c +}{hline 34}   F(8, 5333)      = {res}    27.23
+{txt}       Model {c |} {res} 285.329765         8  35.6662206   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 6984.72665     5,333   1.3097181   {txt}R-squared       ={res}    0.0392
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0378
+{txt}       Total {c |} {res} 7270.05642     5,341  1.36117888   {txt}Root MSE        =   {res} 1.1444
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}          zbmi6{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .2502475{col 29}{space 2} .0180264{col 40}{space 1}   13.88{col 49}{space 3}0.000{col 57}{space 4} .2149083{col 70}{space 3} .2855866
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0553343{col 29}{space 2} .0125306{col 40}{space 1}   -4.42{col 49}{space 3}0.000{col 57}{space 4}-.0798994{col 70}{space 3}-.0307692
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .0303812{col 29}{space 2} .0314241{col 40}{space 1}    0.97{col 49}{space 3}0.334{col 57}{space 4} -.031223{col 70}{space 3} .0919853
+{txt}{space 12}Age {c |}{col 17}{res}{space 2}-.0022008{col 29}{space 2} .0034127{col 40}{space 1}   -0.64{col 49}{space 3}0.519{col 57}{space 4} -.008891{col 70}{space 3} .0044895
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.1192739{col 29}{space 2} .0651073{col 40}{space 1}   -1.83{col 49}{space 3}0.067{col 57}{space 4}-.2469107{col 70}{space 3}  .008363
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0316443{col 29}{space 2}  .033337{col 40}{space 1}   -0.95{col 49}{space 3}0.343{col 57}{space 4}-.0969984{col 70}{space 3} .0337098
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .1438345{col 29}{space 2} .2702792{col 40}{space 1}    0.53{col 49}{space 3}0.595{col 57}{space 4}-.3860232{col 70}{space 3} .6736922
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} -.014218{col 29}{space 2} .0169448{col 40}{space 1}   -0.84{col 49}{space 3}0.401{col 57}{space 4}-.0474368{col 70}{space 3} .0190008
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 1.909653{col 29}{space 2} .5090759{col 40}{space 1}    3.75{col 49}{space 3}0.000{col 57}{space 4} .9116558{col 70}{space 3}  2.90765
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zbmi12 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     4,476
+{txt}{hline 13}{c +}{hline 34}   F(8, 4467)      = {res}    15.68
+{txt}       Model {c |} {res} 204.990123         8  25.6237653   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 7300.78582     4,467  1.63438232   {txt}R-squared       ={res}    0.0273
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0256
+{txt}       Total {c |} {res} 7505.77594     4,475  1.67726837   {txt}Root MSE        =   {res} 1.2784
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         zbmi12{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2}  .229411{col 29}{space 2} .0224626{col 40}{space 1}   10.21{col 49}{space 3}0.000{col 57}{space 4} .1853732{col 70}{space 3} .2734488
+{txt}{space 13}GA {c |}{col 17}{res}{space 2}-.0795161{col 29}{space 2} .0155168{col 40}{space 1}   -5.12{col 49}{space 3}0.000{col 57}{space 4}-.1099367{col 70}{space 3}-.0490954
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2} .0630819{col 29}{space 2}  .038342{col 40}{space 1}    1.65{col 49}{space 3}0.100{col 57}{space 4}-.0120874{col 70}{space 3} .1382511
+{txt}{space 12}Age {c |}{col 17}{res}{space 2} .0066804{col 29}{space 2} .0041746{col 40}{space 1}    1.60{col 49}{space 3}0.110{col 57}{space 4}-.0015039{col 70}{space 3} .0148648
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2} -.164765{col 29}{space 2} .0809298{col 40}{space 1}   -2.04{col 49}{space 3}0.042{col 57}{space 4}-.3234275{col 70}{space 3}-.0061026
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0290942{col 29}{space 2} .0406884{col 40}{space 1}   -0.72{col 49}{space 3}0.475{col 57}{space 4}-.1088636{col 70}{space 3} .0506751
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .2308634{col 29}{space 2} .3697571{col 40}{space 1}    0.62{col 49}{space 3}0.532{col 57}{space 4}-.4940437{col 70}{space 3} .9557705
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}-.0917086{col 29}{space 2}  .021057{col 40}{space 1}   -4.36{col 49}{space 3}0.000{col 57}{space 4}-.1329908{col 70}{space 3}-.0504263
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 2.607725{col 29}{space 2} .6304701{col 40}{space 1}    4.14{col 49}{space 3}0.000{col 57}{space 4} 1.371691{col 70}{space 3} 3.843758
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. regress zbmi24 BWZ GA SEX Age ANXIETY CHRONIC_DISEASE DailySmoking GRAVID
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     2,186
+{txt}{hline 13}{c +}{hline 34}   F(8, 2177)      = {res}     6.74
+{txt}       Model {c |} {res} 89.8705164         8  11.2338145   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 3629.95922     2,177  1.66741352   {txt}R-squared       ={res}    0.0242
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0206
+{txt}       Total {c |} {res} 3719.82974     2,185  1.70243924   {txt}Root MSE        =   {res} 1.2913
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         zbmi24{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}BWZ {c |}{col 17}{res}{space 2} .2037473{col 29}{space 2} .0328166{col 40}{space 1}    6.21{col 49}{space 3}0.000{col 57}{space 4} .1393922{col 70}{space 3} .2681024
+{txt}{space 13}GA {c |}{col 17}{res}{space 2} -.055312{col 29}{space 2} .0225114{col 40}{space 1}   -2.46{col 49}{space 3}0.014{col 57}{space 4} -.099458{col 70}{space 3}-.0111659
+{txt}{space 12}SEX {c |}{col 17}{res}{space 2}-.1406036{col 29}{space 2} .0555322{col 40}{space 1}   -2.53{col 49}{space 3}0.011{col 57}{space 4}-.2495052{col 70}{space 3}-.0317021
+{txt}{space 12}Age {c |}{col 17}{res}{space 2} .0070746{col 29}{space 2} .0060767{col 40}{space 1}    1.16{col 49}{space 3}0.244{col 57}{space 4}-.0048421{col 70}{space 3} .0189913
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0484729{col 29}{space 2}  .115189{col 40}{space 1}   -0.42{col 49}{space 3}0.674{col 57}{space 4}-.2743648{col 70}{space 3} .1774191
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0363764{col 29}{space 2} .0590807{col 40}{space 1}   -0.62{col 49}{space 3}0.538{col 57}{space 4}-.1522368{col 70}{space 3} .0794841
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2}-.5845481{col 29}{space 2} .4316521{col 40}{space 1}   -1.35{col 49}{space 3}0.176{col 57}{space 4}-1.431041{col 70}{space 3} .2619452
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}-.0600445{col 29}{space 2}   .03081{col 40}{space 1}   -1.95{col 49}{space 3}0.051{col 57}{space 4}-.1204647{col 70}{space 3} .0003756
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} 1.957543{col 29}{space 2} .9099269{col 40}{space 1}    2.15{col 49}{space 3}0.032{col 57}{space 4} .1731267{col 70}{space 3} 3.741959
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Golnaz\Desktop\FFFFFFFinal\imput(PMM)\logs\Imputation\mdesc2.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}20 Aug 2024, 01:47:36
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

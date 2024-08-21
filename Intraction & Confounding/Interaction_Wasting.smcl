@@ -1,0 +1,1898 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Golnaz\Desktop\FFFFFFFinal\imput(PMM)\Wasting\interaction.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}25 Jul 2024, 12:56:10
+
+{com}. mi estimate: xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking i.SES#i.CENTER  , family(binomial) link(logit) corr(exchangeable)
+{res}
+{txt}Multiple-imputation estimates{col 49}Imputations{col 67}= {res}        20
+{txt}GEE population-averaged model{col 49}Number of obs{col 67}= {res}    33,765
+
+{txt}Group variable:{ralign 27:{res:id}}{col 49}Number of groups{col 67}= {res}     6,767
+{txt}Link:{ralign 37:{res:logit}}{col 49}Obs per group:
+Family:{ralign 35:{res:binomial}}{col 49}              min{col 67}= {res}         1
+{txt}Correlation:{ralign 30:{res:exchangeable}}{col 49}              avg{col 67}= {res}       5.0
+{txt}Scale parameter:{ralign 26:{res:1}}{col 49}              max{col 67}= {res}         5
+
+{txt}{col 49}Average RVI{col 67}= {res}    0.3672
+{txt}{col 49}Largest FMI{col 67}= {res}    0.4473
+{txt}DF adjustment:{ralign 28: {res:Large sample}}{col 49}DF:     min{col 67}= {res}     99.79
+{txt}{col 49}        avg{col 67}= {res}    493.74
+{txt}{col 49}        max{col 67}= {res}  1,634.41
+{txt}Model F test:{ralign 29: {res:Equal FMI}}{col 49}F({res}  25{txt},{res} 6700.8{txt}){col 67}= {res}     11.45
+{txt}Within VCE type: {ralign 25:{res:Conventional}}{col 49}Prob > F{col 67}= {res}    0.0000
+
+{txt}{hline 24}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}                wasting{col 25}{c |}      Coef.{col 37}   Std. Err.{col 49}      t{col 57}   P>|t|{col 65}     [95% Con{col 78}f. Interval]
+{hline 24}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 20}SES {c |}
+{space 18}Poor  {c |}{col 25}{res}{space 2} .0247068{col 37}{space 2} .1262257{col 48}{space 1}    0.20{col 57}{space 3}0.845{col 65}{space 4}-.2233629{col 78}{space 3} .2727766
+{txt}{space 10}Intermediate  {c |}{col 25}{res}{space 2}-.1719897{col 37}{space 2} .1308072{col 48}{space 1}   -1.31{col 57}{space 3}0.189{col 65}{space 4}-.4286877{col 78}{space 3} .0847083
+{txt}{space 18}Rich  {c |}{col 25}{res}{space 2}-.3007949{col 37}{space 2} .1480566{col 48}{space 1}   -2.03{col 57}{space 3}0.043{col 65}{space 4}-.5914906{col 78}{space 3}-.0100992
+{txt}{space 13}Very Rich  {c |}{col 25}{res}{space 2}-.4255707{col 37}{space 2} .1935038{col 48}{space 1}   -2.20{col 57}{space 3}0.028{col 65}{space 4}-.8056107{col 78}{space 3}-.0455306
+{txt}{space 23} {c |}
+{space 11}Growth_Month {c |}{col 25}{res}{space 2} .0254059{col 37}{space 2} .0028693{col 48}{space 1}    8.85{col 57}{space 3}0.000{col 65}{space 4} .0197131{col 78}{space 3} .0310986
+{txt}{space 23} {c |}
+{space 17}CENTER {c |}
+{space 18}Yazd  {c |}{col 25}{res}{space 2}  .923085{col 37}{space 2} .1330928{col 48}{space 1}    6.94{col 57}{space 3}0.000{col 65}{space 4} .6614142{col 78}{space 3} 1.184756
+{txt}{space 13}Rafsanjan  {c |}{col 25}{res}{space 2} .2274551{col 37}{space 2}  .304034{col 48}{space 1}    0.75{col 57}{space 3}0.455{col 65}{space 4}-.3705917{col 78}{space 3} .8255019
+{txt}{space 16}Semnan  {c |}{col 25}{res}{space 2}  .093399{col 37}{space 2} .2825502{col 48}{space 1}    0.33{col 57}{space 3}0.741{col 65}{space 4}-.4619879{col 78}{space 3} .6487859
+{txt}{space 23} {c |}
+{space 20}Age {c |}{col 25}{res}{space 2} .0102631{col 37}{space 2} .0060627{col 48}{space 1}    1.69{col 57}{space 3}0.091{col 65}{space 4}-.0016377{col 78}{space 3} .0221638
+{txt}{space 17}GRAVID {c |}{col 25}{res}{space 2}-.0589395{col 37}{space 2} .0325528{col 48}{space 1}   -1.81{col 57}{space 3}0.071{col 65}{space 4}-.1229461{col 78}{space 3} .0050671
+{txt}{space 16}ANXIETY {c |}{col 25}{res}{space 2}-.0420042{col 37}{space 2}   .12248{col 48}{space 1}   -0.34{col 57}{space 3}0.732{col 65}{space 4}-.2829389{col 78}{space 3} .1989304
+{txt}{space 8}CHRONIC_DISEASE {c |}{col 25}{res}{space 2}-.0446932{col 37}{space 2} .0632034{col 48}{space 1}   -0.71{col 57}{space 3}0.480{col 65}{space 4}-.1690605{col 78}{space 3}  .079674
+{txt}{space 11}DailySmoking {c |}{col 25}{res}{space 2} .1468629{col 37}{space 2} .5343538{col 48}{space 1}    0.27{col 57}{space 3}0.784{col 65}{space 4} -.912726{col 78}{space 3} 1.206452
+{txt}{space 23} {c |}
+{space 13}SES#CENTER {c |}
+{space 13}Poor#Yazd  {c |}{col 25}{res}{space 2}-.2792538{col 37}{space 2} .1844569{col 48}{space 1}   -1.51{col 57}{space 3}0.131{col 65}{space 4}-.6416168{col 78}{space 3} .0831091
+{txt}{space 8}Poor#Rafsanjan  {c |}{col 25}{res}{space 2}-.2858008{col 37}{space 2} .4367252{col 48}{space 1}   -0.65{col 57}{space 3}0.514{col 65}{space 4}-1.147607{col 78}{space 3} .5760054
+{txt}{space 11}Poor#Semnan  {c |}{col 25}{res}{space 2}-.5668452{col 37}{space 2} .4542963{col 48}{space 1}   -1.25{col 57}{space 3}0.213{col 65}{space 4}-1.461868{col 78}{space 3} .3281773
+{txt}{space 5}Intermediate#Yazd  {c |}{col 25}{res}{space 2}-.0920922{col 37}{space 2} .1885939{col 48}{space 1}   -0.49{col 57}{space 3}0.625{col 65}{space 4}-.4624034{col 78}{space 3} .2782191
+{txt}Intermediate#Rafsanjan  {c |}{col 25}{res}{space 2}-.1873349{col 37}{space 2} .3939254{col 48}{space 1}   -0.48{col 57}{space 3}0.635{col 65}{space 4}-.9622892{col 78}{space 3} .5876195
+{txt}{space 3}Intermediate#Semnan  {c |}{col 25}{res}{space 2}-.0871226{col 37}{space 2} .3703259{col 48}{space 1}   -0.24{col 57}{space 3}0.814{col 65}{space 4}-.8154319{col 78}{space 3} .6411867
+{txt}{space 13}Rich#Yazd  {c |}{col 25}{res}{space 2}  .033329{col 37}{space 2}  .212556{col 48}{space 1}    0.16{col 57}{space 3}0.876{col 65}{space 4}-.3852486{col 78}{space 3} .4519067
+{txt}{space 8}Rich#Rafsanjan  {c |}{col 25}{res}{space 2}  .212967{col 37}{space 2}  .410204{col 48}{space 1}    0.52{col 57}{space 3}0.604{col 65}{space 4}-.5976197{col 78}{space 3} 1.023554
+{txt}{space 11}Rich#Semnan  {c |}{col 25}{res}{space 2} .2334496{col 37}{space 2} .3276334{col 48}{space 1}    0.71{col 57}{space 3}0.476{col 65}{space 4}-.4091761{col 78}{space 3} .8760752
+{txt}{space 8}Very Rich#Yazd  {c |}{col 25}{res}{space 2} .1255338{col 37}{space 2} .2524672{col 48}{space 1}    0.50{col 57}{space 3}0.619{col 65}{space 4}-.3717595{col 78}{space 3} .6228272
+{txt}{space 3}Very Rich#Rafsanjan  {c |}{col 25}{res}{space 2}-.0644067{col 37}{space 2} .3993465{col 48}{space 1}   -0.16{col 57}{space 3}0.872{col 65}{space 4}-.8500722{col 78}{space 3} .7212588
+{txt}{space 6}Very Rich#Semnan  {c |}{col 25}{res}{space 2} .2039207{col 37}{space 2} .3587114{col 48}{space 1}    0.57{col 57}{space 3}0.570{col 65}{space 4} -.500724{col 78}{space 3} .9085655
+{txt}{space 23} {c |}
+{space 18}_cons {c |}{col 25}{res}{space 2}-3.018689{col 37}{space 2} .1797267{col 48}{space 1}  -16.80{col 57}{space 3}0.000{col 65}{space 4}-3.371223{col 78}{space 3}-2.666155
+{txt}{hline 24}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. mi test   2.SES#2.CENTER 2.SES#3.CENTER 2.SES#4.CENTER 3.SES#2.CENTER 3.SES#3.CENTER 3.SES#4.CENTER 4.SES#2.CENTER 4.SES#3.CENTER 4.SES#4.CENTER 5.SES#2.CENTER 5.SES#3.CENTER 5.SES#4.CENTER 
+{txt}note: assuming equal fractions of missing information
+{res}
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#2.CENTER = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 2.SES#3.CENTER = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 2.SES#4.CENTER = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 3.SES#2.CENTER = 0{p_end}
+{p 0 7}{space 1}{text:( 5)}{space 1} 3.SES#3.CENTER = 0{p_end}
+{p 0 7}{space 1}{text:( 6)}{space 1} 3.SES#4.CENTER = 0{p_end}
+{p 0 7}{space 1}{text:( 7)}{space 1} 4.SES#2.CENTER = 0{p_end}
+{p 0 7}{space 1}{text:( 8)}{space 1} 4.SES#3.CENTER = 0{p_end}
+{p 0 7}{space 1}{text:( 9)}{space 1} 4.SES#4.CENTER = 0{p_end}
+{p 0 7}{space 1}{text:(10)}{space 1} 5.SES#2.CENTER = 0{p_end}
+{p 0 7}{space 1}{text:(11)}{space 1} 5.SES#3.CENTER = 0{p_end}
+{p 0 7}{space 1}{text:(12)}{space 1} 5.SES#4.CENTER = 0{p_end}
+
+{txt}       F( 12,3368.6) ={res}    0.73
+{txt}{col 13}Prob > F ={res}    0.7240
+
+{com}. mi estimate: xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking i.SES# c.Age, family(binomial) link(logit) corr(exchangeable)
+{res}
+{txt}Multiple-imputation estimates{col 49}Imputations{col 67}= {res}        20
+{txt}GEE population-averaged model{col 49}Number of obs{col 67}= {res}    33,765
+
+{txt}Group variable:{ralign 27:{res:id}}{col 49}Number of groups{col 67}= {res}     6,767
+{txt}Link:{ralign 37:{res:logit}}{col 49}Obs per group:
+Family:{ralign 35:{res:binomial}}{col 49}              min{col 67}= {res}         1
+{txt}Correlation:{ralign 30:{res:exchangeable}}{col 49}              avg{col 67}= {res}       5.0
+{txt}Scale parameter:{ralign 26:{res:1}}{col 49}              max{col 67}= {res}         5
+
+{txt}{col 49}Average RVI{col 67}= {res}    0.3596
+{txt}{col 49}Largest FMI{col 67}= {res}    0.4477
+{txt}DF adjustment:{ralign 28: {res:Large sample}}{col 49}DF:     min{col 67}= {res}     99.63
+{txt}{col 49}        avg{col 67}= {res}    384.06
+{txt}{col 49}        max{col 67}= {res}    712.47
+{txt}Model F test:{ralign 29: {res:Equal FMI}}{col 49}F({res}  17{txt},{res} 4755.7{txt}){col 67}= {res}     16.65
+{txt}Within VCE type: {ralign 25:{res:Conventional}}{col 49}Prob > F{col 67}= {res}    0.0000
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}        wasting{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}SES {c |}
+{space 10}Poor  {c |}{col 17}{res}{space 2}-.5700617{col 29}{space 2} .4644738{col 40}{space 1}   -1.23{col 49}{space 3}0.220{col 57}{space 4}-1.483015{col 70}{space 3} .3428916
+{txt}{space 2}Intermediate  {c |}{col 17}{res}{space 2}-.3020868{col 29}{space 2} .4783781{col 40}{space 1}   -0.63{col 49}{space 3}0.528{col 57}{space 4}-1.241727{col 70}{space 3} .6375529
+{txt}{space 10}Rich  {c |}{col 17}{res}{space 2}-.5290435{col 29}{space 2} .4905574{col 40}{space 1}   -1.08{col 49}{space 3}0.282{col 57}{space 4}-1.493739{col 70}{space 3} .4356523
+{txt}{space 5}Very Rich  {c |}{col 17}{res}{space 2}-.2601415{col 29}{space 2} .5635412{col 40}{space 1}   -0.46{col 49}{space 3}0.645{col 57}{space 4}-1.370036{col 70}{space 3} .8497534
+{txt}{space 15} {c |}
+{space 3}Growth_Month {c |}{col 17}{res}{space 2} .0253925{col 29}{space 2} .0028669{col 40}{space 1}    8.86{col 49}{space 3}0.000{col 57}{space 4} .0197043{col 70}{space 3} .0310806
+{txt}{space 15} {c |}
+{space 9}CENTER {c |}
+{space 10}Yazd  {c |}{col 17}{res}{space 2} .8555918{col 29}{space 2} .0654215{col 40}{space 1}   13.08{col 49}{space 3}0.000{col 57}{space 4} .7271498{col 70}{space 3} .9840337
+{txt}{space 5}Rafsanjan  {c |}{col 17}{res}{space 2} .1391982{col 29}{space 2} .1212587{col 40}{space 1}    1.15{col 49}{space 3}0.253{col 57}{space 4}-.1003759{col 70}{space 3} .3787723
+{txt}{space 8}Semnan  {c |}{col 17}{res}{space 2} .0947446{col 29}{space 2} .1074567{col 40}{space 1}    0.88{col 49}{space 3}0.379{col 57}{space 4}-.1169035{col 70}{space 3} .3063927
+{txt}{space 15} {c |}
+{space 12}Age {c |}{col 17}{res}{space 2} .0052569{col 29}{space 2} .0106414{col 40}{space 1}    0.49{col 49}{space 3}0.621{col 57}{space 4}-.0156353{col 70}{space 3} .0261491
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}-.0594129{col 29}{space 2} .0328613{col 40}{space 1}   -1.81{col 49}{space 3}0.072{col 57}{space 4}-.1240524{col 70}{space 3} .0052265
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0402619{col 29}{space 2} .1227738{col 40}{space 1}   -0.33{col 49}{space 3}0.743{col 57}{space 4}-.2817897{col 70}{space 3} .2012658
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2} -.044746{col 29}{space 2} .0633143{col 40}{space 1}   -0.71{col 49}{space 3}0.480{col 57}{space 4}-.1693411{col 70}{space 3} .0798492
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .1366364{col 29}{space 2} .5316467{col 40}{space 1}    0.26{col 49}{space 3}0.798{col 57}{space 4}  -.91723{col 70}{space 3} 1.190503
+{txt}{space 15} {c |}
+{space 6}SES#c.Age {c |}
+{space 10}Poor  {c |}{col 17}{res}{space 2} .0147794{col 29}{space 2} .0152975{col 40}{space 1}    0.97{col 49}{space 3}0.334{col 57}{space 4}-.0152719{col 70}{space 3} .0448308
+{txt}{space 2}Intermediate  {c |}{col 17}{res}{space 2} .0023232{col 29}{space 2} .0160107{col 40}{space 1}    0.15{col 49}{space 3}0.885{col 57}{space 4}-.0291222{col 70}{space 3} .0337685
+{txt}{space 10}Rich  {c |}{col 17}{res}{space 2} .0106412{col 29}{space 2} .0165149{col 40}{space 1}    0.64{col 49}{space 3}0.520{col 57}{space 4}-.0218446{col 70}{space 3} .0431269
+{txt}{space 5}Very Rich  {c |}{col 17}{res}{space 2}-.0019668{col 29}{space 2} .0185198{col 40}{space 1}   -0.11{col 49}{space 3}0.916{col 57}{space 4}-.0384356{col 70}{space 3}  .034502
+{txt}{space 15} {c |}
+{space 10}_cons {c |}{col 17}{res}{space 2}-2.836928{col 29}{space 2} .3174397{col 40}{space 1}   -8.94{col 49}{space 3}0.000{col 57}{space 4}-3.460328{col 70}{space 3}-2.213528
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}.  mi test  2.SES#c.Age 3.SES#c.Age 4.SES#c.Age 5.SES#c.Age
+{txt}note: assuming equal fractions of missing information
+{res}
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#c.Age = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#c.Age = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4.SES#c.Age = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5.SES#c.Age = 0{p_end}
+
+{txt}       F(  4,1551.2) ={res}    0.36
+{txt}{col 13}Prob > F ={res}    0.8354
+
+{com}. mi estimate: xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking i.SES#c.GRAVID, family(binomial) link(logit) corr(exchangeable)
+{res}
+{txt}Multiple-imputation estimates{col 49}Imputations{col 67}= {res}        20
+{txt}GEE population-averaged model{col 49}Number of obs{col 67}= {res}    33,765
+
+{txt}Group variable:{ralign 27:{res:id}}{col 49}Number of groups{col 67}= {res}     6,767
+{txt}Link:{ralign 37:{res:logit}}{col 49}Obs per group:
+Family:{ralign 35:{res:binomial}}{col 49}              min{col 67}= {res}         1
+{txt}Correlation:{ralign 30:{res:exchangeable}}{col 49}              avg{col 67}= {res}       5.0
+{txt}Scale parameter:{ralign 26:{res:1}}{col 49}              max{col 67}= {res}         5
+
+{txt}{col 49}Average RVI{col 67}= {res}    0.3686
+{txt}{col 49}Largest FMI{col 67}= {res}    0.4476
+{txt}DF adjustment:{ralign 28: {res:Large sample}}{col 49}DF:     min{col 67}= {res}     99.66
+{txt}{col 49}        avg{col 67}= {res}    512.73
+{txt}{col 49}        max{col 67}= {res}  1,750.78
+{txt}Model F test:{ralign 29: {res:Equal FMI}}{col 49}F({res}  17{txt},{res} 4571.9{txt}){col 67}= {res}     16.51
+{txt}Within VCE type: {ralign 25:{res:Conventional}}{col 49}Prob > F{col 67}= {res}    0.0000
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}        wasting{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}SES {c |}
+{space 10}Poor  {c |}{col 17}{res}{space 2}-.2756247{col 29}{space 2} .2065871{col 40}{space 1}   -1.33{col 49}{space 3}0.183{col 57}{space 4}-.6824345{col 70}{space 3} .1311851
+{txt}{space 2}Intermediate  {c |}{col 17}{res}{space 2}-.3392866{col 29}{space 2} .1882905{col 40}{space 1}   -1.80{col 49}{space 3}0.072{col 57}{space 4}-.7088538{col 70}{space 3} .0302806
+{txt}{space 10}Rich  {c |}{col 17}{res}{space 2} -.330188{col 29}{space 2} .1874655{col 40}{space 1}   -1.76{col 49}{space 3}0.079{col 57}{space 4}-.6981744{col 70}{space 3} .0377984
+{txt}{space 5}Very Rich  {c |}{col 17}{res}{space 2}-.3566229{col 29}{space 2}  .205018{col 40}{space 1}   -1.74{col 49}{space 3}0.083{col 57}{space 4}-.7595354{col 70}{space 3} .0462896
+{txt}{space 15} {c |}
+{space 3}Growth_Month {c |}{col 17}{res}{space 2} .0253917{col 29}{space 2} .0028672{col 40}{space 1}    8.86{col 49}{space 3}0.000{col 57}{space 4} .0197029{col 70}{space 3} .0310804
+{txt}{space 15} {c |}
+{space 9}CENTER {c |}
+{space 10}Yazd  {c |}{col 17}{res}{space 2} .8522004{col 29}{space 2} .0654188{col 40}{space 1}   13.03{col 49}{space 3}0.000{col 57}{space 4}  .723759{col 70}{space 3} .9806417
+{txt}{space 5}Rafsanjan  {c |}{col 17}{res}{space 2} .1405424{col 29}{space 2} .1213272{col 40}{space 1}    1.16{col 49}{space 3}0.249{col 57}{space 4}-.0991833{col 70}{space 3} .3802681
+{txt}{space 8}Semnan  {c |}{col 17}{res}{space 2} .0932394{col 29}{space 2} .1072444{col 40}{space 1}    0.87{col 49}{space 3}0.385{col 57}{space 4}-.1179658{col 70}{space 3} .3044445
+{txt}{space 15} {c |}
+{space 12}Age {c |}{col 17}{res}{space 2} .0104471{col 29}{space 2}  .006058{col 40}{space 1}    1.72{col 49}{space 3}0.085{col 57}{space 4}-.0014443{col 70}{space 3} .0223384
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}-.0935066{col 29}{space 2} .0568855{col 40}{space 1}   -1.64{col 49}{space 3}0.101{col 57}{space 4}-.2053629{col 70}{space 3} .0183497
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.0396165{col 29}{space 2} .1226953{col 40}{space 1}   -0.32{col 49}{space 3}0.747{col 57}{space 4}-.2809885{col 70}{space 3} .2017556
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0443128{col 29}{space 2} .0633336{col 40}{space 1}   -0.70{col 49}{space 3}0.485{col 57}{space 4} -.168949{col 70}{space 3} .0803235
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .1288372{col 29}{space 2}  .529887{col 40}{space 1}    0.24{col 49}{space 3}0.808{col 57}{space 4}-.9213267{col 70}{space 3} 1.179001
+{txt}{space 15} {c |}
+{space 3}SES#c.GRAVID {c |}
+{space 10}Poor  {c |}{col 17}{res}{space 2} .0636598{col 29}{space 2} .0847352{col 40}{space 1}    0.75{col 49}{space 3}0.453{col 57}{space 4}-.1031043{col 70}{space 3}  .230424
+{txt}{space 2}Intermediate  {c |}{col 17}{res}{space 2} .0497382{col 29}{space 2} .0789039{col 40}{space 1}    0.63{col 49}{space 3}0.529{col 57}{space 4}-.1051178{col 70}{space 3} .2045942
+{txt}{space 10}Rich  {c |}{col 17}{res}{space 2} .0531243{col 29}{space 2} .0814403{col 40}{space 1}    0.65{col 49}{space 3}0.514{col 57}{space 4}-.1068561{col 70}{space 3} .2131048
+{txt}{space 5}Very Rich  {c |}{col 17}{res}{space 2} .0118049{col 29}{space 2} .0955774{col 40}{space 1}    0.12{col 49}{space 3}0.902{col 57}{space 4} -.176342{col 70}{space 3} .1999518
+{txt}{space 15} {c |}
+{space 10}_cons {c |}{col 17}{res}{space 2}-2.913127{col 29}{space 2} .1998346{col 40}{space 1}  -14.58{col 49}{space 3}0.000{col 57}{space 4}-3.305066{col 70}{space 3}-2.521187
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. mi test   2.SES#c.GRAVID 3.SES#c.GRAVID 4.SES#c.GRAVID 5.SES#c.GRAVID
+{txt}note: assuming equal fractions of missing information
+{res}
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#c.GRAVID = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#c.GRAVID = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4.SES#c.GRAVID = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5.SES#c.GRAVID = 0{p_end}
+
+{txt}       F(  4,1270.1) ={res}    0.21
+{txt}{col 13}Prob > F ={res}    0.9326
+
+{com}. mi estimate: xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking i.SES#ANXIETY, family(binomial) link(logit) corr(exchangeable)
+{res}
+{txt}Multiple-imputation estimates{col 49}Imputations{col 67}= {res}        20
+{txt}GEE population-averaged model{col 49}Number of obs{col 67}= {res}    33,765
+
+{txt}Group variable:{ralign 27:{res:id}}{col 49}Number of groups{col 67}= {res}     6,767
+{txt}Link:{ralign 37:{res:logit}}{col 49}Obs per group:
+Family:{ralign 35:{res:binomial}}{col 49}              min{col 67}= {res}         1
+{txt}Correlation:{ralign 30:{res:exchangeable}}{col 49}              avg{col 67}= {res}       5.0
+{txt}Scale parameter:{ralign 26:{res:1}}{col 49}              max{col 67}= {res}         5
+
+{txt}{col 49}Average RVI{col 67}= {res}    0.3641
+{txt}{col 49}Largest FMI{col 67}= {res}    0.4472
+{txt}DF adjustment:{ralign 28: {res:Large sample}}{col 49}DF:     min{col 67}= {res}     99.85
+{txt}{col 49}        avg{col 67}= {res}    525.88
+{txt}{col 49}        max{col 67}= {res}  2,229.04
+{txt}Model F test:{ralign 29: {res:Equal FMI}}{col 49}F({res}  17{txt},{res} 4666.3{txt}){col 67}= {res}     16.62
+{txt}Within VCE type: {ralign 25:{res:Conventional}}{col 49}Prob > F{col 67}= {res}    0.0000
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}        wasting{col 17}{c |}      Coef.{col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}SES {c |}
+{space 10}Poor  {c |}{col 17}{res}{space 2}-.1545101{col 29}{space 2} .0908889{col 40}{space 1}   -1.70{col 49}{space 3}0.090{col 57}{space 4}-.3331071{col 70}{space 3} .0240869
+{txt}{space 2}Intermediate  {c |}{col 17}{res}{space 2}-.2412532{col 29}{space 2} .0864438{col 40}{space 1}   -2.79{col 49}{space 3}0.005{col 57}{space 4} -.410772{col 70}{space 3}-.0717343
+{txt}{space 10}Rich  {c |}{col 17}{res}{space 2}-.2441387{col 29}{space 2} .0932491{col 40}{space 1}   -2.62{col 49}{space 3}0.009{col 57}{space 4}-.4273593{col 70}{space 3}-.0609182
+{txt}{space 5}Very Rich  {c |}{col 17}{res}{space 2}-.3211474{col 29}{space 2} .0980859{col 40}{space 1}   -3.27{col 49}{space 3}0.001{col 57}{space 4}-.5137433{col 70}{space 3}-.1285515
+{txt}{space 15} {c |}
+{space 3}Growth_Month {c |}{col 17}{res}{space 2} .0253932{col 29}{space 2}  .002865{col 40}{space 1}    8.86{col 49}{space 3}0.000{col 57}{space 4}  .019709{col 70}{space 3} .0310773
+{txt}{space 15} {c |}
+{space 9}CENTER {c |}
+{space 10}Yazd  {c |}{col 17}{res}{space 2} .8532556{col 29}{space 2} .0655358{col 40}{space 1}   13.02{col 49}{space 3}0.000{col 57}{space 4} .7245808{col 70}{space 3} .9819304
+{txt}{space 5}Rafsanjan  {c |}{col 17}{res}{space 2} .1406949{col 29}{space 2} .1212511{col 40}{space 1}    1.16{col 49}{space 3}0.248{col 57}{space 4}-.0988623{col 70}{space 3} .3802521
+{txt}{space 8}Semnan  {c |}{col 17}{res}{space 2} .0942767{col 29}{space 2}  .107144{col 40}{space 1}    0.88{col 49}{space 3}0.380{col 57}{space 4}-.1167223{col 70}{space 3} .3052757
+{txt}{space 15} {c |}
+{space 12}Age {c |}{col 17}{res}{space 2} .0106645{col 29}{space 2} .0060797{col 40}{space 1}    1.75{col 49}{space 3}0.080{col 57}{space 4} -.001271{col 70}{space 3} .0226001
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2}-.0587363{col 29}{space 2} .0327537{col 40}{space 1}   -1.79{col 49}{space 3}0.074{col 57}{space 4} -.123159{col 70}{space 3} .0056865
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2}-.2152533{col 29}{space 2}  .329003{col 40}{space 1}   -0.65{col 49}{space 3}0.514{col 57}{space 4}-.8654562{col 70}{space 3} .4349495
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2}-.0438849{col 29}{space 2} .0633214{col 40}{space 1}   -0.69{col 49}{space 3}0.489{col 57}{space 4}-.1684914{col 70}{space 3} .0807217
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2} .1243094{col 29}{space 2} .5308237{col 40}{space 1}    0.23{col 49}{space 3}0.815{col 57}{space 4}-.9277968{col 70}{space 3} 1.176416
+{txt}{space 15} {c |}
+{space 4}SES#ANXIETY {c |}
+{space 3}Very poor#1  {c |}{col 17}{res}{space 2} -.025099{col 29}{space 2} .4313103{col 40}{space 1}   -0.06{col 49}{space 3}0.954{col 57}{space 4}-.8756641{col 70}{space 3}  .825466
+{txt}{space 8}Poor#1  {c |}{col 17}{res}{space 2} .2707621{col 29}{space 2} .4061068{col 40}{space 1}    0.67{col 49}{space 3}0.505{col 57}{space 4}-.5284803{col 70}{space 3} 1.070005
+{txt}Intermediate#1  {c |}{col 17}{res}{space 2} .1512023{col 29}{space 2} .3972812{col 40}{space 1}    0.38{col 49}{space 3}0.704{col 57}{space 4}-.6288764{col 70}{space 3}  .931281
+{txt}{space 8}Rich#1  {c |}{col 17}{res}{space 2} .4183061{col 29}{space 2} .4188435{col 40}{space 1}    1.00{col 49}{space 3}0.319{col 57}{space 4}-.4084125{col 70}{space 3} 1.245025
+{txt}{space 3}Very Rich#1  {c |}{col 17}{res}{space 2}        0{col 29}{txt}  (omitted)
+{space 15} {c |}
+{space 10}_cons {c |}{col 17}{res}{space 2}-2.986647{col 29}{space 2}   .17302{col 40}{space 1}  -17.26{col 49}{space 3}0.000{col 57}{space 4}-3.326043{col 70}{space 3}-2.647251
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}.  mi test   2.SES#1.ANXIETY 3.SES#1.ANXIETY 4.SES#1.ANXIETY 5.SES#1.ANXIETY
+{txt}note: assuming equal fractions of missing information
+{res}
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.ANXIETY = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.ANXIETY = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4.SES#1.ANXIETY = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.ANXIETY = 0{p_end}
+{txt}       Constraint 4 dropped
+
+       F(  3, 997.3) ={res}    0.42
+{txt}{col 13}Prob > F ={res}    0.7371
+
+{com}. mi estimate: xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# CHRONIC_DISEASE, family(binomial) link(logit) corr(exchangeable)
+{res}
+{txt}Multiple-imputation estimates{col 49}Imputations{col 67}= {res}        20
+{txt}GEE population-averaged model{col 49}Number of obs{col 67}= {res}    33,765
+
+{txt}Group variable:{ralign 27:{res:id}}{col 49}Number of groups{col 67}= {res}     6,767
+{txt}Link:{ralign 37:{res:logit}}{col 49}Obs per group:
+Family:{ralign 35:{res:binomial}}{col 49}              min{col 67}= {res}         1
+{txt}Correlation:{ralign 30:{res:exchangeable}}{col 49}              avg{col 67}= {res}       5.0
+{txt}Scale parameter:{ralign 26:{res:1}}{col 49}              max{col 67}= {res}         5
+
+{txt}{col 49}Average RVI{col 67}= {res}    0.3678
+{txt}{col 49}Largest FMI{col 67}= {res}    0.4478
+{txt}DF adjustment:{ralign 28: {res:Large sample}}{col 49}DF:     min{col 67}= {res}     99.57
+{txt}{col 49}        avg{col 67}= {res}    444.49
+{txt}{col 49}        max{col 67}= {res}  1,136.37
+{txt}Model F test:{ralign 29: {res:Equal FMI}}{col 49}F({res}  17{txt},{res} 4580.8{txt}){col 67}= {res}     16.67
+{txt}Within VCE type: {ralign 25:{res:Conventional}}{col 49}Prob > F{col 67}= {res}    0.0000
+
+{txt}{hline 20}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}            wasting{col 21}{c |}      Coef.{col 33}   Std. Err.{col 45}      t{col 53}   P>|t|{col 61}     [95% Con{col 74}f. Interval]
+{hline 20}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 16}SES {c |}
+{space 14}Poor  {c |}{col 21}{res}{space 2}-.1893937{col 33}{space 2} .1052799{col 44}{space 1}   -1.80{col 53}{space 3}0.073{col 61}{space 4}-.3961517{col 74}{space 3} .0173642
+{txt}{space 6}Intermediate  {c |}{col 21}{res}{space 2}-.2485892{col 33}{space 2} .1020998{col 44}{space 1}   -2.43{col 53}{space 3}0.015{col 61}{space 4}-.4489144{col 74}{space 3} -.048264
+{txt}{space 14}Rich  {c |}{col 21}{res}{space 2}-.2778613{col 33}{space 2} .1104542{col 44}{space 1}   -2.52{col 53}{space 3}0.012{col 61}{space 4}-.4949739{col 74}{space 3}-.0607488
+{txt}{space 9}Very Rich  {c |}{col 21}{res}{space 2}-.4411258{col 33}{space 2} .1251128{col 44}{space 1}   -3.53{col 53}{space 3}0.001{col 61}{space 4}-.6875151{col 74}{space 3}-.1947365
+{txt}{space 19} {c |}
+{space 7}Growth_Month {c |}{col 21}{res}{space 2} .0253981{col 33}{space 2} .0028683{col 44}{space 1}    8.85{col 53}{space 3}0.000{col 61}{space 4} .0197073{col 74}{space 3} .0310889
+{txt}{space 19} {c |}
+{space 13}CENTER {c |}
+{space 14}Yazd  {c |}{col 21}{res}{space 2} .8543298{col 33}{space 2} .0653302{col 44}{space 1}   13.08{col 53}{space 3}0.000{col 61}{space 4}  .726069{col 74}{space 3} .9825906
+{txt}{space 9}Rafsanjan  {c |}{col 21}{res}{space 2}  .146869{col 33}{space 2} .1214486{col 44}{space 1}    1.21{col 53}{space 3}0.228{col 61}{space 4}-.0931124{col 74}{space 3} .3868504
+{txt}{space 12}Semnan  {c |}{col 21}{res}{space 2} .0947722{col 33}{space 2} .1074277{col 44}{space 1}    0.88{col 53}{space 3}0.379{col 61}{space 4}-.1168222{col 74}{space 3} .3063667
+{txt}{space 19} {c |}
+{space 16}Age {c |}{col 21}{res}{space 2}  .010682{col 33}{space 2} .0060706{col 44}{space 1}    1.76{col 53}{space 3}0.079{col 61}{space 4}-.0012356{col 74}{space 3} .0225996
+{txt}{space 13}GRAVID {c |}{col 21}{res}{space 2}-.0581946{col 33}{space 2} .0327004{col 44}{space 1}   -1.78{col 53}{space 3}0.076{col 61}{space 4}-.1225084{col 74}{space 3} .0061192
+{txt}{space 12}ANXIETY {c |}{col 21}{res}{space 2}-.0404256{col 33}{space 2} .1225471{col 44}{space 1}   -0.33{col 53}{space 3}0.742{col 61}{space 4}-.2814927{col 74}{space 3} .2006415
+{txt}{space 4}CHRONIC_DISEASE {c |}{col 21}{res}{space 2} .1553949{col 33}{space 2} .1508773{col 44}{space 1}    1.03{col 53}{space 3}0.304{col 61}{space 4}-.1419661{col 74}{space 3} .4527558
+{txt}{space 7}DailySmoking {c |}{col 21}{res}{space 2}  .133887{col 33}{space 2}  .530254{col 44}{space 1}    0.25{col 53}{space 3}0.801{col 61}{space 4}-.9170897{col 74}{space 3} 1.184864
+{txt}{space 19} {c |}
+SES#CHRONIC_DISEASE {c |}
+{space 7}Very poor#1  {c |}{col 21}{res}{space 2}-.3474786{col 33}{space 2} .2117851{col 44}{space 1}   -1.64{col 53}{space 3}0.103{col 61}{space 4}-.7653223{col 74}{space 3} .0703651
+{txt}{space 12}Poor#1  {c |}{col 21}{res}{space 2}-.1813923{col 33}{space 2} .1878051{col 44}{space 1}   -0.97{col 53}{space 3}0.334{col 61}{space 4}-.5500023{col 74}{space 3} .1872177
+{txt}{space 4}Intermediate#1  {c |}{col 21}{res}{space 2}-.2952734{col 33}{space 2} .2072899{col 44}{space 1}   -1.42{col 53}{space 3}0.155{col 61}{space 4}-.7033167{col 74}{space 3} .1127699
+{txt}{space 12}Rich#1  {c |}{col 21}{res}{space 2}-.1560177{col 33}{space 2} .2056257{col 44}{space 1}   -0.76{col 53}{space 3}0.449{col 61}{space 4}-.5610905{col 74}{space 3}  .249055
+{txt}{space 7}Very Rich#1  {c |}{col 21}{res}{space 2}        0{col 33}{txt}  (omitted)
+{space 19} {c |}
+{space 14}_cons {c |}{col 21}{res}{space 2}-2.954602{col 33}{space 2} .1772854{col 44}{space 1}  -16.67{col 53}{space 3}0.000{col 61}{space 4}-3.302475{col 74}{space 3}-2.606729
+{txt}{hline 20}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}.  mi test   2.SES#1.CHRONIC_DISEASE 3.SES#1.CHRONIC_DISEASE 4.SES#1.CHRONIC_DISEASE 5.SES#1.CHRONIC_DISEASE
+{txt}note: assuming equal fractions of missing information
+{res}
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.CHRONIC_DISEASE = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.CHRONIC_DISEASE = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4.SES#1.CHRONIC_DISEASE = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.CHRONIC_DISEASE = 0{p_end}
+{txt}       Constraint 4 dropped
+
+       F(  3,1084.7) ={res}    0.73
+{txt}{col 13}Prob > F ={res}    0.5339
+
+{com}. mi xeq: xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{res}
+{txt}{it:m}=0 data:
+{res}{txt}-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 1.SES#1.DailySmoking != 0 predicts failure perfectly
+      1.SES#1.DailySmoking dropped and 13 obs not used
+
+note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 12 obs not used
+
+note: 5.SES#1.DailySmoking != 0 predicts failure perfectly
+      5.SES#1.DailySmoking dropped and 12 obs not used
+
+note: 3.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.07282767
+{txt}Iteration 2: tolerance = {res}.00865219
+{txt}Iteration 3: tolerance = {res}.00045414
+{txt}Iteration 4: tolerance = {res}9.999e-06
+{txt}Iteration 5: tolerance = {res}3.980e-07
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    23,208
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,229
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       3.7
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}14{txt})     =  {res}   350.18
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}  -.19651{col 30}{space 2} .0990454{col 41}{space 1}   -1.98{col 50}{space 3}0.047{col 58}{space 4}-.3906354{col 71}{space 3}-.0023846
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2671668{col 30}{space 2} .0992049{col 41}{space 1}   -2.69{col 50}{space 3}0.007{col 58}{space 4}-.4616049{col 71}{space 3}-.0727288
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2046387{col 30}{space 2} .0994703{col 41}{space 1}   -2.06{col 50}{space 3}0.040{col 58}{space 4} -.399597{col 71}{space 3}-.0096805
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3511601{col 30}{space 2} .1088433{col 41}{space 1}   -3.23{col 50}{space 3}0.001{col 58}{space 4} -.564489{col 71}{space 3}-.1378312
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0309707{col 30}{space 2} .0035944{col 41}{space 1}    8.62{col 50}{space 3}0.000{col 58}{space 4} .0239257{col 71}{space 3} .0380157
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} 1.174714{col 30}{space 2} .0743948{col 41}{space 1}   15.79{col 50}{space 3}0.000{col 58}{space 4} 1.028903{col 71}{space 3} 1.320525
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2}-.1535714{col 30}{space 2} .1638129{col 41}{space 1}   -0.94{col 50}{space 3}0.349{col 58}{space 4}-.4746389{col 71}{space 3} .1674961
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .1491412{col 30}{space 2} .1137322{col 41}{space 1}    1.31{col 50}{space 3}0.190{col 58}{space 4}-.0737698{col 71}{space 3} .3720522
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0133239{col 30}{space 2} .0070085{col 41}{space 1}    1.90{col 50}{space 3}0.057{col 58}{space 4}-.0004125{col 71}{space 3} .0270603
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0934832{col 30}{space 2} .0364527{col 41}{space 1}   -2.56{col 50}{space 3}0.010{col 58}{space 4}-.1649291{col 71}{space 3}-.0220372
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.0803968{col 30}{space 2} .1355161{col 41}{space 1}   -0.59{col 50}{space 3}0.553{col 58}{space 4}-.3460035{col 71}{space 3} .1852099
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0495397{col 30}{space 2}  .068328{col 41}{space 1}   -0.73{col 50}{space 3}0.468{col 58}{space 4}-.1834601{col 71}{space 3} .0843807
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} 1.163768{col 30}{space 2} .7530077{col 41}{space 1}    1.55{col 50}{space 3}0.122{col 58}{space 4}-.3121003{col 71}{space 3} 2.639636
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 9}Poor#1  {c |}{col 18}{res}{space 2} .1979064{col 30}{space 2} 1.066608{col 41}{space 1}    0.19{col 50}{space 3}0.853{col 58}{space 4}-1.892607{col 71}{space 3}  2.28842
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.198853{col 30}{space 2}  .204639{col 41}{space 1}  -15.63{col 50}{space 3}0.000{col 58}{space 4}-3.599938{col 71}{space 3}-2.797768
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=1 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 1.SES#1.DailySmoking != 0 predicts failure perfectly
+      1.SES#1.DailySmoking dropped and 20 obs not used
+
+note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking != 0 predicts failure perfectly
+      5.SES#1.DailySmoking dropped and 30 obs not used
+
+note: 3.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.0681285
+{txt}Iteration 2: tolerance = {res}.00236594
+{txt}Iteration 3: tolerance = {res}.00004684
+{txt}Iteration 4: tolerance = {res}8.410e-07
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,700
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,754
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}14{txt})     =  {res}   382.95
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1248405{col 30}{space 2} .0788336{col 41}{space 1}   -1.58{col 50}{space 3}0.113{col 58}{space 4}-.2793516{col 71}{space 3} .0296705
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2412807{col 30}{space 2} .0803488{col 41}{space 1}   -3.00{col 50}{space 3}0.003{col 58}{space 4}-.3987614{col 71}{space 3}   -.0838
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2160483{col 30}{space 2} .0809248{col 41}{space 1}   -2.67{col 50}{space 3}0.008{col 58}{space 4} -.374658{col 71}{space 3}-.0574386
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.2959569{col 30}{space 2} .0867055{col 41}{space 1}   -3.41{col 50}{space 3}0.001{col 58}{space 4}-.4658967{col 71}{space 3}-.1260172
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0265942{col 30}{space 2} .0021027{col 41}{space 1}   12.65{col 50}{space 3}0.000{col 58}{space 4}  .022473{col 71}{space 3} .0307154
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8335907{col 30}{space 2} .0599382{col 41}{space 1}   13.91{col 50}{space 3}0.000{col 58}{space 4}  .716114{col 71}{space 3} .9510673
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .2170093{col 30}{space 2}  .094829{col 41}{space 1}    2.29{col 50}{space 3}0.022{col 58}{space 4} .0311478{col 71}{space 3} .4028708
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .1177066{col 30}{space 2} .0903955{col 41}{space 1}    1.30{col 50}{space 3}0.193{col 58}{space 4}-.0594652{col 71}{space 3} .2948785
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0094834{col 30}{space 2} .0055666{col 41}{space 1}    1.70{col 50}{space 3}0.088{col 58}{space 4}-.0014269{col 71}{space 3} .0203936
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0541265{col 30}{space 2} .0285681{col 41}{space 1}   -1.89{col 50}{space 3}0.058{col 58}{space 4}-.1101191{col 71}{space 3}  .001866
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.0202516{col 30}{space 2} .1059933{col 41}{space 1}   -0.19{col 50}{space 3}0.848{col 58}{space 4}-.2279946{col 71}{space 3} .1874914
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0454911{col 30}{space 2} .0546867{col 41}{space 1}   -0.83{col 50}{space 3}0.405{col 58}{space 4}-.1526751{col 71}{space 3} .0616929
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} .9760409{col 30}{space 2} .6529418{col 41}{space 1}    1.49{col 50}{space 3}0.135{col 58}{space 4}-.3037015{col 71}{space 3} 2.255783
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 9}Poor#1  {c |}{col 18}{res}{space 2}-.3109164{col 30}{space 2} .9031148{col 41}{space 1}   -0.34{col 50}{space 3}0.731{col 58}{space 4}-2.080989{col 71}{space 3} 1.459156
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-2.955331{col 30}{space 2} .1619578{col 41}{space 1}  -18.25{col 50}{space 3}0.000{col 58}{space 4}-3.272763{col 71}{space 3}  -2.6379
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=2 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.04258043
+{txt}Iteration 2: tolerance = {res}.00135773
+{txt}Iteration 3: tolerance = {res}.00002125
+{txt}Iteration 4: tolerance = {res}3.086e-07
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,750
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,764
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}16{txt})     =  {res}   412.44
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1728928{col 30}{space 2} .0802056{col 41}{space 1}   -2.16{col 50}{space 3}0.031{col 58}{space 4}-.3300929{col 71}{space 3}-.0156927
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2428571{col 30}{space 2} .0810085{col 41}{space 1}   -3.00{col 50}{space 3}0.003{col 58}{space 4}-.4016308{col 71}{space 3}-.0840835
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2229853{col 30}{space 2} .0816513{col 41}{space 1}   -2.73{col 50}{space 3}0.006{col 58}{space 4}-.3830189{col 71}{space 3}-.0629517
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.2579511{col 30}{space 2} .0867331{col 41}{space 1}   -2.97{col 50}{space 3}0.003{col 58}{space 4}-.4279449{col 71}{space 3}-.0879572
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0284217{col 30}{space 2} .0021405{col 41}{space 1}   13.28{col 50}{space 3}0.000{col 58}{space 4} .0242264{col 71}{space 3} .0326171
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8374204{col 30}{space 2} .0602757{col 41}{space 1}   13.89{col 50}{space 3}0.000{col 58}{space 4} .7192821{col 71}{space 3} .9555586
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .1067486{col 30}{space 2} .0986581{col 41}{space 1}    1.08{col 50}{space 3}0.279{col 58}{space 4}-.0866177{col 71}{space 3} .3001149
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .1297863{col 30}{space 2}  .090327{col 41}{space 1}    1.44{col 50}{space 3}0.151{col 58}{space 4}-.0472514{col 71}{space 3} .3068241
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0099422{col 30}{space 2}  .005618{col 41}{space 1}    1.77{col 50}{space 3}0.077{col 58}{space 4}-.0010689{col 71}{space 3} .0209532
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0751413{col 30}{space 2} .0290672{col 41}{space 1}   -2.59{col 50}{space 3}0.010{col 58}{space 4}-.1321119{col 71}{space 3}-.0181708
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2} .0188882{col 30}{space 2}  .105329{col 41}{space 1}    0.18{col 50}{space 3}0.858{col 58}{space 4}-.1875528{col 71}{space 3} .2253292
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0010265{col 30}{space 2} .0548209{col 41}{space 1}   -0.02{col 50}{space 3}0.985{col 58}{space 4}-.1084734{col 71}{space 3} .1064204
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} .8880436{col 30}{space 2} .6357039{col 41}{space 1}    1.40{col 50}{space 3}0.162{col 58}{space 4} -.357913{col 71}{space 3}    2.134
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}-.9037534{col 30}{space 2} 1.173915{col 41}{space 1}   -0.77{col 50}{space 3}0.441{col 58}{space 4}-3.204585{col 71}{space 3} 1.397078
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2} .4276595{col 30}{space 2} .8266875{col 41}{space 1}    0.52{col 50}{space 3}0.605{col 58}{space 4}-1.192618{col 71}{space 3} 2.047937
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2} .5691529{col 30}{space 2} .8541053{col 41}{space 1}    0.67{col 50}{space 3}0.505{col 58}{space 4}-1.104863{col 71}{space 3} 2.243168
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-2.997054{col 30}{space 2} .1634856{col 41}{space 1}  -18.33{col 50}{space 3}0.000{col 58}{space 4} -3.31748{col 71}{space 3}-2.676628
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=3 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 1.SES#1.DailySmoking != 0 predicts failure perfectly
+      1.SES#1.DailySmoking dropped and 20 obs not used
+
+note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.07600462
+{txt}Iteration 2: tolerance = {res}.00341557
+{txt}Iteration 3: tolerance = {res}.00012168
+{txt}Iteration 4: tolerance = {res}2.573e-06
+{txt}Iteration 5: tolerance = {res}1.129e-07
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,730
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,760
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}15{txt})     =  {res}   397.07
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1595079{col 30}{space 2} .0789835{col 41}{space 1}   -2.02{col 50}{space 3}0.043{col 58}{space 4}-.3143127{col 71}{space 3}-.0047031
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2010749{col 30}{space 2} .0793416{col 41}{space 1}   -2.53{col 50}{space 3}0.011{col 58}{space 4}-.3565816{col 71}{space 3}-.0455681
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.1707144{col 30}{space 2} .0798707{col 41}{space 1}   -2.14{col 50}{space 3}0.033{col 58}{space 4}-.3272581{col 71}{space 3}-.0141706
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3047927{col 30}{space 2} .0865649{col 41}{space 1}   -3.52{col 50}{space 3}0.000{col 58}{space 4}-.4744567{col 71}{space 3}-.1351286
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0257557{col 30}{space 2} .0021586{col 41}{space 1}   11.93{col 50}{space 3}0.000{col 58}{space 4}  .021525{col 71}{space 3} .0299865
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2}  .860055{col 30}{space 2}  .059184{col 41}{space 1}   14.53{col 50}{space 3}0.000{col 58}{space 4} .7440565{col 71}{space 3} .9760535
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .1318356{col 30}{space 2} .0965554{col 41}{space 1}    1.37{col 50}{space 3}0.172{col 58}{space 4}-.0574094{col 71}{space 3} .3210807
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .0447756{col 30}{space 2} .0915649{col 41}{space 1}    0.49{col 50}{space 3}0.625{col 58}{space 4}-.1346883{col 71}{space 3} .2242396
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0116895{col 30}{space 2} .0055309{col 41}{space 1}    2.11{col 50}{space 3}0.035{col 58}{space 4} .0008492{col 71}{space 3} .0225299
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0713124{col 30}{space 2} .0285564{col 41}{space 1}   -2.50{col 50}{space 3}0.013{col 58}{space 4}-.1272819{col 71}{space 3} -.015343
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2} -.006783{col 30}{space 2} .1045346{col 41}{space 1}   -0.06{col 50}{space 3}0.948{col 58}{space 4} -.211667{col 71}{space 3}  .198101
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0272986{col 30}{space 2}  .054178{col 41}{space 1}   -0.50{col 50}{space 3}0.614{col 58}{space 4}-.1334855{col 71}{space 3} .0788883
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2}-1.039994{col 30}{space 2} 1.372636{col 41}{space 1}   -0.76{col 50}{space 3}0.449{col 58}{space 4} -3.73031{col 71}{space 3} 1.650323
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 9}Poor#1  {c |}{col 18}{res}{space 2} 1.810368{col 30}{space 2} 1.501223{col 41}{space 1}    1.21{col 50}{space 3}0.228{col 58}{space 4}-1.131975{col 71}{space 3} 4.752711
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2}  1.37733{col 30}{space 2} 1.592617{col 41}{space 1}    0.86{col 50}{space 3}0.387{col 58}{space 4}-1.744143{col 71}{space 3} 4.498803
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.021622{col 30}{space 2} .1611956{col 41}{space 1}  -18.75{col 50}{space 3}0.000{col 58}{space 4} -3.33756{col 71}{space 3}-2.705684
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=4 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.126496
+{txt}Iteration 2: tolerance = {res}.01061504
+{txt}Iteration 3: tolerance = {res}.00006025
+{txt}Iteration 4: tolerance = {res}1.227e-06
+{txt}Iteration 5: tolerance = {res}3.078e-08
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,750
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,764
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}16{txt})     =  {res}   414.59
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2} -.091498{col 30}{space 2} .0792488{col 41}{space 1}   -1.15{col 50}{space 3}0.248{col 58}{space 4}-.2468228{col 71}{space 3} .0638268
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2579689{col 30}{space 2} .0816882{col 41}{space 1}   -3.16{col 50}{space 3}0.002{col 58}{space 4}-.4180748{col 71}{space 3} -.097863
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2} -.177371{col 30}{space 2} .0813908{col 41}{space 1}   -2.18{col 50}{space 3}0.029{col 58}{space 4}-.3368939{col 71}{space 3} -.017848
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2} -.289498{col 30}{space 2} .0878983{col 41}{space 1}   -3.29{col 50}{space 3}0.001{col 58}{space 4}-.4617755{col 71}{space 3}-.1172204
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0262977{col 30}{space 2} .0021596{col 41}{space 1}   12.18{col 50}{space 3}0.000{col 58}{space 4} .0220649{col 71}{space 3} .0305305
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8821441{col 30}{space 2} .0600427{col 41}{space 1}   14.69{col 50}{space 3}0.000{col 58}{space 4} .7644626{col 71}{space 3} .9998256
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .0502129{col 30}{space 2} .1010321{col 41}{space 1}    0.50{col 50}{space 3}0.619{col 58}{space 4}-.1478063{col 71}{space 3}  .248232
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .0643812{col 30}{space 2} .0928262{col 41}{space 1}    0.69{col 50}{space 3}0.488{col 58}{space 4}-.1175547{col 71}{space 3} .2463171
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0116931{col 30}{space 2} .0056197{col 41}{space 1}    2.08{col 50}{space 3}0.037{col 58}{space 4} .0006787{col 71}{space 3} .0227074
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0676418{col 30}{space 2} .0290127{col 41}{space 1}   -2.33{col 50}{space 3}0.020{col 58}{space 4}-.1245057{col 71}{space 3}-.0107778
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2} .0154446{col 30}{space 2} .1056096{col 41}{space 1}    0.15{col 50}{space 3}0.884{col 58}{space 4}-.1915463{col 71}{space 3} .2224356
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0645539{col 30}{space 2} .0553185{col 41}{space 1}   -1.17{col 50}{space 3}0.243{col 58}{space 4}-.1729761{col 71}{space 3} .0438683
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2}-.7601291{col 30}{space 2} 1.232714{col 41}{space 1}   -0.62{col 50}{space 3}0.537{col 58}{space 4}-3.176205{col 71}{space 3} 1.655947
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2} .0467827{col 30}{space 2} 1.808862{col 41}{space 1}    0.03{col 50}{space 3}0.979{col 58}{space 4}-3.498521{col 71}{space 3} 3.592086
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2} .8831034{col 30}{space 2} 1.446452{col 41}{space 1}    0.61{col 50}{space 3}0.542{col 58}{space 4} -1.95189{col 71}{space 3} 3.718096
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2} 1.156772{col 30}{space 2} 1.479788{col 41}{space 1}    0.78{col 50}{space 3}0.434{col 58}{space 4}-1.743559{col 71}{space 3} 4.057103
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.046959{col 30}{space 2} .1637852{col 41}{space 1}  -18.60{col 50}{space 3}0.000{col 58}{space 4}-3.367972{col 71}{space 3}-2.725945
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=5 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking != 0 predicts failure perfectly
+      5.SES#1.DailySmoking dropped and 30 obs not used
+
+note: 3.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.06107999
+{txt}Iteration 2: tolerance = {res}.00192466
+{txt}Iteration 3: tolerance = {res}.00004104
+{txt}Iteration 4: tolerance = {res}7.589e-07
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,720
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,758
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}15{txt})     =  {res}   407.65
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1511767{col 30}{space 2}   .07869{col 41}{space 1}   -1.92{col 50}{space 3}0.055{col 58}{space 4}-.3054062{col 71}{space 3} .0030527
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2453103{col 30}{space 2} .0797829{col 41}{space 1}   -3.07{col 50}{space 3}0.002{col 58}{space 4}-.4016819{col 71}{space 3}-.0889386
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2141152{col 30}{space 2} .0801688{col 41}{space 1}   -2.67{col 50}{space 3}0.008{col 58}{space 4}-.3712431{col 71}{space 3}-.0569873
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3857221{col 30}{space 2} .0873244{col 41}{space 1}   -4.42{col 50}{space 3}0.000{col 58}{space 4}-.5568747{col 71}{space 3}-.2145694
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0276484{col 30}{space 2} .0021299{col 41}{space 1}   12.98{col 50}{space 3}0.000{col 58}{space 4} .0234739{col 71}{space 3} .0318229
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8708131{col 30}{space 2} .0599383{col 41}{space 1}   14.53{col 50}{space 3}0.000{col 58}{space 4} .7533363{col 71}{space 3}   .98829
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .2103376{col 30}{space 2} .0961031{col 41}{space 1}    2.19{col 50}{space 3}0.029{col 58}{space 4} .0219789{col 71}{space 3} .3986963
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .2113867{col 30}{space 2} .0887217{col 41}{space 1}    2.38{col 50}{space 3}0.017{col 58}{space 4} .0374953{col 71}{space 3} .3852781
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0122836{col 30}{space 2} .0055496{col 41}{space 1}    2.21{col 50}{space 3}0.027{col 58}{space 4} .0014067{col 71}{space 3} .0231605
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0685167{col 30}{space 2} .0285758{col 41}{space 1}   -2.40{col 50}{space 3}0.016{col 58}{space 4}-.1245242{col 71}{space 3}-.0125091
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.0469184{col 30}{space 2} .1067411{col 41}{space 1}   -0.44{col 50}{space 3}0.660{col 58}{space 4} -.256127{col 71}{space 3} .1622902
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}  .000164{col 30}{space 2} .0542584{col 41}{space 1}    0.00{col 50}{space 3}0.998{col 58}{space 4}-.1061805{col 71}{space 3} .1065086
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} .9980664{col 30}{space 2} .6458647{col 41}{space 1}    1.55{col 50}{space 3}0.122{col 58}{space 4} -.267805{col 71}{space 3} 2.263938
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}-1.064018{col 30}{space 2} 1.178068{col 41}{space 1}   -0.90{col 50}{space 3}0.366{col 58}{space 4}-3.372988{col 71}{space 3} 1.244952
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2}-.2963236{col 30}{space 2} .8946665{col 41}{space 1}   -0.33{col 50}{space 3}0.740{col 58}{space 4}-2.049838{col 71}{space 3} 1.457191
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.060717{col 30}{space 2} .1618635{col 41}{space 1}  -18.91{col 50}{space 3}0.000{col 58}{space 4}-3.377964{col 71}{space 3}-2.743471
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=6 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 1.SES#1.DailySmoking != 0 predicts failure perfectly
+      1.SES#1.DailySmoking dropped and 20 obs not used
+
+note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking != 0 predicts failure perfectly
+      5.SES#1.DailySmoking dropped and 30 obs not used
+
+note: 3.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.00776231
+{txt}Iteration 2: tolerance = {res}.00001506
+{txt}Iteration 3: tolerance = {res}1.101e-07
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,700
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,754
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}14{txt})     =  {res}   356.26
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1148088{col 30}{space 2} .0794993{col 41}{space 1}   -1.44{col 50}{space 3}0.149{col 58}{space 4}-.2706245{col 71}{space 3}  .041007
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2068749{col 30}{space 2} .0807889{col 41}{space 1}   -2.56{col 50}{space 3}0.010{col 58}{space 4}-.3652183{col 71}{space 3}-.0485315
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2095131{col 30}{space 2} .0819852{col 41}{space 1}   -2.56{col 50}{space 3}0.011{col 58}{space 4}-.3702012{col 71}{space 3} -.048825
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.2505745{col 30}{space 2} .0875122{col 41}{space 1}   -2.86{col 50}{space 3}0.004{col 58}{space 4}-.4220953{col 71}{space 3}-.0790537
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0230665{col 30}{space 2} .0021936{col 41}{space 1}   10.52{col 50}{space 3}0.000{col 58}{space 4} .0187671{col 71}{space 3}  .027366
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8156572{col 30}{space 2} .0597752{col 41}{space 1}   13.65{col 50}{space 3}0.000{col 58}{space 4} .6984999{col 71}{space 3} .9328145
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2}-.0301632{col 30}{space 2} .1021302{col 41}{space 1}   -0.30{col 50}{space 3}0.768{col 58}{space 4}-.2303347{col 71}{space 3} .1700083
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .0124928{col 30}{space 2} .0927905{col 41}{space 1}    0.13{col 50}{space 3}0.893{col 58}{space 4}-.1693732{col 71}{space 3} .1943588
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0110039{col 30}{space 2} .0056213{col 41}{space 1}    1.96{col 50}{space 3}0.050{col 58}{space 4}-.0000136{col 71}{space 3} .0220215
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0535929{col 30}{space 2}  .028849{col 41}{space 1}   -1.86{col 50}{space 3}0.063{col 58}{space 4}-.1101358{col 71}{space 3} .0029501
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2} .0323991{col 30}{space 2} .1048425{col 41}{space 1}    0.31{col 50}{space 3}0.757{col 58}{space 4}-.1730884{col 71}{space 3} .2378866
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0671028{col 30}{space 2} .0553295{col 41}{space 1}   -1.21{col 50}{space 3}0.225{col 58}{space 4}-.1755467{col 71}{space 3}  .041341
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} 1.458072{col 30}{space 2}  .563774{col 41}{space 1}    2.59{col 50}{space 3}0.010{col 58}{space 4} .3530957{col 71}{space 3} 2.563049
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 9}Poor#1  {c |}{col 18}{res}{space 2}-.5902617{col 30}{space 2} .8108679{col 41}{space 1}   -0.73{col 50}{space 3}0.467{col 58}{space 4}-2.179534{col 71}{space 3} .9990101
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.004561{col 30}{space 2} .1636844{col 41}{space 1}  -18.36{col 50}{space 3}0.000{col 58}{space 4}-3.325376{col 71}{space 3}-2.683746
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=7 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.12556374
+{txt}Iteration 2: tolerance = {res}.00339935
+{txt}Iteration 3: tolerance = {res}.00019554
+{txt}Iteration 4: tolerance = {res}2.082e-06
+{txt}Iteration 5: tolerance = {res}9.835e-08
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,750
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,764
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}16{txt})     =  {res}   346.80
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1507073{col 30}{space 2} .0790928{col 41}{space 1}   -1.91{col 50}{space 3}0.057{col 58}{space 4}-.3057263{col 71}{space 3} .0043117
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2331913{col 30}{space 2} .0800896{col 41}{space 1}   -2.91{col 50}{space 3}0.004{col 58}{space 4}-.3901639{col 71}{space 3}-.0762186
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2103871{col 30}{space 2} .0807383{col 41}{space 1}   -2.61{col 50}{space 3}0.009{col 58}{space 4}-.3686312{col 71}{space 3} -.052143
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2} -.297475{col 30}{space 2} .0866982{col 41}{space 1}   -3.43{col 50}{space 3}0.001{col 58}{space 4}-.4674004{col 71}{space 3}-.1275496
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0226757{col 30}{space 2} .0021565{col 41}{space 1}   10.51{col 50}{space 3}0.000{col 58}{space 4}  .018449{col 71}{space 3} .0269024
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8469824{col 30}{space 2} .0598581{col 41}{space 1}   14.15{col 50}{space 3}0.000{col 58}{space 4} .7296628{col 71}{space 3} .9643021
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .1955433{col 30}{space 2} .0955388{col 41}{space 1}    2.05{col 50}{space 3}0.041{col 58}{space 4} .0082906{col 71}{space 3}  .382796
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .1048391{col 30}{space 2} .0908978{col 41}{space 1}    1.15{col 50}{space 3}0.249{col 58}{space 4}-.0733174{col 71}{space 3} .2829956
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0100913{col 30}{space 2} .0055656{col 41}{space 1}    1.81{col 50}{space 3}0.070{col 58}{space 4} -.000817{col 71}{space 3} .0209996
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0423081{col 30}{space 2} .0284025{col 41}{space 1}   -1.49{col 50}{space 3}0.136{col 58}{space 4}-.0979759{col 71}{space 3} .0133597
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.0831696{col 30}{space 2} .1084511{col 41}{space 1}   -0.77{col 50}{space 3}0.443{col 58}{space 4}-.2957298{col 71}{space 3} .1293906
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0691718{col 30}{space 2} .0548568{col 41}{space 1}   -1.26{col 50}{space 3}0.207{col 58}{space 4}-.1766892{col 71}{space 3} .0383455
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2}-.2908318{col 30}{space 2} .9842105{col 41}{space 1}   -0.30{col 50}{space 3}0.768{col 58}{space 4}-2.219849{col 71}{space 3} 1.638185
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}-.3399406{col 30}{space 2} 1.603918{col 41}{space 1}   -0.21{col 50}{space 3}0.832{col 58}{space 4}-3.483562{col 71}{space 3}  2.80368
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2} .7139861{col 30}{space 2} 1.197785{col 41}{space 1}    0.60{col 50}{space 3}0.551{col 58}{space 4}-1.633629{col 71}{space 3} 3.061601
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2} 1.275067{col 30}{space 2} 1.177894{col 41}{space 1}    1.08{col 50}{space 3}0.279{col 58}{space 4}-1.033564{col 71}{space 3} 3.583697
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2} -2.97417{col 30}{space 2} .1620499{col 41}{space 1}  -18.35{col 50}{space 3}0.000{col 58}{space 4}-3.291782{col 71}{space 3}-2.656558
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=8 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 1.SES#1.DailySmoking != 0 predicts failure perfectly
+      1.SES#1.DailySmoking dropped and 20 obs not used
+
+note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking != 0 predicts failure perfectly
+      5.SES#1.DailySmoking dropped and 30 obs not used
+
+note: 3.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.12027908
+{txt}Iteration 2: tolerance = {res}.00303762
+{txt}Iteration 3: tolerance = {res}.0001475
+{txt}Iteration 4: tolerance = {res}1.825e-06
+{txt}Iteration 5: tolerance = {res}6.291e-08
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,700
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,754
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}14{txt})     =  {res}   381.64
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.0466131{col 30}{space 2} .0788666{col 41}{space 1}   -0.59{col 50}{space 3}0.554{col 58}{space 4}-.2011888{col 71}{space 3} .1079626
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2427033{col 30}{space 2} .0816933{col 41}{space 1}   -2.97{col 50}{space 3}0.003{col 58}{space 4}-.4028193{col 71}{space 3}-.0825874
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.1448652{col 30}{space 2} .0810717{col 41}{space 1}   -1.79{col 50}{space 3}0.074{col 58}{space 4}-.3037629{col 71}{space 3} .0140324
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3210559{col 30}{space 2} .0885141{col 41}{space 1}   -3.63{col 50}{space 3}0.000{col 58}{space 4}-.4945402{col 71}{space 3}-.1475715
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0247697{col 30}{space 2} .0021294{col 41}{space 1}   11.63{col 50}{space 3}0.000{col 58}{space 4} .0205961{col 71}{space 3} .0289433
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8648337{col 30}{space 2}  .060127{col 41}{space 1}   14.38{col 50}{space 3}0.000{col 58}{space 4} .7469868{col 71}{space 3} .9826805
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .1737985{col 30}{space 2}   .09713{col 41}{space 1}    1.79{col 50}{space 3}0.074{col 58}{space 4}-.0165728{col 71}{space 3} .3641698
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2}  .101176{col 30}{space 2} .0918496{col 41}{space 1}    1.10{col 50}{space 3}0.271{col 58}{space 4}-.0788459{col 71}{space 3}  .281198
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0104995{col 30}{space 2} .0056026{col 41}{space 1}    1.87{col 50}{space 3}0.061{col 58}{space 4}-.0004813{col 71}{space 3} .0214803
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0604857{col 30}{space 2}  .028819{col 41}{space 1}   -2.10{col 50}{space 3}0.036{col 58}{space 4}-.1169698{col 71}{space 3}-.0040015
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.1192574{col 30}{space 2} .1103737{col 41}{space 1}   -1.08{col 50}{space 3}0.280{col 58}{space 4}-.3355858{col 71}{space 3} .0970711
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0184212{col 30}{space 2} .0548394{col 41}{space 1}   -0.34{col 50}{space 3}0.737{col 58}{space 4}-.1259045{col 71}{space 3} .0890621
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} .3693981{col 30}{space 2} .8251772{col 41}{space 1}    0.45{col 50}{space 3}0.654{col 58}{space 4} -1.24792{col 71}{space 3} 1.986716
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 9}Poor#1  {c |}{col 18}{res}{space 2}-.2867083{col 30}{space 2} 1.123708{col 41}{space 1}   -0.26{col 50}{space 3}0.799{col 58}{space 4}-2.489135{col 71}{space 3} 1.915718
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.008038{col 30}{space 2} .1632987{col 41}{space 1}  -18.42{col 50}{space 3}0.000{col 58}{space 4}-3.328097{col 71}{space 3}-2.687978
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=9 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 1.SES#1.DailySmoking != 0 predicts failure perfectly
+      1.SES#1.DailySmoking dropped and 20 obs not used
+
+note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking != 0 predicts failure perfectly
+      5.SES#1.DailySmoking dropped and 30 obs not used
+
+note: 3.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.07548544
+{txt}Iteration 2: tolerance = {res}.00434349
+{txt}Iteration 3: tolerance = {res}.00009784
+{txt}Iteration 4: tolerance = {res}2.312e-06
+{txt}Iteration 5: tolerance = {res}5.514e-08
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,700
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,754
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}14{txt})     =  {res}   383.94
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1544309{col 30}{space 2} .0795113{col 41}{space 1}   -1.94{col 50}{space 3}0.052{col 58}{space 4}-.3102702{col 71}{space 3} .0014084
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2331031{col 30}{space 2} .0804813{col 41}{space 1}   -2.90{col 50}{space 3}0.004{col 58}{space 4}-.3908435{col 71}{space 3}-.0753627
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.1527188{col 30}{space 2} .0802275{col 41}{space 1}   -1.90{col 50}{space 3}0.057{col 58}{space 4}-.3099618{col 71}{space 3} .0045241
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3230888{col 30}{space 2} .0876893{col 41}{space 1}   -3.68{col 50}{space 3}0.000{col 58}{space 4}-.4949567{col 71}{space 3}-.1512208
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0261723{col 30}{space 2} .0021606{col 41}{space 1}   12.11{col 50}{space 3}0.000{col 58}{space 4} .0219376{col 71}{space 3}  .030407
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8372924{col 30}{space 2} .0598363{col 41}{space 1}   13.99{col 50}{space 3}0.000{col 58}{space 4} .7200155{col 71}{space 3} .9545694
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .1205916{col 30}{space 2} .0976699{col 41}{space 1}    1.23{col 50}{space 3}0.217{col 58}{space 4}-.0708378{col 71}{space 3}  .312021
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .0726185{col 30}{space 2}   .09152{col 41}{space 1}    0.79{col 50}{space 3}0.428{col 58}{space 4}-.1067575{col 71}{space 3} .2519945
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0095636{col 30}{space 2} .0055874{col 41}{space 1}    1.71{col 50}{space 3}0.087{col 58}{space 4}-.0013875{col 71}{space 3} .0205147
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0600797{col 30}{space 2} .0287617{col 41}{space 1}   -2.09{col 50}{space 3}0.037{col 58}{space 4}-.1164517{col 71}{space 3}-.0037077
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2} .0222705{col 30}{space 2} .1048147{col 41}{space 1}    0.21{col 50}{space 3}0.832{col 58}{space 4}-.1831626{col 71}{space 3} .2277035
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0700278{col 30}{space 2} .0550522{col 41}{space 1}   -1.27{col 50}{space 3}0.203{col 58}{space 4}-.1779281{col 71}{space 3} .0378725
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} 1.010208{col 30}{space 2} .6426679{col 41}{space 1}    1.57{col 50}{space 3}0.116{col 58}{space 4}-.2493981{col 71}{space 3} 2.269814
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 9}Poor#1  {c |}{col 18}{res}{space 2} -.508246{col 30}{space 2} .9247199{col 41}{space 1}   -0.55{col 50}{space 3}0.583{col 58}{space 4}-2.320664{col 71}{space 3} 1.304172
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-2.973409{col 30}{space 2} .1625271{col 41}{space 1}  -18.29{col 50}{space 3}0.000{col 58}{space 4}-3.291956{col 71}{space 3}-2.654862
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=10 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.10392844
+{txt}Iteration 2: tolerance = {res}.00787174
+{txt}Iteration 3: tolerance = {res}.00020978
+{txt}Iteration 4: tolerance = {res}6.266e-06
+{txt}Iteration 5: tolerance = {res}1.863e-07
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,765
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,767
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}17{txt})     =  {res}   363.20
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1278974{col 30}{space 2} .0793233{col 41}{space 1}   -1.61{col 50}{space 3}0.107{col 58}{space 4}-.2833683{col 71}{space 3} .0275735
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2054296{col 30}{space 2} .0802975{col 41}{space 1}   -2.56{col 50}{space 3}0.011{col 58}{space 4}-.3628098{col 71}{space 3}-.0480494
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2336274{col 30}{space 2} .0818501{col 41}{space 1}   -2.85{col 50}{space 3}0.004{col 58}{space 4}-.3940506{col 71}{space 3}-.0732041
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.2852388{col 30}{space 2} .0874146{col 41}{space 1}   -3.26{col 50}{space 3}0.001{col 58}{space 4}-.4565682{col 71}{space 3}-.1139093
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0232645{col 30}{space 2} .0021746{col 41}{space 1}   10.70{col 50}{space 3}0.000{col 58}{space 4} .0190024{col 71}{space 3} .0275266
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8492881{col 30}{space 2} .0599289{col 41}{space 1}   14.17{col 50}{space 3}0.000{col 58}{space 4} .7318296{col 71}{space 3} .9667466
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .1260556{col 30}{space 2} .0979226{col 41}{space 1}    1.29{col 50}{space 3}0.198{col 58}{space 4}-.0658691{col 71}{space 3} .3179803
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2}  .046427{col 30}{space 2} .0928367{col 41}{space 1}    0.50{col 50}{space 3}0.617{col 58}{space 4}-.1355295{col 71}{space 3} .2283836
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0084164{col 30}{space 2} .0056045{col 41}{space 1}    1.50{col 50}{space 3}0.133{col 58}{space 4}-.0025682{col 71}{space 3}  .019401
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0448169{col 30}{space 2} .0286889{col 41}{space 1}   -1.56{col 50}{space 3}0.118{col 58}{space 4} -.101046{col 71}{space 3} .0114123
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2} .0258825{col 30}{space 2} .1049723{col 41}{space 1}    0.25{col 50}{space 3}0.805{col 58}{space 4}-.1798593{col 71}{space 3} .2316243
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0776631{col 30}{space 2} .0552698{col 41}{space 1}   -1.41{col 50}{space 3}0.160{col 58}{space 4}  -.18599{col 71}{space 3} .0306637
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2}-.1642261{col 30}{space 2} .9429995{col 41}{space 1}   -0.17{col 50}{space 3}0.862{col 58}{space 4}-2.012471{col 71}{space 3} 1.684019
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2} -.590439{col 30}{space 2} 1.654536{col 41}{space 1}   -0.36{col 50}{space 3}0.721{col 58}{space 4} -3.83327{col 71}{space 3} 2.652392
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2} .8418647{col 30}{space 2} 1.129473{col 41}{space 1}    0.75{col 50}{space 3}0.456{col 58}{space 4}-1.371861{col 71}{space 3} 3.055591
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2} 1.372745{col 30}{space 2} 1.119057{col 41}{space 1}    1.23{col 50}{space 3}0.220{col 58}{space 4}-.8205667{col 71}{space 3} 3.566056
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2}  .092438{col 30}{space 2} 1.590312{col 41}{space 1}    0.06{col 50}{space 3}0.954{col 58}{space 4}-3.024516{col 71}{space 3} 3.209392
+{txt}{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-2.947582{col 30}{space 2} .1628969{col 41}{space 1}  -18.09{col 50}{space 3}0.000{col 58}{space 4}-3.266854{col 71}{space 3} -2.62831
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=11 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.11002678
+{txt}Iteration 2: tolerance = {res}.00374741
+{txt}Iteration 3: tolerance = {res}.00006841
+{txt}Iteration 4: tolerance = {res}1.000e-06
+{txt}Iteration 5: tolerance = {res}1.775e-08
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,765
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,767
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}17{txt})     =  {res}   376.11
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1921995{col 30}{space 2} .0785897{col 41}{space 1}   -2.45{col 50}{space 3}0.014{col 58}{space 4}-.3462326{col 71}{space 3}-.0381665
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2461218{col 30}{space 2} .0790537{col 41}{space 1}   -3.11{col 50}{space 3}0.002{col 58}{space 4}-.4010642{col 71}{space 3}-.0911793
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2706433{col 30}{space 2} .0803802{col 41}{space 1}   -3.37{col 50}{space 3}0.001{col 58}{space 4}-.4281856{col 71}{space 3}-.1131011
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2} -.407919{col 30}{space 2} .0870836{col 41}{space 1}   -4.68{col 50}{space 3}0.000{col 58}{space 4}-.5785997{col 71}{space 3}-.2372382
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0241301{col 30}{space 2} .0021763{col 41}{space 1}   11.09{col 50}{space 3}0.000{col 58}{space 4} .0198647{col 71}{space 3} .0283956
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8786521{col 30}{space 2}  .059806{col 41}{space 1}   14.69{col 50}{space 3}0.000{col 58}{space 4} .7614345{col 71}{space 3} .9958696
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2}  .192164{col 30}{space 2} .0966999{col 41}{space 1}    1.99{col 50}{space 3}0.047{col 58}{space 4} .0026357{col 71}{space 3} .3816924
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .1688744{col 30}{space 2} .0898527{col 41}{space 1}    1.88{col 50}{space 3}0.060{col 58}{space 4}-.0072337{col 71}{space 3} .3449824
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0118348{col 30}{space 2} .0055503{col 41}{space 1}    2.13{col 50}{space 3}0.033{col 58}{space 4} .0009564{col 71}{space 3} .0227131
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0801425{col 30}{space 2} .0287473{col 41}{space 1}   -2.79{col 50}{space 3}0.005{col 58}{space 4}-.1364862{col 71}{space 3}-.0237988
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.1492088{col 30}{space 2} .1107935{col 41}{space 1}   -1.35{col 50}{space 3}0.178{col 58}{space 4}  -.36636{col 71}{space 3} .0679425
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0187918{col 30}{space 2} .0544469{col 41}{space 1}   -0.35{col 50}{space 3}0.730{col 58}{space 4}-.1255058{col 71}{space 3} .0879222
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2}-.9279842{col 30}{space 2} 1.335593{col 41}{space 1}   -0.69{col 50}{space 3}0.487{col 58}{space 4}-3.545698{col 71}{space 3}  1.68973
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2} .0697439{col 30}{space 2} 1.900216{col 41}{space 1}    0.04{col 50}{space 3}0.971{col 58}{space 4} -3.65461{col 71}{space 3} 3.794098
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2} 1.400122{col 30}{space 2}  1.49695{col 41}{space 1}    0.94{col 50}{space 3}0.350{col 58}{space 4}-1.533845{col 71}{space 3}  4.33409
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2} 1.646657{col 30}{space 2} 1.507769{col 41}{space 1}    1.09{col 50}{space 3}0.275{col 58}{space 4}-1.308515{col 71}{space 3}  4.60183
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2} .8439403{col 30}{space 2} 1.840549{col 41}{space 1}    0.46{col 50}{space 3}0.647{col 58}{space 4}-2.763469{col 71}{space 3}  4.45135
+{txt}{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-2.972459{col 30}{space 2} .1614978{col 41}{space 1}  -18.41{col 50}{space 3}0.000{col 58}{space 4}-3.288989{col 71}{space 3}-2.655929
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=12 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.09992546
+{txt}Iteration 2: tolerance = {res}.0067408
+{txt}Iteration 3: tolerance = {res}.0002367
+{txt}Iteration 4: tolerance = {res}7.741e-06
+{txt}Iteration 5: tolerance = {res}2.729e-07
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,765
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,767
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}17{txt})     =  {res}   362.19
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1189313{col 30}{space 2} .0792499{col 41}{space 1}   -1.50{col 50}{space 3}0.133{col 58}{space 4}-.2742583{col 71}{space 3} .0363956
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.1798568{col 30}{space 2} .0798979{col 41}{space 1}   -2.25{col 50}{space 3}0.024{col 58}{space 4}-.3364538{col 71}{space 3}-.0232598
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.1737838{col 30}{space 2} .0808044{col 41}{space 1}   -2.15{col 50}{space 3}0.032{col 58}{space 4}-.3321575{col 71}{space 3}-.0154101
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3505935{col 30}{space 2} .0883079{col 41}{space 1}   -3.97{col 50}{space 3}0.000{col 58}{space 4}-.5236738{col 71}{space 3}-.1775132
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0257938{col 30}{space 2}  .002144{col 41}{space 1}   12.03{col 50}{space 3}0.000{col 58}{space 4} .0215917{col 71}{space 3} .0299959
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8152046{col 30}{space 2} .0599341{col 41}{space 1}   13.60{col 50}{space 3}0.000{col 58}{space 4} .6977359{col 71}{space 3} .9326733
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .2061992{col 30}{space 2} .0951492{col 41}{space 1}    2.17{col 50}{space 3}0.030{col 58}{space 4} .0197102{col 71}{space 3} .3926882
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .1170427{col 30}{space 2} .0905377{col 41}{space 1}    1.29{col 50}{space 3}0.196{col 58}{space 4}-.0604078{col 71}{space 3} .2944933
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0110871{col 30}{space 2} .0055767{col 41}{space 1}    1.99{col 50}{space 3}0.047{col 58}{space 4} .0001569{col 71}{space 3} .0220173
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0359029{col 30}{space 2} .0283165{col 41}{space 1}   -1.27{col 50}{space 3}0.205{col 58}{space 4}-.0914023{col 71}{space 3} .0195964
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.1485051{col 30}{space 2} .1109893{col 41}{space 1}   -1.34{col 50}{space 3}0.181{col 58}{space 4}-.3660401{col 71}{space 3}   .06903
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2} .0080743{col 30}{space 2} .0544185{col 41}{space 1}    0.15{col 50}{space 3}0.882{col 58}{space 4} -.098584{col 71}{space 3} .1147326
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} .2708467{col 30}{space 2} .8069445{col 41}{space 1}    0.34{col 50}{space 3}0.737{col 58}{space 4}-1.310735{col 71}{space 3} 1.852429
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}-.9941843{col 30}{space 2} 1.550184{col 41}{space 1}   -0.64{col 50}{space 3}0.521{col 58}{space 4}-4.032489{col 71}{space 3}  2.04412
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2} .4219145{col 30}{space 2} 1.019534{col 41}{space 1}    0.41{col 50}{space 3}0.679{col 58}{space 4}-1.576335{col 71}{space 3} 2.420164
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2} .4035127{col 30}{space 2} 1.077621{col 41}{space 1}    0.37{col 50}{space 3}0.708{col 58}{space 4}-1.708586{col 71}{space 3} 2.515611
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2} -.424232{col 30}{space 2} 1.514549{col 41}{space 1}   -0.28{col 50}{space 3}0.779{col 58}{space 4}-3.392693{col 71}{space 3} 2.544229
+{txt}{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.080068{col 30}{space 2}  .162794{col 41}{space 1}  -18.92{col 50}{space 3}0.000{col 58}{space 4}-3.399138{col 71}{space 3}-2.760998
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=13 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 1.SES#1.DailySmoking != 0 predicts failure perfectly
+      1.SES#1.DailySmoking dropped and 20 obs not used
+
+note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking != 0 predicts failure perfectly
+      5.SES#1.DailySmoking dropped and 30 obs not used
+
+note: 3.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.03698328
+{txt}Iteration 2: tolerance = {res}.0002758
+{txt}Iteration 3: tolerance = {res}5.910e-06
+{txt}Iteration 4: tolerance = {res}3.104e-08
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,700
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,754
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}14{txt})     =  {res}   402.85
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1055491{col 30}{space 2} .0785177{col 41}{space 1}   -1.34{col 50}{space 3}0.179{col 58}{space 4}-.2594409{col 71}{space 3} .0483427
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2462638{col 30}{space 2} .0805036{col 41}{space 1}   -3.06{col 50}{space 3}0.002{col 58}{space 4}-.4040479{col 71}{space 3}-.0884797
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2412131{col 30}{space 2} .0814565{col 41}{space 1}   -2.96{col 50}{space 3}0.003{col 58}{space 4}-.4008648{col 71}{space 3}-.0815613
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.2937261{col 30}{space 2} .0869144{col 41}{space 1}   -3.38{col 50}{space 3}0.001{col 58}{space 4}-.4640752{col 71}{space 3} -.123377
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0260945{col 30}{space 2} .0021518{col 41}{space 1}   12.13{col 50}{space 3}0.000{col 58}{space 4}  .021877{col 71}{space 3} .0303121
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2}  .867226{col 30}{space 2} .0598436{col 41}{space 1}   14.49{col 50}{space 3}0.000{col 58}{space 4} .7499347{col 71}{space 3} .9845173
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .2003068{col 30}{space 2} .0958665{col 41}{space 1}    2.09{col 50}{space 3}0.037{col 58}{space 4} .0124118{col 71}{space 3} .3882017
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .0411777{col 30}{space 2} .0932553{col 41}{space 1}    0.44{col 50}{space 3}0.659{col 58}{space 4}-.1415993{col 71}{space 3} .2239548
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0094045{col 30}{space 2} .0055795{col 41}{space 1}    1.69{col 50}{space 3}0.092{col 58}{space 4}-.0015311{col 71}{space 3}   .02034
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0399192{col 30}{space 2} .0284675{col 41}{space 1}   -1.40{col 50}{space 3}0.161{col 58}{space 4}-.0957144{col 71}{space 3}  .015876
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2} .0187375{col 30}{space 2} .1046583{col 41}{space 1}    0.18{col 50}{space 3}0.858{col 58}{space 4}-.1863889{col 71}{space 3} .2238639
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0420919{col 30}{space 2} .0547909{col 41}{space 1}   -0.77{col 50}{space 3}0.442{col 58}{space 4}  -.14948{col 71}{space 3} .0652963
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} 1.033884{col 30}{space 2}  .645199{col 41}{space 1}    1.60{col 50}{space 3}0.109{col 58}{space 4}-.2306828{col 71}{space 3} 2.298451
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 9}Poor#1  {c |}{col 18}{res}{space 2}-.1769119{col 30}{space 2} .8690502{col 41}{space 1}   -0.20{col 50}{space 3}0.839{col 58}{space 4}-1.880219{col 71}{space 3} 1.526395
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.021355{col 30}{space 2} .1624786{col 41}{space 1}  -18.60{col 50}{space 3}0.000{col 58}{space 4}-3.339807{col 71}{space 3}-2.702903
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=14 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking != 0 predicts failure perfectly
+      5.SES#1.DailySmoking dropped and 30 obs not used
+
+note: 3.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.06083542
+{txt}Iteration 2: tolerance = {res}.00222036
+{txt}Iteration 3: tolerance = {res}.00004287
+{txt}Iteration 4: tolerance = {res}7.959e-07
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,720
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,758
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}15{txt})     =  {res}   335.13
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2} -.129089{col 30}{space 2}  .079364{col 41}{space 1}   -1.63{col 50}{space 3}0.104{col 58}{space 4}-.2846396{col 71}{space 3} .0264616
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2527526{col 30}{space 2} .0811652{col 41}{space 1}   -3.11{col 50}{space 3}0.002{col 58}{space 4}-.4118334{col 71}{space 3}-.0936718
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2257734{col 30}{space 2} .0818523{col 41}{space 1}   -2.76{col 50}{space 3}0.006{col 58}{space 4} -.386201{col 71}{space 3}-.0653458
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3385023{col 30}{space 2} .0887027{col 41}{space 1}   -3.82{col 50}{space 3}0.000{col 58}{space 4}-.5123563{col 71}{space 3}-.1646483
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0221235{col 30}{space 2} .0021834{col 41}{space 1}   10.13{col 50}{space 3}0.000{col 58}{space 4} .0178442{col 71}{space 3} .0264029
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8106465{col 30}{space 2} .0603131{col 41}{space 1}   13.44{col 50}{space 3}0.000{col 58}{space 4}  .692435{col 71}{space 3} .9288581
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .0661359{col 30}{space 2} .1001205{col 41}{space 1}    0.66{col 50}{space 3}0.509{col 58}{space 4}-.1300966{col 71}{space 3} .2623684
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .0341253{col 30}{space 2} .0933615{col 41}{space 1}    0.37{col 50}{space 3}0.715{col 58}{space 4}-.1488598{col 71}{space 3} .2171104
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0087911{col 30}{space 2} .0056503{col 41}{space 1}    1.56{col 50}{space 3}0.120{col 58}{space 4}-.0022833{col 71}{space 3} .0198656
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0425731{col 30}{space 2} .0288852{col 41}{space 1}   -1.47{col 50}{space 3}0.141{col 58}{space 4} -.099187{col 71}{space 3} .0140408
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.1130405{col 30}{space 2}  .111335{col 41}{space 1}   -1.02{col 50}{space 3}0.310{col 58}{space 4}-.3312532{col 71}{space 3} .1051722
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0783584{col 30}{space 2} .0558251{col 41}{space 1}   -1.40{col 50}{space 3}0.160{col 58}{space 4}-.1877735{col 71}{space 3} .0310568
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} 1.016739{col 30}{space 2} .6454384{col 41}{space 1}    1.58{col 50}{space 3}0.115{col 58}{space 4} -.248297{col 71}{space 3} 2.281775
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}-1.791001{col 30}{space 2} 1.510157{col 41}{space 1}   -1.19{col 50}{space 3}0.236{col 58}{space 4}-4.750855{col 71}{space 3} 1.168852
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2}-.3202334{col 30}{space 2} .8941218{col 41}{space 1}   -0.36{col 50}{space 3}0.720{col 58}{space 4} -2.07268{col 71}{space 3} 1.432213
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2} -2.91178{col 30}{space 2} .1640909{col 41}{space 1}  -17.74{col 50}{space 3}0.000{col 58}{space 4}-3.233392{col 71}{space 3}-2.590168
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=15 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 1.SES#1.DailySmoking != 0 predicts failure perfectly
+      1.SES#1.DailySmoking dropped and 20 obs not used
+
+note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.0879253
+{txt}Iteration 2: tolerance = {res}.00251545
+{txt}Iteration 3: tolerance = {res}.00008152
+{txt}Iteration 4: tolerance = {res}1.795e-06
+{txt}Iteration 5: tolerance = {res}4.695e-08
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,730
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,760
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}15{txt})     =  {res}   427.34
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1951305{col 30}{space 2} .0785861{col 41}{space 1}   -2.48{col 50}{space 3}0.013{col 58}{space 4}-.3491565{col 71}{space 3}-.0411045
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2120173{col 30}{space 2}  .078554{col 41}{space 1}   -2.70{col 50}{space 3}0.007{col 58}{space 4}-.3659803{col 71}{space 3}-.0580543
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2632095{col 30}{space 2} .0803942{col 41}{space 1}   -3.27{col 50}{space 3}0.001{col 58}{space 4}-.4207792{col 71}{space 3}-.1056398
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.2974277{col 30}{space 2} .0855226{col 41}{space 1}   -3.48{col 50}{space 3}0.001{col 58}{space 4} -.465049{col 71}{space 3}-.1298065
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0272568{col 30}{space 2} .0021382{col 41}{space 1}   12.75{col 50}{space 3}0.000{col 58}{space 4}  .023066{col 71}{space 3} .0314475
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8757537{col 30}{space 2} .0591082{col 41}{space 1}   14.82{col 50}{space 3}0.000{col 58}{space 4} .7599036{col 71}{space 3} .9916037
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .1121707{col 30}{space 2} .0972869{col 41}{space 1}    1.15{col 50}{space 3}0.249{col 58}{space 4}-.0785081{col 71}{space 3} .3028495
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .0880697{col 30}{space 2} .0905971{col 41}{space 1}    0.97{col 50}{space 3}0.331{col 58}{space 4}-.0894973{col 71}{space 3} .2656367
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0080458{col 30}{space 2} .0055241{col 41}{space 1}    1.46{col 50}{space 3}0.145{col 58}{space 4}-.0027813{col 71}{space 3} .0188728
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0528368{col 30}{space 2} .0283159{col 41}{space 1}   -1.87{col 50}{space 3}0.062{col 58}{space 4} -.108335{col 71}{space 3} .0026614
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.0136779{col 30}{space 2} .1046696{col 41}{space 1}   -0.13{col 50}{space 3}0.896{col 58}{space 4}-.2188265{col 71}{space 3} .1914708
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0136878{col 30}{space 2}  .053973{col 41}{space 1}   -0.25{col 50}{space 3}0.800{col 58}{space 4}-.1194729{col 71}{space 3} .0920973
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2}  .179013{col 30}{space 2} .8047982{col 41}{space 1}    0.22{col 50}{space 3}0.824{col 58}{space 4}-1.398362{col 71}{space 3} 1.756389
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 9}Poor#1  {c |}{col 18}{res}{space 2} .5670856{col 30}{space 2} 1.011316{col 41}{space 1}    0.56{col 50}{space 3}0.575{col 58}{space 4}-1.415057{col 71}{space 3} 2.549228
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2} .4942708{col 30}{space 2} 1.069716{col 41}{space 1}    0.46{col 50}{space 3}0.644{col 58}{space 4}-1.602334{col 71}{space 3} 2.590875
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-2.942017{col 30}{space 2} .1604999{col 41}{space 1}  -18.33{col 50}{space 3}0.000{col 58}{space 4}-3.256591{col 71}{space 3}-2.627443
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=16 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.06607323
+{txt}Iteration 2: tolerance = {res}.00189532
+{txt}Iteration 3: tolerance = {res}.00002994
+{txt}Iteration 4: tolerance = {res}2.681e-07
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,750
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,764
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}16{txt})     =  {res}   389.54
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2} -.139173{col 30}{space 2} .0787314{col 41}{space 1}   -1.77{col 50}{space 3}0.077{col 58}{space 4}-.2934837{col 71}{space 3} .0151378
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2763749{col 30}{space 2} .0806907{col 41}{space 1}   -3.43{col 50}{space 3}0.001{col 58}{space 4}-.4345257{col 71}{space 3}-.1182241
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.3018874{col 30}{space 2} .0821652{col 41}{space 1}   -3.67{col 50}{space 3}0.000{col 58}{space 4}-.4629282{col 71}{space 3}-.1408465
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3804521{col 30}{space 2} .0881461{col 41}{space 1}   -4.32{col 50}{space 3}0.000{col 58}{space 4}-.5532154{col 71}{space 3}-.2076889
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0234076{col 30}{space 2} .0021701{col 41}{space 1}   10.79{col 50}{space 3}0.000{col 58}{space 4} .0191544{col 71}{space 3} .0276609
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2}  .884871{col 30}{space 2} .0602298{col 41}{space 1}   14.69{col 50}{space 3}0.000{col 58}{space 4} .7668228{col 71}{space 3} 1.002919
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .0886274{col 30}{space 2} .1008209{col 41}{space 1}    0.88{col 50}{space 3}0.379{col 58}{space 4}-.1089779{col 71}{space 3} .2862328
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .0557035{col 30}{space 2} .0939594{col 41}{space 1}    0.59{col 50}{space 3}0.553{col 58}{space 4}-.1284535{col 71}{space 3} .2398605
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0138191{col 30}{space 2} .0056287{col 41}{space 1}    2.46{col 50}{space 3}0.014{col 58}{space 4}  .002787{col 71}{space 3} .0248512
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0756544{col 30}{space 2} .0291038{col 41}{space 1}   -2.60{col 50}{space 3}0.009{col 58}{space 4}-.1326968{col 71}{space 3} -.018612
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.0505829{col 30}{space 2} .1083612{col 41}{space 1}   -0.47{col 50}{space 3}0.641{col 58}{space 4} -.262967{col 71}{space 3} .1618011
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0257697{col 30}{space 2} .0552885{col 41}{space 1}   -0.47{col 50}{space 3}0.641{col 58}{space 4}-.1341332{col 71}{space 3} .0825937
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2}-.9671094{col 30}{space 2} 1.374612{col 41}{space 1}   -0.70{col 50}{space 3}0.482{col 58}{space 4}  -3.6613{col 71}{space 3} 1.727081
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2} .1142322{col 30}{space 2} 1.942312{col 41}{space 1}    0.06{col 50}{space 3}0.953{col 58}{space 4} -3.69263{col 71}{space 3} 3.921094
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2} 1.404946{col 30}{space 2}  1.53306{col 41}{space 1}    0.92{col 50}{space 3}0.359{col 58}{space 4}-1.599796{col 71}{space 3} 4.409688
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2} 2.259687{col 30}{space 2} 1.499753{col 41}{space 1}    1.51{col 50}{space 3}0.132{col 58}{space 4}-.6797753{col 71}{space 3} 5.199149
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.024123{col 30}{space 2} .1639686{col 41}{space 1}  -18.44{col 50}{space 3}0.000{col 58}{space 4}-3.345496{col 71}{space 3}-2.702751
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=17 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.0321964
+{txt}Iteration 2: tolerance = {res}.00150144
+{txt}Iteration 3: tolerance = {res}.00001219
+{txt}Iteration 4: tolerance = {res}7.274e-08
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,750
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,764
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}16{txt})     =  {res}   416.50
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1905125{col 30}{space 2} .0797015{col 41}{space 1}   -2.39{col 50}{space 3}0.017{col 58}{space 4}-.3467246{col 71}{space 3}-.0343004
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2517858{col 30}{space 2} .0803377{col 41}{space 1}   -3.13{col 50}{space 3}0.002{col 58}{space 4}-.4092449{col 71}{space 3}-.0943268
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2239818{col 30}{space 2} .0808389{col 41}{space 1}   -2.77{col 50}{space 3}0.006{col 58}{space 4}-.3824231{col 71}{space 3}-.0655406
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3437112{col 30}{space 2} .0872587{col 41}{space 1}   -3.94{col 50}{space 3}0.000{col 58}{space 4}-.5147351{col 71}{space 3}-.1726874
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0257251{col 30}{space 2}   .00215{col 41}{space 1}   11.96{col 50}{space 3}0.000{col 58}{space 4} .0215111{col 71}{space 3} .0299391
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .9020638{col 30}{space 2}  .060112{col 41}{space 1}   15.01{col 50}{space 3}0.000{col 58}{space 4} .7842464{col 71}{space 3} 1.019881
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .1519088{col 30}{space 2} .0983121{col 41}{space 1}    1.55{col 50}{space 3}0.122{col 58}{space 4}-.0407795{col 71}{space 3}  .344597
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .1197318{col 30}{space 2} .0916798{col 41}{space 1}    1.31{col 50}{space 3}0.192{col 58}{space 4}-.0599573{col 71}{space 3} .2994208
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0132013{col 30}{space 2} .0055951{col 41}{space 1}    2.36{col 50}{space 3}0.018{col 58}{space 4} .0022352{col 71}{space 3} .0241674
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0736675{col 30}{space 2} .0288615{col 41}{space 1}   -2.55{col 50}{space 3}0.011{col 58}{space 4}-.1302351{col 71}{space 3}-.0170999
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.0441024{col 30}{space 2} .1072926{col 41}{space 1}   -0.41{col 50}{space 3}0.681{col 58}{space 4}-.2543921{col 71}{space 3} .1661873
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0211189{col 30}{space 2} .0548133{col 41}{space 1}   -0.39{col 50}{space 3}0.700{col 58}{space 4}-.1285509{col 71}{space 3} .0863132
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} 1.102085{col 30}{space 2} .6052556{col 41}{space 1}    1.82{col 50}{space 3}0.069{col 58}{space 4}-.0841946{col 71}{space 3} 2.288364
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}-1.987558{col 30}{space 2} 1.518378{col 41}{space 1}   -1.31{col 50}{space 3}0.191{col 58}{space 4}-4.963524{col 71}{space 3} .9884087
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2}  .198507{col 30}{space 2} .8046623{col 41}{space 1}    0.25{col 50}{space 3}0.805{col 58}{space 4}-1.378602{col 71}{space 3} 1.775616
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2} -.077689{col 30}{space 2}  .885458{col 41}{space 1}   -0.09{col 50}{space 3}0.930{col 58}{space 4}-1.813155{col 71}{space 3} 1.657777
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.060397{col 30}{space 2} .1631852{col 41}{space 1}  -18.75{col 50}{space 3}0.000{col 58}{space 4}-3.380235{col 71}{space 3} -2.74056
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=18 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.07296589
+{txt}Iteration 2: tolerance = {res}.00221242
+{txt}Iteration 3: tolerance = {res}.00002508
+{txt}Iteration 4: tolerance = {res}4.382e-07
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,750
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,764
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}16{txt})     =  {res}   413.93
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1526206{col 30}{space 2} .0781811{col 41}{space 1}   -1.95{col 50}{space 3}0.051{col 58}{space 4}-.3058528{col 71}{space 3} .0006116
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2940906{col 30}{space 2} .0801605{col 41}{space 1}   -3.67{col 50}{space 3}0.000{col 58}{space 4}-.4512023{col 71}{space 3}-.1369788
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2705721{col 30}{space 2} .0808011{col 41}{space 1}   -3.35{col 50}{space 3}0.001{col 58}{space 4}-.4289393{col 71}{space 3}-.1122049
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3392287{col 30}{space 2} .0864307{col 41}{space 1}   -3.92{col 50}{space 3}0.000{col 58}{space 4}-.5086298{col 71}{space 3}-.1698276
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0257576{col 30}{space 2} .0021329{col 41}{space 1}   12.08{col 50}{space 3}0.000{col 58}{space 4} .0215772{col 71}{space 3}  .029938
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8742035{col 30}{space 2} .0595195{col 41}{space 1}   14.69{col 50}{space 3}0.000{col 58}{space 4} .7575475{col 71}{space 3} .9908596
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .0887087{col 30}{space 2} .0989182{col 41}{space 1}    0.90{col 50}{space 3}0.370{col 58}{space 4}-.1051674{col 71}{space 3} .2825848
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .0486455{col 30}{space 2} .0922436{col 41}{space 1}    0.53{col 50}{space 3}0.598{col 58}{space 4}-.1321487{col 71}{space 3} .2294396
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0162214{col 30}{space 2} .0055536{col 41}{space 1}    2.92{col 50}{space 3}0.003{col 58}{space 4} .0053366{col 71}{space 3} .0271063
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0926181{col 30}{space 2}  .028915{col 41}{space 1}   -3.20{col 50}{space 3}0.001{col 58}{space 4}-.1492905{col 71}{space 3}-.0359457
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.0791857{col 30}{space 2} .1080705{col 41}{space 1}   -0.73{col 50}{space 3}0.464{col 58}{space 4}    -.291{col 71}{space 3} .1326287
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0749331{col 30}{space 2} .0549164{col 41}{space 1}   -1.36{col 50}{space 3}0.172{col 58}{space 4}-.1825673{col 71}{space 3} .0327011
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2}-.9423995{col 30}{space 2} 1.312226{col 41}{space 1}   -0.72{col 50}{space 3}0.473{col 58}{space 4}-3.514316{col 71}{space 3} 1.629517
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2} .0422387{col 30}{space 2} 1.901487{col 41}{space 1}    0.02{col 50}{space 3}0.982{col 58}{space 4}-3.684607{col 71}{space 3} 3.769084
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2}  1.37742{col 30}{space 2}  1.47667{col 41}{space 1}    0.93{col 50}{space 3}0.351{col 58}{space 4}-1.516801{col 71}{space 3}  4.27164
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2} 1.969125{col 30}{space 2} 1.463059{col 41}{space 1}    1.35{col 50}{space 3}0.178{col 58}{space 4}-.8984172{col 71}{space 3} 4.836667
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.036004{col 30}{space 2} .1620208{col 41}{space 1}  -18.74{col 50}{space 3}0.000{col 58}{space 4}-3.353559{col 71}{space 3}-2.718449
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=19 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.06202764
+{txt}Iteration 2: tolerance = {res}.00580717
+{txt}Iteration 3: tolerance = {res}.00008636
+{txt}Iteration 4: tolerance = {res}1.579e-06
+{txt}Iteration 5: tolerance = {res}2.838e-08
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,765
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,767
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}17{txt})     =  {res}   351.02
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2} -.198915{col 30}{space 2} .0785592{col 41}{space 1}   -2.53{col 50}{space 3}0.011{col 58}{space 4}-.3528883{col 71}{space 3}-.0449417
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2}-.2598165{col 30}{space 2} .0791054{col 41}{space 1}   -3.28{col 50}{space 3}0.001{col 58}{space 4}-.4148602{col 71}{space 3}-.1047728
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.2400931{col 30}{space 2} .0797584{col 41}{space 1}   -3.01{col 50}{space 3}0.003{col 58}{space 4}-.3964167{col 71}{space 3}-.0837695
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3451993{col 30}{space 2} .0857663{col 41}{space 1}   -4.02{col 50}{space 3}0.000{col 58}{space 4}-.5132981{col 71}{space 3}-.1771004
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2}  .024611{col 30}{space 2} .0021639{col 41}{space 1}   11.37{col 50}{space 3}0.000{col 58}{space 4} .0203698{col 71}{space 3} .0288522
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8283526{col 30}{space 2} .0596382{col 41}{space 1}   13.89{col 50}{space 3}0.000{col 58}{space 4} .7114639{col 71}{space 3} .9452414
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .2063297{col 30}{space 2} .0946983{col 41}{space 1}    2.18{col 50}{space 3}0.029{col 58}{space 4} .0207246{col 71}{space 3} .3919349
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .2020019{col 30}{space 2} .0877084{col 41}{space 1}    2.30{col 50}{space 3}0.021{col 58}{space 4} .0300967{col 71}{space 3} .3739071
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0164315{col 30}{space 2} .0055092{col 41}{space 1}    2.98{col 50}{space 3}0.003{col 58}{space 4} .0056336{col 71}{space 3} .0272294
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0510055{col 30}{space 2} .0281144{col 41}{space 1}   -1.81{col 50}{space 3}0.070{col 58}{space 4}-.1061087{col 71}{space 3} .0040977
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}  -.05278{col 30}{space 2} .1063966{col 41}{space 1}   -0.50{col 50}{space 3}0.620{col 58}{space 4}-.2613136{col 71}{space 3} .1557536
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0972474{col 30}{space 2} .0545945{col 41}{space 1}   -1.78{col 50}{space 3}0.075{col 58}{space 4}-.2042507{col 71}{space 3} .0097559
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} .3064238{col 30}{space 2} .7758834{col 41}{space 1}    0.39{col 50}{space 3}0.693{col 58}{space 4} -1.21428{col 71}{space 3} 1.827127
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2}-1.096164{col 30}{space 2} 1.520805{col 41}{space 1}   -0.72{col 50}{space 3}0.471{col 58}{space 4}-4.076887{col 71}{space 3} 1.884559
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2} .3991664{col 30}{space 2}  .991737{col 41}{space 1}    0.40{col 50}{space 3}0.687{col 58}{space 4}-1.544602{col 71}{space 3} 2.342935
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2} .7127999{col 30}{space 2} 1.003837{col 41}{space 1}    0.71{col 50}{space 3}0.478{col 58}{space 4}-1.254684{col 71}{space 3} 2.680284
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2}-.4369272{col 30}{space 2} 1.482338{col 41}{space 1}   -0.29{col 50}{space 3}0.768{col 58}{space 4}-3.342257{col 71}{space 3} 2.468403
+{txt}{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-3.138749{col 30}{space 2} .1611706{col 41}{space 1}  -19.47{col 50}{space 3}0.000{col 58}{space 4}-3.454638{col 71}{space 3}-2.822861
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{it:m}=20 data:
+-> {res}xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES# DailySmoking, family(binomial) link(logit) corr(exchangeable)
+{txt}note: 4.SES#1.DailySmoking != 0 predicts failure perfectly
+      4.SES#1.DailySmoking dropped and 15 obs not used
+
+note: 5.SES#1.DailySmoking omitted because of collinearity
+
+Iteration 1: tolerance = {res}.08939294
+{txt}Iteration 2: tolerance = {res}.00271852
+{txt}Iteration 3: tolerance = {res}.00009546
+{txt}Iteration 4: tolerance = {res}1.898e-06
+{txt}Iteration 5: tolerance = {res}5.571e-08
+
+{txt}GEE population-averaged model                   Number of obs     = {res}    33,750
+{txt}Group variable:                         {res}id      {txt}Number of groups  = {res}     6,764
+{txt}Link:                                {res}logit      {txt}Obs per group:
+Family:                           {res}binomial                    {txt}min = {res}         1
+{txt}Correlation:                  {res}exchangeable                    {txt}avg = {res}       5.0
+                                                              {txt}max = {res}         5
+                                                {txt}Wald chi2({res}16{txt})     =  {res}   420.51
+{txt}Scale parameter:                 {res}        1      {txt}Prob > chi2       =     {res}0.0000
+
+{txt}{hline 17}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}         wasting{col 18}{c |}      Coef.{col 30}   Std. Err.{col 42}      z{col 50}   P>|z|{col 58}     [95% Con{col 71}f. Interval]
+{hline 17}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 13}SES {c |}
+{space 11}Poor  {c |}{col 18}{res}{space 2}-.1505481{col 30}{space 2} .0784735{col 41}{space 1}   -1.92{col 50}{space 3}0.055{col 58}{space 4}-.3043532{col 71}{space 3} .0032571
+{txt}{space 3}Intermediate  {c |}{col 18}{res}{space 2} -.243178{col 30}{space 2} .0795747{col 41}{space 1}   -3.06{col 50}{space 3}0.002{col 58}{space 4}-.3991415{col 71}{space 3}-.0872145
+{txt}{space 11}Rich  {c |}{col 18}{res}{space 2}-.1775471{col 30}{space 2}  .079471{col 41}{space 1}   -2.23{col 50}{space 3}0.025{col 58}{space 4}-.3333074{col 71}{space 3}-.0217868
+{txt}{space 6}Very Rich  {c |}{col 18}{res}{space 2}-.3177503{col 30}{space 2} .0860856{col 41}{space 1}   -3.69{col 50}{space 3}0.000{col 58}{space 4} -.486475{col 71}{space 3}-.1490257
+{txt}{space 16} {c |}
+{space 4}Growth_Month {c |}{col 18}{res}{space 2} .0283455{col 30}{space 2} .0021139{col 41}{space 1}   13.41{col 50}{space 3}0.000{col 58}{space 4} .0242024{col 71}{space 3} .0324886
+{txt}{space 16} {c |}
+{space 10}CENTER {c |}
+{space 11}Yazd  {c |}{col 18}{res}{space 2} .8611606{col 30}{space 2}  .059357{col 41}{space 1}   14.51{col 50}{space 3}0.000{col 58}{space 4} .7448231{col 71}{space 3} .9774981
+{txt}{space 6}Rafsanjan  {c |}{col 18}{res}{space 2} .2520502{col 30}{space 2} .0932864{col 41}{space 1}    2.70{col 50}{space 3}0.007{col 58}{space 4} .0692123{col 71}{space 3} .4348881
+{txt}{space 9}Semnan  {c |}{col 18}{res}{space 2} .1098243{col 30}{space 2} .0900361{col 41}{space 1}    1.22{col 50}{space 3}0.223{col 58}{space 4}-.0666431{col 71}{space 3} .2862917
+{txt}{space 16} {c |}
+{space 13}Age {c |}{col 18}{res}{space 2} .0092883{col 30}{space 2} .0055084{col 41}{space 1}    1.69{col 50}{space 3}0.092{col 58}{space 4}-.0015081{col 71}{space 3} .0200846
+{txt}{space 10}GRAVID {c |}{col 18}{res}{space 2}-.0683926{col 30}{space 2} .0284459{col 41}{space 1}   -2.40{col 50}{space 3}0.016{col 58}{space 4}-.1241455{col 71}{space 3}-.0126397
+{txt}{space 9}ANXIETY {c |}{col 18}{res}{space 2}-.0131415{col 30}{space 2} .1046378{col 41}{space 1}   -0.13{col 50}{space 3}0.900{col 58}{space 4}-.2182279{col 71}{space 3} .1919449
+{txt}{space 1}CHRONIC_DISEASE {c |}{col 18}{res}{space 2}-.0357605{col 30}{space 2} .0540512{col 41}{space 1}   -0.66{col 50}{space 3}0.508{col 58}{space 4} -.141699{col 71}{space 3}  .070178
+{txt}{space 4}DailySmoking {c |}{col 18}{res}{space 2} -1.07647{col 30}{space 2} 1.379266{col 41}{space 1}   -0.78{col 50}{space 3}0.435{col 58}{space 4}-3.779782{col 71}{space 3} 1.626842
+{txt}{space 16} {c |}
+SES#DailySmoking {c |}
+{space 4}Very poor#1  {c |}{col 18}{res}{space 2} .2362481{col 30}{space 2}  1.94598{col 41}{space 1}    0.12{col 50}{space 3}0.903{col 58}{space 4}-3.577803{col 71}{space 3} 4.050299
+{txt}{space 9}Poor#1  {c |}{col 18}{res}{space 2} 1.555863{col 30}{space 2} 1.532031{col 41}{space 1}    1.02{col 50}{space 3}0.310{col 58}{space 4}-1.446863{col 71}{space 3} 4.558589
+{txt}{space 1}Intermediate#1  {c |}{col 18}{res}{space 2}  1.78464{col 30}{space 2} 1.550736{col 41}{space 1}    1.15{col 50}{space 3}0.250{col 58}{space 4}-1.254747{col 71}{space 3} 4.824026
+{txt}{space 9}Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (empty)
+{space 4}Very Rich#1  {c |}{col 18}{res}{space 2}        0{col 30}{txt}  (omitted)
+{space 16} {c |}
+{space 11}_cons {c |}{col 18}{res}{space 2}-2.960124{col 30}{space 2} .1602856{col 41}{space 1}  -18.47{col 50}{space 3}0.000{col 58}{space 4}-3.274278{col 71}{space 3} -2.64597
+{txt}{hline 17}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}.  mi xeq: test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+{res}
+{txt}{it:m}=0 data:
+{res}{txt}-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=1 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=2 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=3 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=4 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=5 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=6 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=7 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=8 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=9 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=10 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=11 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=12 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=13 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=14 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=15 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=16 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=17 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=18 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=19 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{txt}{it:m}=20 data:
+-> {res}test   2.SES#1.DailySmoking 3.SES#1.DailySmoking  4.SES#1.DailySmoking 5.SES#1.DailySmoking
+
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#1.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4o.SES#1o.DailySmoking = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5o.SES#1o.DailySmoking = 0{p_end}
+{txt}       Constraint 3 dropped
+       Constraint 4 dropped
+
+{col 12}chi2(  2) ={res}    1.35
+{txt}{col 10}Prob > chi2 =  {res}  0.5094
+
+{com}. mi estimate: xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking  i.SES#c.Growth_Month, family(binomial) link(logit) corr(exchangeable)
+{res}
+{txt}Multiple-imputation estimates{col 49}Imputations{col 67}= {res}        20
+{txt}GEE population-averaged model{col 49}Number of obs{col 67}= {res}    33,765
+
+{txt}Group variable:{ralign 27:{res:id}}{col 49}Number of groups{col 67}= {res}     6,767
+{txt}Link:{ralign 37:{res:logit}}{col 49}Obs per group:
+Family:{ralign 35:{res:binomial}}{col 49}              min{col 67}= {res}         1
+{txt}Correlation:{ralign 30:{res:exchangeable}}{col 49}              avg{col 67}= {res}       5.0
+{txt}Scale parameter:{ralign 26:{res:1}}{col 49}              max{col 67}= {res}         5
+
+{txt}{col 49}Average RVI{col 67}= {res}    0.4303
+{txt}{col 49}Largest FMI{col 67}= {res}    0.4859
+{txt}DF adjustment:{ralign 28: {res:Large sample}}{col 49}DF:     min{col 67}= {res}     84.59
+{txt}{col 49}        avg{col 67}= {res}    368.57
+{txt}{col 49}        max{col 67}= {res}  1,165.07
+{txt}Model F test:{ralign 29: {res:Equal FMI}}{col 49}F({res}  17{txt},{res} 3587.2{txt}){col 67}= {res}     16.04
+{txt}Within VCE type: {ralign 25:{res:Conventional}}{col 49}Prob > F{col 67}= {res}    0.0000
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}           wasting{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 15}SES {c |}
+{space 13}Poor  {c |}{col 20}{res}{space 2}-.1742871{col 32}{space 2} .1283096{col 43}{space 1}   -1.36{col 52}{space 3}0.175{col 60}{space 4}-.4267031{col 73}{space 3} .0781289
+{txt}{space 5}Intermediate  {c |}{col 20}{res}{space 2}-.2055537{col 32}{space 2} .1216776{col 43}{space 1}   -1.69{col 52}{space 3}0.092{col 60}{space 4}-.4443693{col 73}{space 3} .0332619
+{txt}{space 13}Rich  {c |}{col 20}{res}{space 2}-.1136833{col 32}{space 2}  .129883{col 43}{space 1}   -0.88{col 52}{space 3}0.382{col 60}{space 4}-.3693526{col 73}{space 3} .1419859
+{txt}{space 8}Very Rich  {c |}{col 20}{res}{space 2}-.1728256{col 32}{space 2} .1394515{col 43}{space 1}   -1.24{col 52}{space 3}0.216{col 60}{space 4}-.4475897{col 73}{space 3} .1019385
+{txt}{space 18} {c |}
+{space 6}Growth_Month {c |}{col 20}{res}{space 2} .0290869{col 32}{space 2} .0057289{col 43}{space 1}    5.08{col 52}{space 3}0.000{col 60}{space 4} .0177688{col 73}{space 3}  .040405
+{txt}{space 18} {c |}
+{space 12}CENTER {c |}
+{space 13}Yazd  {c |}{col 20}{res}{space 2} .8528357{col 32}{space 2} .0656136{col 43}{space 1}   13.00{col 52}{space 3}0.000{col 60}{space 4} .7240023{col 73}{space 3}  .981669
+{txt}{space 8}Rafsanjan  {c |}{col 20}{res}{space 2} .1393222{col 32}{space 2} .1210699{col 43}{space 1}    1.15{col 52}{space 3}0.252{col 60}{space 4}-.0998528{col 73}{space 3} .3784971
+{txt}{space 11}Semnan  {c |}{col 20}{res}{space 2} .0932181{col 32}{space 2} .1070926{col 43}{space 1}    0.87{col 52}{space 3}0.385{col 60}{space 4} -.117675{col 73}{space 3} .3041111
+{txt}{space 18} {c |}
+{space 15}Age {c |}{col 20}{res}{space 2} .0106803{col 32}{space 2} .0060833{col 43}{space 1}    1.76{col 52}{space 3}0.080{col 60}{space 4}-.0012623{col 73}{space 3}  .022623
+{txt}{space 12}GRAVID {c |}{col 20}{res}{space 2}-.0588628{col 32}{space 2} .0327397{col 43}{space 1}   -1.80{col 52}{space 3}0.073{col 60}{space 4}-.1232546{col 73}{space 3} .0055289
+{txt}{space 11}ANXIETY {c |}{col 20}{res}{space 2}-.0382657{col 32}{space 2} .1223446{col 43}{space 1}   -0.31{col 52}{space 3}0.755{col 60}{space 4}-.2789129{col 73}{space 3} .2023815
+{txt}{space 3}CHRONIC_DISEASE {c |}{col 20}{res}{space 2}-.0437609{col 32}{space 2} .0632245{col 43}{space 1}   -0.69{col 52}{space 3}0.489{col 60}{space 4}-.1681682{col 73}{space 3} .0806465
+{txt}{space 6}DailySmoking {c |}{col 20}{res}{space 2} .1424017{col 32}{space 2} .5273578{col 43}{space 1}    0.27{col 52}{space 3}0.788{col 60}{space 4}-.9025784{col 73}{space 3} 1.187382
+{txt}{space 18} {c |}
+SES#c.Growth_Month {c |}
+{space 13}Poor  {c |}{col 20}{res}{space 2} .0031168{col 32}{space 2} .0083522{col 43}{space 1}    0.37{col 52}{space 3}0.710{col 60}{space 4}-.0134072{col 73}{space 3} .0196408
+{txt}{space 5}Intermediate  {c |}{col 20}{res}{space 2}-.0021777{col 32}{space 2} .0075429{col 43}{space 1}   -0.29{col 52}{space 3}0.773{col 60}{space 4}-.0170089{col 73}{space 3} .0126534
+{txt}{space 13}Rich  {c |}{col 20}{res}{space 2} -.008864{col 32}{space 2} .0092073{col 43}{space 1}   -0.96{col 52}{space 3}0.338{col 60}{space 4}-.0271718{col 73}{space 3} .0094437
+{txt}{space 8}Very Rich  {c |}{col 20}{res}{space 2}-.0128301{col 32}{space 2} .0095042{col 43}{space 1}   -1.35{col 52}{space 3}0.180{col 60}{space 4}-.0317112{col 73}{space 3}  .006051
+{txt}{space 18} {c |}
+{space 13}_cons {c |}{col 20}{res}{space 2}-3.041551{col 32}{space 2}   .18157{col 43}{space 1}  -16.75{col 52}{space 3}0.000{col 60}{space 4}-3.397792{col 73}{space 3} -2.68531
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. mi test 2.SES#c.Growth_Month 3.SES#c.Growth_Month 4.SES#c.Growth_Month 5.SES#c.Growth_Month
+{txt}note: assuming equal fractions of missing information
+{res}
+{p 0 7}{space 1}{text:( 1)}{space 1} 2.SES#c.Growth_Month = 0{p_end}
+{p 0 7}{space 1}{text:( 2)}{space 1} 3.SES#c.Growth_Month = 0{p_end}
+{p 0 7}{space 1}{text:( 3)}{space 1} 4.SES#c.Growth_Month = 0{p_end}
+{p 0 7}{space 1}{text:( 4)}{space 1} 5.SES#c.Growth_Month = 0{p_end}
+
+{txt}       F(  4, 503.3) ={res}    1.10
+{txt}{col 13}Prob > F ={res}    0.3552
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Golnaz\Desktop\FFFFFFFinal\imput(PMM)\Wasting\interaction.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}25 Jul 2024, 12:59:44
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Golnaz\Desktop\FFFFFFFinal\imput(PMM)\Wasting\interaction.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}25 Jul 2024, 13:00:24
+
+{com}. mi estimate, eform dots post: xtgee wasting i.SES c.Growth_Month i.CENTER c.Age c.GRAVID ANXIETY CHRONIC_DISEASE DailySmoking , family(binomial) link(logit) corr(exchangeable) eform
+{res}
+{txt}Imputations ({res:20}):
+{col 3}{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}10{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}.{res}{txt}20 done
+{res}
+{txt}Multiple-imputation estimates{col 49}Imputations{col 67}= {res}        20
+{txt}GEE population-averaged model{col 49}Number of obs{col 67}= {res}    33,765
+
+{txt}Group variable:{ralign 27:{res:id}}{col 49}Number of groups{col 67}= {res}     6,767
+{txt}Link:{ralign 37:{res:logit}}{col 49}Obs per group:
+Family:{ralign 35:{res:binomial}}{col 49}              min{col 67}= {res}         1
+{txt}Correlation:{ralign 30:{res:exchangeable}}{col 49}              avg{col 67}= {res}       5.0
+{txt}Scale parameter:{ralign 26:{res:1}}{col 49}              max{col 67}= {res}         5
+
+{txt}{col 49}Average RVI{col 67}= {res}    0.3858
+{txt}{col 49}Largest FMI{col 67}= {res}    0.4475
+{txt}DF adjustment:{ralign 28: {res:Large sample}}{col 49}DF:     min{col 67}= {res}     99.71
+{txt}{col 49}        avg{col 67}= {res}    553.58
+{txt}{col 49}        max{col 67}= {res}  1,703.20
+{txt}Model F test:{ralign 29: {res:Equal FMI}}{col 49}F({res}  13{txt},{res} 3270.5{txt}){col 67}= {res}     21.28
+{txt}Within VCE type: {ralign 25:{res:Conventional}}{col 49}Prob > F{col 67}= {res}    0.0000
+
+{txt}{hline 16}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}        wasting{col 17}{c |}     exp(b){col 29}   Std. Err.{col 41}      t{col 49}   P>|t|{col 57}     [95% Con{col 70}f. Interval]
+{hline 16}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 12}SES {c |}
+{space 10}Poor  {c |}{col 17}{res}{space 2} .8720916{col 29}{space 2} .0765252{col 40}{space 1}   -1.56{col 49}{space 3}0.119{col 57}{space 4} .7339936{col 70}{space 3} 1.036172
+{txt}{space 2}Intermediate  {c |}{col 17}{res}{space 2} .7938494{col 29}{space 2} .0671895{col 40}{space 1}   -2.73{col 49}{space 3}0.006{col 57}{space 4}  .672424{col 70}{space 3} .9372017
+{txt}{space 10}Rich  {c |}{col 17}{res}{space 2} .8057358{col 29}{space 2}  .073707{col 40}{space 1}   -2.36{col 49}{space 3}0.019{col 57}{space 4} .6731139{col 70}{space 3} .9644878
+{txt}{space 5}Very Rich  {c |}{col 17}{res}{space 2} .7262738{col 29}{space 2} .0704482{col 40}{space 1}   -3.30{col 49}{space 3}0.001{col 57}{space 4} .6002537{col 70}{space 3} .8787511
+{txt}{space 15} {c |}
+{space 3}Growth_Month {c |}{col 17}{res}{space 2} 1.025713{col 29}{space 2} .0029393{col 40}{space 1}    8.86{col 49}{space 3}0.000{col 57}{space 4} 1.019897{col 70}{space 3} 1.031561
+{txt}{space 15} {c |}
+{space 9}CENTER {c |}
+{space 10}Yazd  {c |}{col 17}{res}{space 2} 2.344954{col 29}{space 2} .1535735{col 40}{space 1}   13.01{col 49}{space 3}0.000{col 57}{space 4} 2.062005{col 70}{space 3} 2.666728
+{txt}{space 5}Rafsanjan  {c |}{col 17}{res}{space 2} 1.150619{col 29}{space 2}  .139459{col 40}{space 1}    1.16{col 49}{space 3}0.249{col 57}{space 4} .9055962{col 70}{space 3} 1.461936
+{txt}{space 8}Semnan  {c |}{col 17}{res}{space 2} 1.097998{col 29}{space 2} .1176413{col 40}{space 1}    0.87{col 49}{space 3}0.384{col 57}{space 4} .8891323{col 70}{space 3} 1.355928
+{txt}{space 15} {c |}
+{space 12}Age {c |}{col 17}{res}{space 2} 1.010721{col 29}{space 2} .0061418{col 40}{space 1}    1.75{col 49}{space 3}0.080{col 57}{space 4} .9987349{col 70}{space 3}  1.02285
+{txt}{space 9}GRAVID {c |}{col 17}{res}{space 2} .9427422{col 29}{space 2} .0308717{col 40}{space 1}   -1.80{col 49}{space 3}0.073{col 57}{space 4} .8839369{col 70}{space 3}  1.00546
+{txt}{space 8}ANXIETY {c |}{col 17}{res}{space 2} .9608717{col 29}{space 2} .1178776{col 40}{space 1}   -0.33{col 49}{space 3}0.745{col 57}{space 4} .7548448{col 70}{space 3} 1.223132
+{txt}CHRONIC_DISEASE {c |}{col 17}{res}{space 2} .9569827{col 29}{space 2} .0605855{col 40}{space 1}   -0.69{col 49}{space 3}0.488{col 57}{space 4} .8448864{col 70}{space 3} 1.083952
+{txt}{space 3}DailySmoking {c |}{col 17}{res}{space 2}  1.14617{col 29}{space 2} .6079937{col 40}{space 1}    0.26{col 49}{space 3}0.798{col 57}{space 4} .4005502{col 70}{space 3} 3.279754
+{txt}{space 10}_cons {c |}{col 17}{res}{space 2} .0499266{col 29}{space 2} .0085819{col 40}{space 1}  -17.44{col 49}{space 3}0.000{col 57}{space 4} .0356376{col 70}{space 3} .0699448
+{txt}{hline 16}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Golnaz\Desktop\FFFFFFFinal\imput(PMM)\Wasting\interaction.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}25 Jul 2024, 13:02:29
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
